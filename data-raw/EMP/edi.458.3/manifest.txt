@@ -1,0 +1,7 @@
+Manifest file for edi.458.3-4c9184f37cff01bcdc32dc486ec36961.zip created on Fri Oct 02 11:59:14 MDT 2020
+SACSJ_delta_water_quality_1975_2019.csv (3169351 bytes)
+EMP_Discrete_Water_Quality_Stations_1975-2019.csv (4361 bytes)
+IEP_EMP_DWQN_metadata_methods.pdf (156142 bytes)
+edi.458.3.xml (86433 bytes)
+edi.458.3.txt (49376 bytes)
+edi.458.3.report.xml (61993 bytes)

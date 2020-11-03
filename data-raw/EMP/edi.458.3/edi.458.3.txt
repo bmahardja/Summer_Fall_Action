@@ -1,0 +1,1994 @@
+
+  
+    
+      uid=EDI,o=EDI,dc=edirepository,dc=org
+      all
+    
+    
+      uid=csmith,o=LTER,dc=ecoinformatics,dc=org
+      all
+    
+    
+      uid=iep,o=EDI,dc=edirepository,dc=org
+      all
+    
+    
+      public
+      read
+    
+  
+  
+    doi:10.6073/pasta/dc1fd386c098c6b71132150eee7ee86c
+    Interagency Ecological Program: Discrete water quality monitoring in the Sacramento-San Joaquin Bay-Delta, collected by the Environmental Monitoring Program, 1975-2019.
+    
+       Interagency Ecological Program (IEP)
+    
+    
+      Morgan Martinez
+      California Department of Water Resources
+      morgan.martinez@water.ca.gov
+    
+    
+      Jenna Rinde
+      California Department of Water Resources
+      jenna.rinde@water.ca.gov
+      https://orcid.org/0000-0001-6677-4701
+    
+    
+      Theodore Flynn
+      California Department of Water Resources
+      ted.flynn@deltacouncil.ca.gov
+      https://orcid.org/0000-0002-1838-8942
+    
+    
+      Sarah Lesmeister
+      California Department of Water Resources
+      sarah.lesmeister@water.ca.gov
+      https://orcid.org/0000-0001-5492-1188
+    
+    
+      Shaun Philippart
+      California Department of Water Resources
+      shaun.philippart@water.ca.gov
+      Supervisor
+    
+    
+      Nick Rasmussen
+      California Department of Water Resources
+      Nicholas.Rasmussen@water.ca.gov
+      Lead
+    
+    
+      Brianne Noble Sakata
+      California Department of Water Resources
+      brianne.sakata@water.ca.gov
+      Lead
+    
+    
+      Scott Waller
+      California Department of Water Resources
+      scott.waller@water.ca.gov
+      Field Crew
+    
+    
+      Michelle Nelson
+      California Department of Water Resources
+      michelle.nelson@water.ca.gov
+      Field Crew
+    
+    
+      Andrew Tran
+      California Department of Water Resources
+      andrew.tran@water.ca.gov
+      Field Crew
+    
+    
+      Torianne Cahoon
+      California Department of Water Resources
+      torianne.cahoon@water.ca.gov
+      Field Crew
+    
+    
+      Brian Arena
+      California Department of Water Resources
+      Field Crew
+    
+    
+      Brooke Watkins
+      California Department of Water Resources
+      brooke.watkins@water.ca.gov
+      Field Crew
+    
+    
+      Sarah Perry
+      California Department of Water Resources
+      sarah.perry@water.ca.gov
+      Field Crew
+    
+    
+       Interagency Ecological Program
+      Overall Guidance
+    
+    2020-10-02
+    
+      
+  The Interagency Ecological Program’s (IEP) Environmental Monitoring
+  Program (EMP) was initiated in compliance with the Water Right
+  Decision D-1379 (now mandated by Water Right Decision D-1641) and has
+  monitored discrete water quality and nutrients in the upper San
+  Francisco Estuary since 1975. The objectives of the EMP are to obtain
+  consistent and accurate monthly data at established monitoring
+  stations, provide and document information necessary to achieve
+  compliance with salinity, flow, and dissolved oxygen standards, and to
+  report this information for the purpose of management and conservation
+  of the upper San Francisco Estuary. While the EMP also collects
+  biological data, this dataset only includes the discrete water quality
+  and nutrient data collected by the EMP from 1975-2019.
+
+    
+    
+      ammonia
+      algae
+      carbon
+      calcium
+      chloride
+      conductivity
+      depth
+      dissolved nutrients
+      dissolved organic carbon
+      dissolved organic nitrogen
+      estuaries
+      fluorescence
+      freshwater
+      latitude
+      long term monitoring
+      longitude
+      measurements
+      monitoring
+      nitrogen
+      nitrate
+      nitrite
+      nutrients
+      organic carbon
+      organic nitrogen
+      oxygen
+      ph
+      phaeophytin
+      phosphorus
+      rivers
+      secchi depth
+      silica
+      temperature
+      total organic carbon
+      total phosphorus
+      turbidity
+      water quality
+      water temperature
+      wind speed
+      LTER Controlled Vocabulary
+    
+    
+      chlorophylla
+      dissolvedoxygen
+      Interagency Ecological Program for the San Francisco Bay Delta Estuary
+      California Department of Water Resources
+      San Francisco Estuary
+      Sacramento-San Joaquin Delta
+    
+    
+      This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+
+    
+    
+      
+        San Pablo Bay to the eastern Sacramento-San Joaquin Delta
+        
+          -122.393
+          -121.262
+          38.369
+          37.678
+        
+      
+      
+        
+          
+            1975-01-07
+          
+          
+            2019-12-10
+          
+        
+      
+    
+    
+      Ongoing
+    
+    
+      Morgan Martinez
+      California Department of Water Resources
+      morgan.martinez@water.ca.gov
+    
+    
+      Sarah Lesmeister
+      California Department of Water Resources
+      sarah.lesmeister@water.ca.gov
+      https://orcid.org/0000-0001-5492-1188
+    
+    
+      Environmental Data Initiative
+      info@environmentaldatainitiative.org
+      https://environmentaldatainitiative.org
+    
+    Environmental Data Initiative
+    
+      
+        
+          (1.) Data collection methods:
+          Station frequency and type:
+          
+  Discrete water quality monitoring stations were created in compliance
+  with Water Right Decision D-1379 and are now mandated by Water Right
+  Decision D-1641. Discrete water quality sampling occurs once a month
+  at each monitoring station. From 1975 to 1994, however, sampling
+  occurred twice a month, typically on a seasonal basis starting in
+  Spring and ending in Fall. Stations that are accessed by research
+  vessel (e.g., boat) are referred to as “mid-channel stations” and
+  those that are accessed by vehicle (e.g., truck or van) are referred
+  to as “shore-based stations”.
+
+          Field Data:
+          
+  The EMP collects both surface and bottom discrete water quality field
+  measurements during high slack tide using a multiparameter instrument
+  (see below for models used for the duration of the sampling period).
+  Surface measurements are collected one meter below the surface of the
+  water and bottom measurements are collected one meter above the bottom
+  of the channel. At each mid-channel station, the multiparameter
+  instrument is placed over the side of the research vessel and lowered
+  into the water using a winch crane. The instrument is directly
+  connected to an onboard computer by a 30-meter cable. Once the
+  instrument is equilibrated to the local conditions, the surface and
+  bottom water quality measurements are recorded onto field data sheets,
+  then the instrument is returned onboard the vessel. At shore-based
+  stations, the multiparameter instrument is either placed directly in
+  the water or into a bucket filled with water collected at the station.
+  The surface and bottom water quality measurements are then recorded
+  onto field data sheets once the instrument is equilibrated to the
+  local conditions.
+
+          
+  Light extinction measurements are made by lowering a light meter into
+  the water and recording depth and light measurements to establish a
+  curve of light extinction. The depth at which only 1% of the surface
+  light intensity remains is read from the curve and recorded. A Secchi
+  disk is also used to determine water clarity and light penetration by
+  lowering the disk into the water in a shaded area and recording the
+  measurement when the black and white quadrants of the disk become
+  indistinguishable. Visual observations of both presence and density of
+  the blue-green cyanobacteria, Microcystis
+  aeruginosa, are made at each station and given a
+  qualitative score ranging from 1 (no Microcystis)
+  to 5 (continuous colonies of Microcystis forming
+  mats/scum).
+
+          Laboratory Data:
+          
+  The research vessels used to collect samples from mid-channel stations
+  are equipped with wet laboratories for onboard processing of water
+  samples. Water is collected using a flow-through system whereby it is
+  pumped into the laboratory from a fixed intake located one meter below
+  the water’s surface. For shore-based stations, water is collected
+  either from a Van Dorn water sampler or via a submersible pump. For
+  both mid-channel and shore-based stations, water is collected into a
+  churn splitter and homogenized before being dispensed into sample
+  collection bottles. Samples of dissolved nutrients are filtered using
+  mixed cellulose ester filters (diameter = 47 mm, pore size = 0.45 µm).
+  Samples of chlorophyll a and pheophytin
+  a are collected on a glass fiber filter (diameter
+  = 47 mm, effective pore size = 1.0 µm). Samples of dissolved organic
+  carbon are passed through glass fiber filters (diameter = 47 mm,
+  effective pore size = 1.0 µm) that have been combusted for 1 hour at
+  450 ºC.
+
+          Entrapment Zone:
+          
+  The EMP began sampling the Entrapment Zone (EZ) stations in 1996 to
+  document the environmental conditions and geographic variability of
+  the low salinity zone. This zone is sampled once a month at two
+  “floating” stations, which represent the upper (upstream) and lower
+  (downstream) boundaries, called EZ2 and EZ6, respectively. Station EZ2
+  is located where the bottom specific conductance falls within 10% of
+  2,000 µS/cm and station EZ6 is located where the bottom specific
+  conductance falls within 10% of 6,000 µS/cm. When dry conditions
+  reduce the freshwater flows into the San Francisco Estuary, saline
+  water from the Pacific Ocean intrudes further into the estuary and
+  causes the low salinity zone to travel upstream where it is split by
+  the Sacramento and San Joaquin Rivers. Such conditions create two
+  geographically disparate low salinity zones. Under these conditions,
+  the stations EZ2-SJR and EZ6-SJR are sampled in the San Joaquin River
+  in addition to stations EZ2 and EZ6, which are sampled in the
+  Sacramento River.
+
+          Vessel Use:
+          
+  Sampling typically occurred on research vessels from the California
+  Department of Water Resources or United States Bureau of Reclamation.
+  From DWR, the RV San Carlos (1975-2016) and RV Sentinel (2017-2019)
+  were primarily used. From USBR, RV Compliance and RV Endeavor were
+  utilized when DWR vessels were unavailable.
+
+          
+  Standard operating procedures for field collection methods are
+  available upon request (email data contact).
+
+          (2.) Datasheet:
+          
+  Copies of field data sheets are available upon request. Please email
+  data contact.
+
+          (3.) Instruments and equipment:
+          Field Instrumentation:
+          See
+  IEP_EMP_DWQN_metadata_methods.pdf
+          
+  Light Extinction: A Whitney LMT-8A Light Meter was used to measure the
+  depth at which sunlight is extinguished to 1% of surface intensity
+  from 1975 – 1986.
+
+          
+  Secchi: A 20 cm inch diameter plastic disc with alternate black and
+  white quadrants was used to measure water transparency from 1975 –
+  2019.
+
+          
+            Microcystis aeruginosa:
+  Microcystis qualitative scores were recorded
+  starting in August 2015. The qualitative score is a visual observation
+  ranging from (1) meaning absent, (2) low-widely scattered colonies,
+  (3) Medium-adjacent colonies, (4) High-contiguous to (5) Very High-
+  concentration of contiguous colonies forming mats/scum.
+
+          
+  Chlorophyll fluorescence data collected from field instrumentation
+  during the period of record is not included in this data set, but is
+  available upon request (email data contact).
+
+          (4.) Analysis and methods (standard operating
+  procedures):
+          Laboratory Analysis Methods:
+          
+  Analyses were performed by CDWR’s Bryte Laboratory for most of the
+  period of record. From October – December 2019, however, analyses
+  (except for chlorophyll and pheophytin) were performed by Test America
+  Laboratory. Copies of written standard operating procedures for all
+  laboratory analysis methods are available upon request (email data
+  contact).
+
+          (5.) Project history (change in methods and
+  locations):
+          Stations:
+          
+  At the start of the program in 1975, there were 27 discrete water
+  quality monitoring stations sampled monthly. These stations mostly
+  remained unchanged from 1975-1994, though a small number of stations
+  were added or discontinued, while others were replaced by nearby
+  stations. When a station replacement occurred, an “A” was typically
+  added to the end of the old station name to create the new station
+  name (e.g., station C3 was replaced by the nearby station C3A). At the
+  end of 1995, sampling was discontinued at 11 stations, leaving 15
+  remaining stations. Beginning in 1996, EMP implemented a revised
+  compliance monitoring program, which combined the water quality,
+  phytoplankton, benthic, and zooplankton samplings programs previously
+  undertaken by DWR/USBR and the California Department of Fish and
+  Wildlife (CDFW) independently. This led to the acquisition of the CDFW
+  stations NZS42, NZ032, NZ325, NZ002, and NZ004. By 2017, the station
+  list had increased to 26 stations sampled monthly, with 13 of those
+  included in the original station list at the start of the program.
+  Most changes made to the station list over the period of record were
+  to either obtain better access, maintain consistency between program
+  elements, and/or to pair discrete water quality data with data from
+  other elements, such as continuous water quality or zooplankton data.
+
+          Data:
+          
+  In the earlier years of the program, comprehensive nutrient sampling
+  occurred monthly at all stations. This continued until 1995 when six
+  of the 15 stations remaining were reduced to chlorophyll
+  a and pheophytin a sampling
+  only. Starting in 2016, the EMP began reinstating the comprehensive
+  sampling at these chlorophyll a and pheophytin
+  a-only stations. By February 2017, the full suite
+  of water quality analytes was collected at every station. Regarding
+  field data, surface measurements were reported from the start of the
+  program, but it wasn’t until 2017 (January for mid-channel stations
+  and February for shore-based stations) when bottom measurements were
+  reported for the first time. There was only one month during the
+  entire period of record in which no data was collected at any station,
+  which was in January 1980 from reasons that were undocumented.
+
+          
+  From 1975-2019, the following laboratory analytes were added to the
+  sampling list: dissolved ammonia (1979), dissolved chloride (1980),
+  total dissolved solids (1997), total suspended solids (1997), volatile
+  suspended solids (1997), total organic carbon (2011), dissolved
+  organic carbon (2011), dissolved calcium (2011), dissolved bromide
+  (2019), and total alkalinity (2019). From 1975 - 2019, the following
+  laboratory analytes were dropped from the sampling list: total ammonia
+  (1978), total organic nitrogen (1979), and total chloride (1980).
+
+          
+  From 1975 - 2019, the following field parameters were added to the
+  sampling list: wind direction (1984), field notes (1996), weather
+  observations (1996), GPS coordinates for EZ stations (2004), a rating
+  score for the blue-green algae, Microcystis
+  aeruginosa (2015), and near bottom measurements (2017),
+  dissolved oxygen in percent saturation (2019). From 1975 - 2019, the
+  following field parameters were dropped from the sampling list: 1%
+  light depth (1996) and wind direction (1999).
+
+          Collection Methods:
+          
+  At each discrete monitoring station, the EMP collects water quality
+  and biological (phytoplankton and zooplankton) samples concurrently.
+  At most stations, samples for discrete water quality are collected
+  prior to beginning the zooplankton sampling, which is conducted by
+  towing collection nets upstream from the station at a constant
+  velocity. At four stations—D28A, D26, D8, and D4—water quality samples
+  were historically collected midway through the zooplankton tow.
+  Results of an internal study conducted in March 2016, however, found
+  no significant differences in water quality parameters at the
+  beginning tow and mid-tow locations for these four stations. As a
+  result, all water quality samples are now collected before beginning
+  the zooplankton tow as of June 2016.
+
+          
+  Dissolved oxygen (DO) was historically measured from a Winkler
+  titration method. As the ease and accuracy of electronic DO sensors
+  increased, the EMP conducted an internal study to assess any potential
+  differences between DO measured by a multiparameter sonde and Winkler
+  titration. No significant differences were found, and the EMP
+  discontinued the use of Winkler titrations in June 2016. DO is now
+  measured solely using a multiparameter sonde.
+
+          
+  Sample water from shore-based stations was historically collected via
+  a pump system that was permanently installed at each station. During
+  prolonged droughts, however, the EMP determined that this fixed intake
+  produced unreliable data when water levels were low. As a result, the
+  EMP began using a Van Dorn water sampler to collect samples at these
+  stations starting in May 2016.
+
+          (6.) QA/QC:
+          
+  Field data sheets are error checked by hand at the end of each
+  sampling run by the water quality field leads. Field data for each run
+  is then entered into CDWR’s Field and Laboratory Management System
+  (FLIMS) where it is housed while the laboratory data is being
+  analyzed. After the laboratory data has been analyzed, it is merged
+  with the field data and uploaded into the Water Data Library. Both
+  field and laboratory data are then exported into an Excel file from
+  the Water Data Library and verified with the field data sheets by the
+  EMP quality assurance lead.
+
+          
+  Instruments used to collect and analyze water quality data are
+  calibrated and maintained following the manufacturer’s guidelines. The
+  multiparameter instruments are calibrated with known standards prior
+  to field runs and verified with another calibrated instrument during
+  sampling. After returning from the field, the instruments are checked
+  with the same calibration standards to ensure the instrument held its
+  calibration. Since October 2018, the EMP started assigning a drift
+  rating to each sensor on the instrument based on calculations made
+  from the post-field calibration check results. These ratings follow an
+  acceptance criteria developed from the USGS Wagner method to validate
+  the data collected in the field and are available upon request (email
+  data contact).
+
+          
+  To create this data set, annual discrete water quality data files were
+  exported from the CDWR’s Water Data Library (WDL) from 1975-2019 and
+  then merged to create one large data set. The data was then checked
+  for accuracy using the associated field data sheets as a reference.
+  Blank and duplicate data was collected during this period of record,
+  but was removed from this data set, as its primary use is for internal
+  QA/QC checks. The EMP also conducted heavy metal and pesticide
+  monitoring historically, but this data was not included in this data
+  set because it was separate from the mandate.
+
+          (7.) Contractor Information:
+          
+  All water quality sampling was conducted by staff from IEP’s
+  Environmental Monitoring Program (EMP) primarily from the California
+  Department of Water Resources and the United States Bureau of
+  Reclamation with assistance from the California Department of Fish and
+  Wildlife.
+
+          (8.) External review process:
+          
+  An IEP Project Work Team reviewed the EMP’s sampling procedures during
+  2001-2002 and a summary report and recommendations was created in
+  2003.
+
+        
+      
+    
+    
+      SACSJ_delta_water_quality_1975_2019.csv
+      Water quality data from the California Bay-Delta watershed
+      
+        SACSJ_delta_water_quality_1975_2019.csv
+        3169351
+        a9983dedb3706bbda527b042e8a46d42
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+              "
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/edi/458/3/abedcf730c2490fde0237df58c897556
+          
+        
+      
+      
+        
+          Station
+          Station name
+          string
+          
+            
+              
+                
+                  Station name
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          Date
+          Date of sample collection
+          date
+          
+            
+              MM/DD/YYYY
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          Time
+          Time of sample collection in pacific standard time
+          date
+          
+            
+              hh:mm
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          SampleDescription
+          Description of the sample collected
+          string
+          
+            
+              
+                
+                  Description of the sample collected
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          FieldNotes
+          Field notes recorded during sampling
+          string
+          
+            
+              
+                
+                  Field notes recorded during sampling
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          Weather
+          Weather observations recorded during sampling
+          string
+          
+            
+              
+                
+                  Weather observations recorded during sampling
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          AirTemp
+          Air temperature recorded during sampling
+          float
+          
+            
+              
+                fahrenheit
+              
+              
+                real
+                
+                  10
+                  105.8
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          WindVelocity
+          Wind velocity recorded during sampling
+          float
+          
+            
+              
+                milesPerHour
+              
+              
+                real
+                
+                  0
+                  60
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          WindDirection
+          Wind direction recorded during sampling
+          float
+          
+            
+              
+                degree
+              
+              
+                natural
+                
+                  23
+                  338
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          NorthLat
+          North latitude coordinate (entrapment zone stations only)
+          float
+          
+            
+              
+                degree
+              
+              
+                real
+                
+                  38.0212
+                  38.1642
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          WestLong
+          West longitude coordinate (entrapment zone stations only)
+          float
+          
+            
+              
+                degree
+              
+              
+                real
+                
+                  -122.2721
+                  -121.6463
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          Chla
+          Chlorophyll a 1-meter below water surface
+          float
+          
+            
+              
+                microgramsPerLiter
+              
+              
+                real
+                
+                  0.02
+                  498.57
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          Pheophytin
+          Pheophytin a 1-meter below water surface
+          float
+          
+            
+              
+                microgramsPerLiter
+              
+              
+                real
+                
+                  0
+                  167.89
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          TotAlkalinity
+          Total alkalinity 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                natural
+                
+                  29
+                  100
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          TotAmmonia
+          Total ammonia 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                real
+                
+                  0.01
+                  2.6
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          DissAmmonia
+          Dissolved ammonia 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                real
+                
+                  0.01
+                  4.7
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          DissBromide
+          Dissolved bromide 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                real
+                
+                  0.01
+                  97
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          DissCalcium
+          Dissolved calcium 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                real
+                
+                  4
+                  724
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          TotChloride
+          Total chloride 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                natural
+                
+                  1
+                  16300
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          DissChloride
+          Dissolved chloride 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                real
+                
+                  2
+                  19200
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          DissNitrateNitrite
+          Dissolved nitrate + nitrite 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                real
+                
+                  0.01
+                  15.2
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          DOC
+          Dissolved organic carbon 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                real
+                
+                  0.26
+                  11.6
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          TOC
+          Total organic carbon 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                real
+                
+                  0.21
+                  12.3
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          DON
+          Dissolved organic nitrogen 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                real
+                
+                  0.1
+                  3
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          TON
+          Total organic nitrogen 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                real
+                
+                  0.1
+                  3.4
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          DissOrthophos
+          Dissolved ortho-phosphate 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                real
+                
+                  0.01
+                  2
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          TotPhos
+          Total Phosphorus 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                real
+                
+                  0.02
+                  2.6
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          DissSilica
+          Dissolved Silica (SiO2) 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                real
+                
+                  0.2
+                  70.9
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          TDS
+          Total dissolved solids 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                natural
+                
+                  50
+                  38780
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          TSS
+          Total suspended solids 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                real
+                
+                  1
+                  342
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          VSS
+          Volatile suspended solids 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                real
+                
+                  1
+                  64
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          TKN
+          Total Kjeldahl nitrogen 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                real
+                
+                  0.1
+                  12
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          Depth
+          Water depth of station
+          float
+          
+            
+              
+                foot
+              
+              
+                real
+                
+                  1.6
+                  108
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          Secchi
+          Secchi depth measurement of light penetration below water surface
+          float
+          
+            
+              
+                centimeter
+              
+              
+                real
+                
+                  6
+                  392
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          Microcystis
+          Visual observation rating of Microcystis aeruginosa, with 1 meaning absent, 2 low, 3 medium, 4 high, and 5 very high
+          float
+          
+            
+              
+                dimensionless
+              
+              
+                real
+                
+                  1
+                  4
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          LightExtinction
+          Depth at which sunlight is extinguished to 1% of surface intensity
+          float
+          
+            
+              
+                meter
+              
+              
+                real
+                
+                  0.16
+                  5.61
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          SpCndSurface
+          Specific conductance of water 1-meter below water surface
+          float
+          
+            
+              
+                microSeimenPerCentimeter
+              
+              
+                real
+                
+                  30
+                  47201
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          DOSurface
+          Dissolved oxygen concentration 1-meter below water surface
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                real
+                
+                  0.1
+                  22.3
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          DOpercentSurface
+          Dissolved oxygen concentration 1-meter below water surface
+          float
+          
+            
+              
+                dimensionless
+              
+              
+                real
+                
+                  73.9
+                  110
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          WTSurface
+          Water temperature 1-meter below water surface
+          float
+          
+            
+              
+                celsius
+              
+              
+                real
+                
+                  2
+                  38
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          TurbiditySurface
+          Turbidity of water 1-meter below water surface
+          string
+          
+            
+              
+                
+                  Turbidity of water 1-meter below water surface
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          pHSurface
+          Total pH 1-meter below water surface
+          float
+          
+            
+              
+                dimensionless
+              
+              
+                real
+                
+                  6.1
+                  10.7
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          SpCndBottom
+          Specific conductivity 1-meter above bottom of channel
+          float
+          
+            
+              
+                microSeimenPerCentimeter
+              
+              
+                real
+                
+                  77.7
+                  45856
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          DOBottom
+          Dissolved oxygen concentration 1-meter above bottom of channel
+          float
+          
+            
+              
+                milligramsPerLiter
+              
+              
+                real
+                
+                  6.14
+                  11.12
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          DOpercentBottom
+          Dissolved oxygen concentration 1-meter above bottom of channel
+          float
+          
+            
+              
+                dimensionless
+              
+              
+                real
+                
+                  73.2
+                  111.1
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          WTBottom
+          Water temperature 1-meter above bottom of channel
+          float
+          
+            
+              
+                celsius
+              
+              
+                real
+                
+                  8.19
+                  29.9
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          TurbidityBottom
+          Turbidity of water 1-meter above bottom of channel
+          float
+          
+            
+              
+                nephelometricTurbidityUnit
+              
+              
+                real
+                
+                  0.1
+                  412.2
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+        
+          pHBottom
+          Total pH 1-meter above bottom of channel
+          float
+          
+            
+              
+                dimensionless
+              
+              
+                real
+                
+                  6.89
+                  8.76
+                
+              
+            
+          
+          
+            NA
+            Missing value code
+          
+          
+            ND
+            Not detected (Value below the MDL or RL)
+          
+        
+      
+      16508
+    
+    
+      EMP_Discrete_Water_Quality_Stations_1975-2019.csv
+      Sampling station coordinates
+      
+        EMP_Discrete_Water_Quality_Stations_1975-2019.csv
+        4361
+        e71ecb5edc34c7703e88d68bbf4a9519
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+              "
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/edi/458/3/5b439de4be6d3a5964867b0cb4a1f059
+          
+        
+      
+      
+        
+          Station
+          Station name
+          string
+          
+            
+              
+                
+                  Station name
+                
+              
+            
+          
+          
+            NA
+            Missing value
+          
+        
+        
+          StationID
+          Broad water body number, light channel marker number, or reference area
+          string
+          
+            
+              
+                
+                  Broad water body number, light channel marker number, or reference area
+                
+              
+            
+          
+          
+            NA
+            Missing value
+          
+        
+        
+          Location
+          Descriptive name for geographic area
+          string
+          
+            
+              
+                
+                  Descriptive name for geographic area
+                
+              
+            
+          
+          
+            NA
+            Missing value
+          
+        
+        
+          StationType
+          Location of station in reference to the channel to distinguish between stations accessed by vessel (mid-channel) or vehicle (shore-based)
+          string
+          
+            
+              
+                
+                  Location of station in reference to the channel to distinguish between stations accessed by vessel (mid-channel) or vehicle (shore-based)
+                
+              
+            
+          
+          
+            NA
+            Missing value
+          
+        
+        
+          Latitude
+          North latitude coordinate of the station
+          float
+          
+            
+              
+                degree
+              
+              
+                real
+                
+                  37.67575
+                  38.36771
+                
+              
+            
+          
+          
+            NA
+            Missing value
+          
+        
+        
+          Longitude
+          West longitude coordinate of the station
+          float
+          
+            
+              
+                degree
+              
+              
+                real
+                
+                  -122.3907
+                  -121.2647
+                
+              
+            
+          
+          
+            NA
+            Missing value
+          
+        
+        
+          Status
+          The status (active or inactive) of the station as of December 2019
+          string
+          
+            
+              
+                
+                  The status (active or inactive) of the station as of December 2019
+                
+              
+            
+          
+          
+            NA
+            Missing value
+          
+        
+      
+      48
+    
+    
+      Methods tables
+      Methods tables
+      
+        IEP_EMP_DWQN_metadata_methods.pdf
+        156142
+        0d2a6ac1e420b3e0c86c751f01e3d610
+        
+          
+            application/pdf
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/edi/458/3/f2688cbea946504bda15e940bbe45f27
+          
+        
+      
+      unknown
+    
+  
+  
+    
+      
+        
+          conductivity unit
+        
+        
+          A common unit of light transmittance
+        
+      
+    
+  

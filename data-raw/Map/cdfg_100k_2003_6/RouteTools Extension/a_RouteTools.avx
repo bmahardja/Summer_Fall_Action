@@ -1,0 +1,1534 @@
+/3.2
+(Extension.1
+	Name:	"Route Tools (Ver. 2.1)"
+	FirstRootClassName:	"List"
+	Roots:	2
+	Roots:	3
+	Roots:	33
+	Roots:	131
+	Roots:	132
+	Roots:	155
+	Roots:	156
+	Roots:	157
+	Roots:	158
+	Roots:	159
+	Roots:	160
+	Roots:	161
+	Roots:	162
+	Roots:	163
+	Roots:	164
+	Roots:	165
+	Roots:	166
+	Roots:	167
+	Roots:	168
+	Roots:	169
+	Roots:	170
+	Roots:	171
+	Roots:	172
+	Roots:	173
+	Roots:	174
+	Roots:	175
+	Roots:	176
+	Roots:	177
+	Roots:	178
+	Roots:	179
+	Roots:	180
+	Roots:	181
+	Roots:	182
+	Roots:	183
+	Roots:	184
+	Roots:	185
+	Roots:	186
+	Roots:	187
+	Roots:	188
+	Roots:	189
+	Roots:	190
+	Roots:	191
+	Roots:	192
+	Roots:	193
+	Roots:	194
+	Roots:	195
+	Roots:	196
+	Roots:	197
+	Roots:	198
+	Roots:	199
+	Roots:	200
+	Roots:	201
+	Roots:	202
+	Roots:	203
+	Roots:	204
+	Roots:	205
+	Roots:	206
+	Roots:	207
+	Roots:	208
+	Version:	32
+	About:	"Provides a series of tools for creating events using routed hydrography (Version 2.1 - Updated: 03/24/03)"
+	UnloadScript:	230
+	InstallScript:	231
+	UninstallScript:	232
+	ExtVersion:	2
+)
+
+(List.2
+)
+
+(List.3
+	Child:	4
+	Child:	8
+	Child:	11
+	Child:	14
+	Child:	22
+	Child:	25
+)
+
+(List.4
+	Child:	5
+	Child:	6
+	Child:	7
+)
+
+(AVStr.5
+	S:	"View"
+)
+
+(AVStr.6
+	S:	"ToolBar"
+)
+
+(AVStr.7
+	S:	"Space"
+)
+
+(List.8
+	Child:	9
+	Child:	10
+	Child:	7
+)
+
+(AVStr.9
+	S:	"View"
+)
+
+(AVStr.10
+	S:	"ToolBar"
+)
+
+(List.11
+	Child:	12
+	Child:	13
+	Child:	7
+)
+
+(AVStr.12
+	S:	"View"
+)
+
+(AVStr.13
+	S:	"ToolBar"
+)
+
+(List.14
+	Child:	15
+	Child:	19
+	Child:	21
+)
+
+(List.15
+	Child:	16
+	Child:	17
+	Child:	18
+)
+
+(AVStr.16
+	S:	"View"
+)
+
+(AVStr.17
+	S:	"ToolBar"
+)
+
+(AVStr.18
+	S:	"aa.RouteTools.MeasureTool"
+)
+
+(Tool.19
+	Help:	"Measure Tool//Reports route measures in units of Feet and Miles"
+	Update:	"aa.RouteTools.RoutedThemeUpdate"
+	Icon:	20
+	Cursor:	"Cursors.Default"
+	Apply:	"aa.RouteTools.MeasureTool"
+)
+
+(AVIcon.20
+	Name:	"M"
+	Res:	"Icons.M"
+
+)
+
+(Numb.21
+	N:	17.00000000000000
+)
+
+(List.22
+	Child:	23
+	Child:	24
+	Child:	7
+)
+
+(AVStr.23
+	S:	"View"
+)
+
+(AVStr.24
+	S:	"ToolBar"
+)
+
+(List.25
+	Child:	26
+	Child:	30
+	Child:	32
+)
+
+(List.26
+	Child:	27
+	Child:	28
+	Child:	29
+)
+
+(AVStr.27
+	S:	"View"
+)
+
+(AVStr.28
+	S:	"ToolBar"
+)
+
+(AVStr.29
+	S:	"aa.HydroTools.HydrolineTool"
+)
+
+(Tool.30
+	Help:	"Stream Digitizer//Create a Graphic representing a stream"
+	Update:	"aa.RouteTools.RoutedThemeUpdate"
+	Icon:	31
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"aa.HydroTools.HydroLineTool"
+	Click:	"aa.HydroTools.HydroLineToolClick"
+)
+
+(AVIcon.31
+	Name:	"Stroke"
+	Res:	"Icons.Stroke"
+
+)
+
+(Numb.32
+	N:	19.00000000000000
+)
+
+(List.33
+	Child:	34
+	Child:	41
+	Child:	48
+	Child:	52
+	Child:	59
+	Child:	66
+	Child:	73
+	Child:	76
+	Child:	83
+	Child:	90
+	Child:	97
+	Child:	100
+	Child:	107
+	Child:	114
+	Child:	117
+	Child:	124
+)
+
+(List.34
+	Child:	35
+	Child:	39
+	Child:	40
+)
+
+(List.35
+	Child:	36
+	Child:	37
+	Child:	38
+)
+
+(AVStr.36
+	S:	"Table"
+)
+
+(AVStr.37
+	S:	"&RouteTools"
+)
+
+(AVStr.38
+	S:	"aa.RouteTools.TableAppendEventTables"
+)
+
+(Choice.39
+	Help:	"Append events from one or more Event Tables to a Master Event Table"
+	Update:	"aa.RouteTools.TableAppendEventTablesUpdate"
+	Label:	"&Append Event Tables"
+	Click:	"aa.RouteTools.TableAppendEventTables"
+	Shortcut:	"Keys.None"
+)
+
+(Numb.40
+)
+
+(List.41
+	Child:	42
+	Child:	46
+	Child:	47
+)
+
+(List.42
+	Child:	43
+	Child:	44
+	Child:	45
+)
+
+(AVStr.43
+	S:	"View"
+)
+
+(AVStr.44
+	S:	"&RouteTools"
+)
+
+(AVStr.45
+	S:	"aa.RouteTools.LocateHydroLocate"
+)
+
+(Choice.46
+	Help:	"Locate Hydrographic Feature // Allows user to locate and zoom to a hydrographic feature by Name or LLID"
+	Update:	"aa.RouteTools.RoutedThemeUpdate"
+	Label:	"Locate Hydrographic Feature"
+	Click:	"aa.RouteTools.LocateHydroLocate"
+	Shortcut:	"Keys.None"
+)
+
+(Numb.47
+)
+
+(List.48
+	Child:	49
+	Child:	50
+	Child:	51
+)
+
+(AVStr.49
+	S:	"View"
+)
+
+(AVStr.50
+	S:	"&RouteTools"
+)
+
+(AVStr.51
+	S:	"Space"
+)
+
+(List.52
+	Child:	53
+	Child:	57
+	Child:	58
+)
+
+(List.53
+	Child:	54
+	Child:	55
+	Child:	56
+)
+
+(AVStr.54
+	S:	"View"
+)
+
+(AVStr.55
+	S:	"&RouteTools"
+)
+
+(AVStr.56
+	S:	"aa.RouteTools.AddXYCoordinates"
+)
+
+(Choice.57
+	Help:	"Add XY Coordinates// Adds FromX, FromY, ToX, and ToY fields and populates them with beginning and end coordinates for events"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"Add XY Coordinates"
+	Click:	"aa.RouteTools.AddXYCoordinates"
+	Shortcut:	"Keys.None"
+)
+
+(Numb.58
+	N:	2.00000000000000
+)
+
+(List.59
+	Child:	60
+	Child:	64
+	Child:	65
+)
+
+(List.60
+	Child:	61
+	Child:	62
+	Child:	63
+)
+
+(AVStr.61
+	S:	"View"
+)
+
+(AVStr.62
+	S:	"&RouteTools"
+)
+
+(AVStr.63
+	S:	"aa.RouteTools.PointsImportFromXY"
+)
+
+(Choice.64
+	Help:	"Import Points From XY Table // Allows user to import coordinate information from a table to create a point shape file (does not create route information)"
+	Label:	"Import Points From XY Table"
+	Click:	"aa.RouteTools.PointsImportFromXY"
+	Shortcut:	"Keys.None"
+)
+
+(Numb.65
+	N:	3.00000000000000
+)
+
+(List.66
+	Child:	67
+	Child:	71
+	Child:	72
+)
+
+(List.67
+	Child:	68
+	Child:	69
+	Child:	70
+)
+
+(AVStr.68
+	S:	"View"
+)
+
+(AVStr.69
+	S:	"&RouteTools"
+)
+
+(AVStr.70
+	S:	"aa.RouteTools.EventsImportFromXY"
+)
+
+(Choice.71
+	Help:	"Import Routes From XY Table // Adds routes from a table containing XY values representing starting points and ending points of a route"
+	Update:	"aa.RouteTools.RoutedThemeUpdate"
+	Label:	"Import Routes From XY Table"
+	Click:	"aa.RouteTools.EventsImportFromXY"
+	Shortcut:	"Keys.None"
+)
+
+(Numb.72
+	N:	4.00000000000000
+)
+
+(List.73
+	Child:	74
+	Child:	75
+	Child:	51
+)
+
+(AVStr.74
+	S:	"View"
+)
+
+(AVStr.75
+	S:	"&RouteTools"
+)
+
+(List.76
+	Child:	77
+	Child:	81
+	Child:	82
+)
+
+(List.77
+	Child:	78
+	Child:	79
+	Child:	80
+)
+
+(AVStr.78
+	S:	"View"
+)
+
+(AVStr.79
+	S:	"&RouteTools"
+)
+
+(AVStr.80
+	S:	"aa.RouteTools.ShowEvents"
+)
+
+(Choice.81
+	Help:	"Show Events// Performs Dynamic Segmentation using the current Event Table"
+	Update:	"aa.RouteTools.EventsUpdate"
+	Label:	"Show Events"
+	Click:	"aa.RouteTools.ShowEvents"
+	Shortcut:	"Keys.None"
+)
+
+(Numb.82
+	N:	6.00000000000000
+)
+
+(List.83
+	Child:	84
+	Child:	88
+	Child:	89
+)
+
+(List.84
+	Child:	85
+	Child:	86
+	Child:	87
+)
+
+(AVStr.85
+	S:	"View"
+)
+
+(AVStr.86
+	S:	"&RouteTools"
+)
+
+(AVStr.87
+	S:	"aa.RouteTools.ShowLineDirection"
+)
+
+(Choice.88
+	Help:	"Show Line Direction// Redraws the active line theme to show line direction"
+	Update:	"aa.RouteTools.AllLineThemeUpdate"
+	Label:	"Show Line &Direction"
+	Click:	"aa.RouteTools.ShowLineDirection"
+	Shortcut:	"Keys.None"
+)
+
+(Numb.89
+	N:	7.00000000000000
+)
+
+(List.90
+	Child:	91
+	Child:	95
+	Child:	96
+)
+
+(List.91
+	Child:	92
+	Child:	93
+	Child:	94
+)
+
+(AVStr.92
+	S:	"View"
+)
+
+(AVStr.93
+	S:	"&RouteTools"
+)
+
+(AVStr.94
+	S:	"aa.RouteTools.RemoveAllGraphics"
+)
+
+(Choice.95
+	Disabled:	1
+	Help:	"Remove all Graphics//Selects and removes all graphics from the view"
+	Update:	"aa.RouteTools.RemoveAllGraphicsUpdate"
+	Label:	"&Remove all Graphics"
+	Click:	"aa.RouteTools.RemoveAllGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Numb.96
+	N:	8.00000000000000
+)
+
+(List.97
+	Child:	98
+	Child:	99
+	Child:	51
+)
+
+(AVStr.98
+	S:	"View"
+)
+
+(AVStr.99
+	S:	"&RouteTools"
+)
+
+(List.100
+	Child:	101
+	Child:	105
+	Child:	106
+)
+
+(List.101
+	Child:	102
+	Child:	103
+	Child:	104
+)
+
+(AVStr.102
+	S:	"View"
+)
+
+(AVStr.103
+	S:	"&RouteTools"
+)
+
+(AVStr.104
+	S:	"aa.RouteTools.Table.SetNew"
+)
+
+(Choice.105
+	Help:	"Set/Change Event Table//Create or select a different event table to work with"
+	Label:	"Set/Change Event Table"
+	Click:	"aa.RouteTools.Table.SetNew"
+	Shortcut:	"Keys.None"
+)
+
+(Numb.106
+	N:	11.00000000000000
+)
+
+(List.107
+	Child:	108
+	Child:	112
+	Child:	113
+)
+
+(List.108
+	Child:	109
+	Child:	110
+	Child:	111
+)
+
+(AVStr.109
+	S:	"View"
+)
+
+(AVStr.110
+	S:	"H&ydroTools"
+)
+
+(AVStr.111
+	S:	"aa.HydroTools.HydroLineEdit"
+)
+
+(Choice.112
+	Help:	"Edit Hydro Layer//Allows user to edit active hydro layer"
+	Update:	"aa.HydroTools.HydroLineEditUpdate"
+	Label:	"Start &Editing Routes"
+	Click:	"aa.HydroTools.HydroLineEdit"
+	Shortcut:	"Keys.None"
+)
+
+(Numb.113
+)
+
+(List.114
+	Child:	115
+	Child:	116
+	Child:	51
+)
+
+(AVStr.115
+	S:	"View"
+)
+
+(AVStr.116
+	S:	"H&ydroTools"
+)
+
+(List.117
+	Child:	118
+	Child:	122
+	Child:	123
+)
+
+(List.118
+	Child:	119
+	Child:	120
+	Child:	121
+)
+
+(AVStr.119
+	S:	"View"
+)
+
+(AVStr.120
+	S:	"H&ydroTools"
+)
+
+(AVStr.121
+	S:	"aa.HydroTools.HydroLineFlipGraphic"
+)
+
+(Choice.122
+	Disabled:	1
+	Help:	"Flip Graphic//Change the Direction of the Selected Line Graphic"
+	Update:	"aa.HydroTools.HydroLineGraphicUpdate"
+	Label:	"&Flip Graphic"
+	Click:	"aa.HydroTools.HydroLineFlipGraphic"
+	Shortcut:	"Keys.None"
+)
+
+(Numb.123
+	N:	2.00000000000000
+)
+
+(List.124
+	Child:	125
+	Child:	129
+	Child:	130
+)
+
+(List.125
+	Child:	126
+	Child:	127
+	Child:	128
+)
+
+(AVStr.126
+	S:	"View"
+)
+
+(AVStr.127
+	S:	"H&ydroTools"
+)
+
+(AVStr.128
+	S:	"aa.HydroTools.HydroLineAddtoDatabase"
+)
+
+(Choice.129
+	Disabled:	1
+	Help:	"Submit Graphic//Adds selected graphic to route layer and calculates all necessary route information for the feature"
+	Update:	"aa.HydroTools.HydroLineGraphicUpdate"
+	Label:	"&Add Graphic to Route Layer"
+	Click:	"aa.HydroTools.HydroLineAddtoDatabase"
+	Shortcut:	"Keys.None"
+)
+
+(Numb.130
+	N:	3.00000000000000
+)
+
+(List.131
+)
+
+(List.132
+	Child:	133
+)
+
+(List.133
+	Child:	134
+	Child:	137
+	Child:	154
+)
+
+(List.134
+	Child:	135
+	Child:	136
+)
+
+(AVStr.135
+	S:	"View"
+)
+
+(AVStr.136
+	S:	"aa.RouteTools.ToolClick"
+)
+
+(ToolMenu.137
+	Help:	"WholeTool//Adds entire measure of selected route to event table"
+	Update:	"aa.RouteTools.ToolUpdate"
+	Icon:	138
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"aa.RouteTools.WholeTool"
+	Click:	"aa.RouteTools.ToolClick"
+	Child:	139
+	Child:	140
+	Child:	142
+	Child:	144
+	Child:	146
+	Child:	148
+	Child:	150
+	Child:	152
+)
+
+(AVIcon.138
+	Name:	"SlideCursCursor"
+	Res:	"Icons.SlideCursCursor"
+
+)
+
+(Tool.139
+	Help:	"WholeTool//Adds entire measure of selected route to event table"
+	Update:	"aa.RouteTools.ToolUpdate"
+	Icon:	138
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"aa.RouteTools.WholeTool"
+	Click:	"aa.RouteTools.ToolClick"
+)
+
+(Tool.140
+	Help:	"Downstream Tool//Adds route measure from origin (mouth) to selected point to event table"
+	Update:	"aa.RouteTools.ToolUpdate"
+	Icon:	141
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"aa.RouteTools.DownstreamTool"
+	Click:	"aa.RouteTools.ToolClick"
+)
+
+(AVIcon.141
+	Name:	"AlignLeft"
+	Res:	"Icons.AlignLeft"
+
+)
+
+(Tool.142
+	Help:	"UpstreamTool//Adds route from selected point to terminus (headwaters) to event table"
+	Update:	"aa.RouteTools.ToolUpdate"
+	Icon:	143
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"aa.RouteTools.UpstreamTool"
+	Click:	"aa.RouteTools.ToolClick"
+)
+
+(AVIcon.143
+	Name:	"AlignRight"
+	Res:	"Icons.AlignRight"
+
+)
+
+(Tool.144
+	Help:	"SegmentTool//Adds route between user selected points to event table"
+	Update:	"aa.RouteTools.ToolUpdate"
+	Icon:	145
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"aa.RouteTools.SegmentTool"
+	Click:	"aa.RouteTools.ToolClick"
+)
+
+(AVIcon.145
+	Name:	"DynSeg"
+	Res:	"Icons.DynSeg"
+
+)
+
+(Tool.146
+	Help:	"Point Tool//Adds a point event"
+	Update:	"aa.RouteTools.ToolUpdate"
+	Icon:	147
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"aa.RouteTools.PointTool"
+	Click:	"aa.RouteTools.ToolClick"
+)
+
+(AVIcon.147
+	Name:	"BoxSmallDot"
+	Res:	"Icons.BoxSmallDot"
+
+)
+
+(Tool.148
+	Help:	"PolyTool//Adds entire measures of selected routes to event table"
+	Update:	"aa.RouteTools.ToolUpdate"
+	Icon:	149
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"aa.RouteTools.PolyTool"
+	Click:	"aa.RouteTools.ToolClick"
+)
+
+(AVIcon.149
+	Name:	"Poly"
+	Res:	"Icons.Poly"
+
+)
+
+(Tool.150
+	Help:	"Trace Upstream//Identify all streams that flow into user point"
+	Update:	"aa.RouteTools.ToolUpdate"
+	Icon:	151
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"aa.RouteTools.TraceUp"
+	Click:	"aa.RouteTools.ToolClick"
+)
+
+(AVIcon.151
+	Name:	"SortAscending2"
+	Res:	"Icons.SortAscending2"
+
+)
+
+(Tool.152
+	Help:	"Trace Downstream//Identify path to the sea from user point"
+	Update:	"aa.RouteTools.ToolUpdate"
+	Icon:	153
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"aa.RouteTools.TraceDown"
+	Click:	"aa.RouteTools.ToolClick"
+)
+
+(AVIcon.153
+	Name:	"SortDescending2"
+	Res:	"Icons.SortDescending2"
+
+)
+
+(Numb.154
+	N:	15.00000000000000
+)
+
+(Script.155
+	Name:	"aa.HydroTools.CheckFields"
+	SourceCode:	"theView = av.GetActiveDoc\ntheTheme = theView.GetActiveThemes.Get(0)\ntheFTab = theTheme.GetFTab\n\nLLIDFld = Field.Make(\"LLID\",#Field_Char,13,0)\nNameFld = Field.Make(\"Name\",#Field_Char,60,0)\nLengthFld = Field.Make(\"Length_ft\",#FIELD_DECIMAL,20,5)\n'LevelFld = Field.Make(\"Level\",#FIELD_DECIMAL,20,5)\nDown_LLIDFld = Field.Make(\"Down_LLID\",#Field_Char,13,0)\nDown_NameFld = Field.Make(\"Down_Name\",#Field_Char,60,0)\nDown_MeasFld = Field.Make(\"Down_Meas\",#FIELD_DECIMAL,20,5)\nUser_IDFld = Field.Make(\"User_ID\",#Field_Char
+,30,0)\nDateFld = Field.Make(\"GeoDate\",#Field_Date,30,0)\nUpXfld = Field.Make(\"UpX\",#FIELD_DECIMAL,15,2)\nUpYfld = Field.Make(\"UpY\",#FIELD_DECIMAL,15,2)\nDownXfld = Field.Make(\"DownX\",#FIELD_DECIMAL,15,2)\nDownYfld = Field.Make(\"DownY\",#FIELD_DECIMAL,15,2)\n\nfieldlist = {}\naddlist = {}\ntheFList = {\"LLID\",\"Name\",\"Length_ft\",\"Down_LLID\",\"Down_Name\",\"Down_Meas\",\"User_ID\",\"GeoDate\",\"UpX\",\"UpY\",\"DownX\",\"DownY\"}\nfor each f in theFList\n  if (thefTab.FindField(f) = Nil) then\n    addlist.add(f)\n  end\nend\nfor each f in add
+list\n  if (f = \"LLID\") then\n    fieldlist.add(LLIDFld)\n  elseif (f = \"Name\") then\n    fieldlist.add(NameFld)\n  elseif (f = \"Length\") then\n    fieldlist.add(LengthFld)\n  elseif (f = \"Down_LLID\") then\n    fieldlist.add(Down_LLIDFld)\n  elseif (f = \"Down_Name\") then\n    fieldlist.add(Down_NameFld)\n  elseif (f = \"Down_Meas\") then\n    fieldlist.add(Down_MeasFld)\n  elseif (f = \"GeoDate\") then\n    fieldlist.add(DateFld)\n  elseif (f = \"User_ID\") then\n    fieldlist.add(User_IDFld)\n  elseif (f = \"UpX\") then\n    fieldl
+ist.add(UpXFld)\n  elseif (f = \"UpY\") then\n    fieldlist.add(UpYFld)\n  elseif (f = \"DownX\") then\n    fieldlist.add(DownXFld)\n  elseif (f = \"DownY\") then\n    fieldlist.add(DownYFld)\n  end\nend\n \nif (fieldlist.count > 0) then\n  msgbox.info(\"Adding necessary fields to \" +thetheme.getname,\"\")\n  theftab.seteditable(true)\n  theftab.addfields(fieldlist)\n  theftab.seteditable(false)\nend\n"
+)
+
+(Script.156
+	Name:	"aa.HydroTools.HydroLineGraphicUpdate"
+	SourceCode:	"theView = av.GetActiveDoc\ngCount = theView.GetGraphics.GetSelected.Count\nif (gcount > 0) then\n  thegraphic = theview.getgraphics.getselected.get(0)\n  theshape = thegraphic.getshape\n  if (theshape.getdimension = 1) then\n    SELF.SetEnabled(gCount > 0)\n  else\n    SELF.SetEnabled(false)\n  end\nelse\n  SELF.SetEnabled(false)\nend\n\n"
+)
+
+(Script.157
+	Name:	"aa.HydroTools.HydroLineAddtoDatabase"
+	SourceCode:	"'aa.HydroTools.HydroLineAddtoDatabase\nav.run(\"aa.HydroTools.CheckFields\",Nil)\nav.run(\"aa.RouteTools.CheckUser\",Nil)\n thetol = 10\n theView = av.GetActiveDoc\n theTheme = theView.GetActiveThemes.Get(0)\n theFTab = theTheme.GetFTab\n shpField = theFTab.FindField(\"Shape\")\n idField = theFTab.FindField(\"LLID\")\n NameField = theFtab.FindField(\"Name\")\n LengthField = theFtab.FindField(\"Length_ft\")\n 'LevelField = theFtab.FindField(\"Level\")\n Down_LLIDField = theFTab.FindField(\"Down_LLID\")\n Down_NameField = theFTab.FindFie
+ld(\"Down_Name\")\n Down_MeasField = theFtab.findfield(\"Down_Meas\")\n dateField = theFtab.FindField(\"GeoDate\")\n useridField = theFtab.findfield(\"User_ID\")\n nameField = theFtab.FindField(\"Name\")\n UpXfld = theFTab.FindField(\"UpX\")\n UpYfld = theFTab.FindField(\"UpY\")\n DownXfld = theFTab.FindField(\"DownX\")\n DownYfld = theFTab.FindField(\"DownY\")\n \nthegraphics = theview.getgraphics.getselected\n\nif (thegraphics.count <> 1) then\n  msgbox.error(\"You must have one (and only one) graphic selected.\", \"Stopping\")\n  return ni
+l\nend\n\ntheshape = thegraphics.get(0).getshape\n\nif (theshape.getdimension <> 1) then\n  msgbox.error(\"There is a non-linear graphic (e.g., point or poly) selected.\", \"Stopping\")\n  return nil\nend\n\n \n  thelist = theshape.asmultipoint.aslist\n  thept = thelist.get(0) ' first point\n  ptshp = graphicshape.make(thept).getshape\n\n  Down_LLID = \"\"\n  Down_Name = \"\"\n  TribLevel = \"\"\n  TheDown_Meas = \"\"\n\n  'Check for and Identify downstream feature\n  theFTab.SelectByPoint (thept, thetol, #VTAB_SELTYPE_NEW)\n  theset = thef
+tab.getselection\n\n  if (theset <> nil) then\n    theid = nil\n    thedist = nil\n    for each r in theset\n      lshape = theftab.returnvalue(shpField,r)\n      myID =  theftab.returnvalue(Idfield,r)\n      mydist = lshape.distance(ptshp)\n      if ((thedist = nil) or (mydist < thedist)) then\n        thedist = mydist\n        theid = myid\n      end\n    end\n    \n    'now snap the point to the closest downstream feature and get downstream info\n    for each r in theset\n      Tribshp = theftab.returnvalue(shpField,r)\n 
+     myid = theftab.returnvalue(Idfield,r)\n      if (myid = theid) then\n        Down_LLID = theftab.returnvalue(Idfield,r)\n        Down_Name = theftab.returnvalue(namefield,r)\n        'theLevel = theftab.returnvalue(levelfield,r)\n        'TribLevel = theLevel + 1\n        theDown_Meas = Tribshp.GetMatposition(tribshp.pointposition(thePt)).get(0)\n        'now snap the beg point to the downstream feature\n        thept =  Tribshp.along(tribshp.pointposition(thePt))    \n        thelist.set(0,thept)\n        theli
+stoflists = {thelist}\n        theline = polyline.make(thelistoflists)\n        theshape = theline\n      end\n    end\n  end\n\n'Now get Upstream and Downstream Coordinates\n  'first calculate upx and upy\n  UpPnt = thelist.get(thelist.count - 1) 'last point\n  UpX = UpPnt.getx\n  UpY = UpPnt.gety\n  'now Calculate downx and downy\n  DownPnt = thelist.get(0) 'Beg point\n  DownX = DownPnt.getx\n  DownY = DownPnt.gety        \n       \n'now convert the point to lat longs to calculate the LLID\n  thept = av.Run(\"aa.ProjectFeat
+ure\", {thept,\"AlbtoLL\"})\n\n  thex = ((thept.getx)/(-1000)).setformatprecision (7)\n  they = ((thept.gety)/(100)).setformatprecision (6)\n  thex = thex.asstring\n  they = they.asstring\n  thex = thex.right(thex.count - 2)\n  they = they.right(they.count - 2)\n  thellid = thex+they\n  \n  'Now check to make sure that llid is not duplicate\n  'get list of existing llids\n  LLIDList = {}\n  for each r in theftab\n    theval = theftab.returnvalue(IDField,r)\n    if (theval <> nil) then\n      LLIDList.add(theval)\n    end\n  end
+\n  \n  checkdup = true\n  while(checkdup)\n    match = LLIDList.findbyvalue(theLLID)\n    'msgbox.info(Match.asstring,\"\")\n    if (match <> -1) then\n      'msgbox.info(thellid.asstring,\"\")\n      'thellid = thellid.asnumber\n      thellid = (thellid.asnumber + 1)\n      thellid.setformat(\"dddddddd\")\n      thellid = thellid.asstring\n      checkdup = true\n    else\n      checkdup = false\n    end\n  end\n  \n\n  'Convert the shape to a polylinem and calculate route info\n   theshape = theshape.aspolylinem\n   thelist = thesh
+ape.asmultipoint.aslist\n   theshape.SetMToNil \n   theshape.SetMAsLength \n   countoff = 0\n   listcount = thelist.count\n   thelength = \"\"\n   for each l in thelist\n     mval = theshape.GetMForPoint(countoff)\n      'theshape.setmforpoint(countoff,mval)  'line Down_Measures created in view units (meters)\n     theshape.setmforpoint(countoff,mval * 3.280839895)  'line Down_Measures created in units of feet\n     countoff = countoff + 1 \n     if (countoff = listcount) then\n       thelength = (mval * 3.280839895)\n   
+    'msgbox.info(thelength.asstring,\"\")\n     end\n   end\n   \n   'Get the name of the Stream\n   theName = Msgbox.input(\"Please enter stream name (enter a space if unknown).\",\"Stream Name\",\"Name\")\n   if(thename = nil) then\n     return nil\n   elseif (thename.trim = \"\") then\n     thename = \"\"\n   end\n\n' Put the FTab in edit mode and if successful, do some edits.\nif (theFTab.StartEditingWithRecovery) then\n\n   theFTab.BeginTransaction\n   theRec = thefTab.AddRecord\n   theFTab.SetValue(shpField,theRec,theshape)\n   th
+eFTab.SetValue(idField,theRec,theLLID)\n   theFtab.SetValue(nameField,theRec,theName)\n   theFtab.SetValue(LengthField,TheRec,theLength)\n   'theFtab.SetValue(LevelField,TheRec,TribLevel)\n   theFTab.SetValue(Down_LLIDField,theRec,Down_LLID)\n   theFtab.SetValue(Down_NameField,theRec,Down_Name)\n   theFtab.SetValue(Down_MeasField,theRec,theDown_Meas)\n   theFtab.SetValue(dateField,theRec,Date.Now)\n   theFtab.SetValue(useridField,theRec,_userid)\n   theFTab.SetValue(UpXfld,therec,upx)\n   theFTab.SetValue(UpYfld,ther
+ec,upy)\n   theFTab.SetValue(DownXfld,therec,downx)\n   theFTab.SetValue(DownYfld,therec,downy)\n\n   theFTab.EndTransaction\n \nend\n\nsaveEdits = TRUE\ntheFTab.StopEditingWithRecovery(saveEdits)\n\n  theview.getgraphics.clearselected \n  theftab.getselection.clearall\n  theftab.updateselection\n  theview.invalidate\n\n"
+)
+
+(Script.158
+	Name:	"aa.HydroTools.HydroLineEdit"
+	SourceCode:	"'aa.HydroTools.HydroLineEdit\ntheView = av.GetActiveDoc\nactive = theView.GetActiveThemes.Get(0)\neditThm = theView.GetEditableTheme\n\nif (editThm <> nil) then\n' we need to stop editing this theme\n\n  doSave = MsgBox.YesNoCancel(\"Save Edits to \"+editThm.GetName+\n  \"?\", \"Stop Editing\", true)\n  if (doSave = nil) then\n    return nil\n  end\n  if (editThm.StopEditing(doSave).Not) then\n  ' save failed, remain editing this theme\n    MsgBox.Info (\"Unable to Save Edits to \"\n                  + editThm.GetName  +\n         
+         \", please use the Save Edits As option\", \"\")\n    return nil\n  end\n  ' save succeeded  \n  theView.SetEditableTheme(NIL)\n  \n  if (editThm = active) then\n    ' user wanted to stop editing the active theme, were done\n     return nil \n  end \n   \nend\n  \nif (active.GetFTab.IsBeingEditedWithRecovery) then\n\n' user wants to edit the active theme in the view, but its\n' table doc is already being edited - force the \n' user to stop editing the table\n\n  doSave = MsgBox.YesNoCancel(\"Save Edits to the table for \"+
+\n  active.GetName+\"?\", \"Stop Editing\", True)\n  if (doSave = nil) then\n    return nil\n  end\n  if (active.GetFTab.StopEditingWithRecovery(doSave).Not) then\n      MsgBox.Info (\"Unable to Save Edits, please use the Save Edits As option\", \"\")\n      return nil  'unable to save, remain editing\n  end\nend\n\n' start editing the  active theme\ntheView.SetEditableTheme(active)"
+)
+
+(Script.159
+	Name:	"aa.HydroTools.HydroLineEditUpdate"
+	SourceCode:	"'aa.HydroTools.HydroLineEditUpdate\ntheView = av.GetActiveDoc\nactive = theView.GetActiveThemes\n\nSELF.SetEnabled(FALSE)\nif (active.Count = 0) then\n  SELF.SetLabel(\"Start &Editing Routes\")\n  SELF.SetEnabled(FALSE)\n  return nil\nend\nactive = active.Get(0)\nif (active.CanEdit.Not) then\n  SELF.SetLabel(\"Start &Editing Routes\")\n  SELF.SetEnabled(FALSE)\n  return nil\nend\n\nclsName = active.GetFTab.GetShapeClass.GetClassName\nif ((clsName = \"PolyLineM\")) then\n  SELF.SetLabel(\"Start &Editing Routes\")\n  SELF.SetEnabled(TRU
+E)\nend\n\nif (active = theView.GetEditableTheme) then\n  SELF.SetLabel(\"Stop &Editing Routes\")\nelse\n  SELF.SetLabel(\"Start &Editing Routes\")\nend\n\n\n\n"
+)
+
+(Script.160
+	Name:	"aa.HydroTools.HydroLineFlipGraphic"
+	SourceCode:	"'aa.HydroTools.HydroLineFlipGraphic\n\ntheView = av.GetActiveDoc \nthegraphic = theview.getgraphics.getselected.get(0)\ntheshape = thegraphic.getshape\nif (theshape.getdimension = 1) then\n  theshape.flip\n  thegraphic.invalidate\nend"
+)
+
+(Script.161
+	Name:	"aa.HydroTools.HydroLineTool"
+	SourceCode:	"'aa.HydroTools.HydroLineTool\ntheView = av.GetActiveDoc\n\nl = theView.ReturnUserPolyLine\n\n'Create the Symbol\nTheArrow = VectorPenArrow.Make\n TheArrow.SetColor( color.GetBlue )\n TheArrow.SetSize( 0.5 )\n TheArrow.SetInterval( 50 )\n TheLine = BasicPen.Make\n TheLine.SetWidth( 2 )\n TheLine.SetColor( Color.GetBlue )\n\n\n' Make the composite pen symbol\nsl = SymbolList.FromList( {TheLine, TheArrow} )\nnewsymbol = Compositepen.make(sl)\n\n\nif (l.IsNull) then\n  return nil\nelse\n    gl = GraphicShape.Make(l)\n    gl.setsymbol(
+newsymbol)\n    theView.GetGraphics.UnselectAll\n    gl.SetSelected(TRUE)\n    theView.GetGraphics.Add(gl)\n    av.GetProject.SetModified(true)\nend"
+)
+
+(Script.162
+	Name:	"aa.HydroTools.HydroLineToolClick"
+	SourceCode:	"'aa.HydroTools.HydroLineToolClick\ntheview = av.getactivedoc\ntheView.SetUnits(#UNITS_LINEAR_METERS)\ntheView.GetDisplay.SetDistanceUnits(#UNITS_LINEAR_FEET)\nthescale = theview.returnscale\nif (thescale > 10001) then\n  Myans = msgbox.yesno(\"It is highly recommended that you digitize streams at 1:10000 scale.  Do you want to zoom to this scale?\",\"Zoom to Scale\",False)\n  if (myans) then\n    theScale = 10000\n    theView.GetDisplay.ZoomToScale(theScale)\n  end\nend\n"
+)
+
+(Script.163
+	Name:	"aa.ProjectFeature"
+	SourceCode:	"'************************************************************************\n'To use this script, insert the following\n' for projecting a feature from LL to Alb\n'   thefeature = av.Run(\"aa.ProjectFeature\", {thefeature,\"LLtoAlb\"})\n'for projecting a point from Alb to LL (e.g., for LLID Purposes)\n'   thefeature = av.Run(\"aa.ProjectFeature\", {thefeature,\"AlbtoLL\"})\n'************************************************************************\n\nthefeature = Self.Get(0)\ntheprj = Self.Get(1)\n\ninSpheroid = #SPHEROID_CLARKE
+1866\nr = Rect.MakeXY(-180,-90,180,90)\naprj = Albers.Make(r)\naprj.SetCentralMeridian(-120.0)\naprj.SetReferenceLatitude(0)\naprj.SetLowerStandardParallel(34.0)\naprj.SetUpperStandardParallel(40.5)\naprj.SetFalseEasting(0)\naprj.SetFalseNorthing(-4000000.0)\naprj.setspheroid(inspheroid)\ntheunits = #UNITS_LINEAR_METERS         \naprj.getspheroid.setunits(theunits)\naprj.recalculate\n\nif (theprj = \"LLtoAlb\") then\n  'to83 = False\n  'thefeature = av.run(\"aa.ProjectFeatureNADCON.Tshp\",{thefeature,to83})\n  thefeature = thef
+eature.returnprojected(aprj)\nelse\n  'to83 = True\n  thefeature = thefeature.returnunprojected(aprj)\n  'thefeature = av.run(\"aa.ProjectFeatureNADCON.TShp\",{thefeature,to83})\nend\n\nreturn thefeature"
+)
+
+(Script.164
+	Name:	"aa.ProjectFeatureNADCON.to83"
+	SourceCode:	"' NAD.To83\n' Transforms lat/long point (DD) from NAD27 to NAD83\n' Arguments:  p_in        Point        input point\n'             grd_tab     VTab         grid data table\n'             parm_list   List         grid header data\n' Returns:    p_out       Point\np_in = SELF.Get(0)\ngrd_tab = SELF.Get(1)\nparm_list = SELF.Get(2)\ndeltax = parm_list.Get(0)\ndeltay = parm_list.Get(1)\nxmax = parm_list.Get(2)\nxmin = parm_list.Get(3)\nymax = parm_list.Get(4)\nymin = parm_list.Get(5)\nnc = parm_list.Get(6)\nlaf = grd_tab.FindF
+ield(\"La_grd\")\nlof = grd_tab.FindField(\"Lo_grd\")\n'**** find local grid square for interpolation\nxpt = p_in.GetX\nypt = p_in.GetY\nif ((xpt >= xmax) or (xpt <= xmin) or (ypt >= ymax) or (ypt <= ymin)) then\n   theMsg = p_in.AsString ++ \"is out of bounds\"\n   return theMsg\nend\nxgrid = (xpt - xmin) / deltax\nygrid = (ypt - ymin) / deltay\n'**** sw corner\nirow = ygrid.Floor\njcol = xgrid.Floor\ndx = xgrid - jcol\ndy = ygrid - irow\n'**** lower boundary\nrow = irow\ncol = jcol\nr1 = row * nc + col\nrow = irow\ncol = jcol + 1\nr
+3 = row * nc + col\n'**** upper boundary\nrow = irow + 1\ncol = jcol\nr2 = row * nc + col\nrow = irow + 1\ncol = jcol + 1\nr4 = row * nc + col\n'**** read grd_tab values\nto1 = grd_tab.ReturnValue(lof,r1)\nta1 = grd_tab.ReturnValue(laf,r1)\nto2 = grd_tab.ReturnValue(lof,r2)\nta2 = grd_tab.ReturnValue(laf,r2)\nto3 = grd_tab.ReturnValue(lof,r3)\nta3 = grd_tab.ReturnValue(laf,r3)\nto4 = grd_tab.ReturnValue(lof,r4)\nta4 = grd_tab.ReturnValue(laf,r4)\n'**** interpolate z value for lat\na1 = ta1\nb1 = ta3 - ta1\nc1 = ta2 - ta1\nd1 = 
+ta4 - ta3 - ta2 + ta1\nz1 = a1\nz2 = b1 * dx\nz3 = c1 * dy\nz4 = d1 * dx * dy\nz = z1 + z2 + z3 + z4\ndlas = z\n'**** interpolate z value for lon\na1 = to1\nb1 = to3 - to1\nc1 = to2 - to1\nd1 = to4 - to3 - to2 + to1\nz1 = a1\nz2 = b1 * dx\nz3 = c1 * dy\nz4 = d1 * dx * dy\nz = z1 + z2 + z3 + z4\ndlos = -z\n'**** compute nad83 value\nypt2 = ypt + (dlas / 3600)\nxpt2 = xpt + (dlos / 3600)\nreturn xpt2@ypt2"
+)
+
+(Script.165
+	Name:	"aa.ProjectFeatureNADCON.Transf"
+	SourceCode:	"' NAD.Transf\n' Transform lat/long point (DD) from NAD27 to NAD83 or vice versa\n' Arguments:  p_in        Point        input point\n'             grd_tab     VTab         grid data table\n'             parm_list   List         grid header data\n'             to83        Boolean      TRUE if 27 -> 83\n' Returns:    p_out       Point\np_in = SELF.Get(0)\ngrd_tab = SELF.Get(1)\nparm_list = SELF.Get(2)\nto83 = SELF.Get(3)\nif (to83) then\n    return av.Run(\"aa.ProjectFeatureNADCON.to83\",{p_in,grd_tab,parm_list})\nend\n'****
+ reverse transformation\nnum = 1\nxpt = p_in.GetX\nypt = p_in.GetY\nxtemp = xpt\nytemp = ypt\nitmax = 10\nsmall = \"1e-9\".AsNumber\n'**** iterate\nwhile (num <= itmax)\n   p_out = av.Run(\"aa.ProjectFeatureNADCON.to83\",{xtemp@ytemp,grd_tab,parm_list})\n   if (p_out.Is(String)) then\n      return p_out\n   end\n   xpt2 = p_out.GetX\n   ypt2 = p_out.GetY\n   xdif = xpt2 - xpt\n   ydif = ypt2 - ypt\n   if (xdif.Abs > small) then\n      xtemp = xtemp - xdif\n   end\n   if (ydif.Abs > small) then\n      ytemp = ytemp - ydif\n   end\n   i
+f ((ydif.Abs <= small) and (xdif.Abs <= small)) then\n      xpt = xtemp\n      ypt = ytemp\n      break\n   end\n   num = num + 1\nend\nif (num > 10) then\n   return \"Maximum iterations exceeded.\"\nend\nreturn xpt@ypt"
+)
+
+(Script.166
+	Name:	"aa.ProjectFeatureNADCON.TShp"
+	SourceCode:	"' NAD.TShp -  transform shape from NAD27 to NAD83 or vice versa\n' Called by:  NAD.CON\n' Calls:  NAD.Transf\n' Arguments:  InShape     Shape        input shape\n'             grd_tab     VTab         lat/long grid data\n'             parm_list   List         grid header data\n'             to83        Boolean      TRUE if 27 -> 83\n' Returns:  OutShape\n'=======================================================================\nInShape = SELF.Get(0)\n'grd_tab = SELF.Get(1)\n'parm_list = SELF.Get(2)\nto83 = SELF.Get(1)\n\n
+'now create grd_tab and parm_list\ngrd_fnm = \"$AVEXT\\conus.dbf\"\ngrd_tab = VTab.Make(grd_fnm.asfilename,false,false)\nprm_fnm = FileName.Make(grd_fnm.AsString)\nprm_fnm.SetExtension(\"prm\")\nif (File.Exists(prm_fnm).Not) then\n   MsgBox.Error(\"Could not find corresponding PRM file.\",\"NADCON\")\n   return nil\nend\n'**** get grid parameters\ngrd_prm = TextFile.Make(prm_fnm,#FILE_PERM_READ)\nrecord = grd_prm.Read(grd_prm.GetSize)\nparm_list = List.Make\nfor each i in 0..6\n   parm_list.Add(record.AsTokens(\" \").Get(i).AsNumbe
+r)\nend\ngrd_prm.Close\n\nOutShape = nil\nif (InShape.Is(Point)) then\n   result = av.Run(\"aa.ProjectFeatureNADCON.Transf\",{InShape,grd_tab,parm_list,to83})\n   if (result.Is(String)) then\n      MsgBox.Error(result,\"NADCON\")\n      return nil\n   end\n   OutShape = result\nelseif (InShape.Is(Polygon)) then\n   slist = List.Make\n   for each pl in InShape.AsPolyLine.AsList\n      plist = List.Make\n      for each p in pl\n         result = av.Run(\"aa.ProjectFeatureNADCON.Transf\",{p,grd_tab,parm_list,to83})\n         if (resu
+lt.Is(String)) then\n            MsgBox.Error(result,\"NADCON\")\n            return nil\n         end\n         plist.Add(result)\n      end\n      slist.Add(plist)\n   end\n   OutShape = PolyGon.Make(slist)\nelseif (InShape.Is(PolyLine)) then\n   slist = List.Make\n   for each pl in InShape.AsList\n      plist = List.Make\n      for each p in pl\n         result = av.Run(\"aa.ProjectFeatureNADCON.Transf\",{p,grd_tab,parm_list,to83})\n         if (result.Is(String)) then\n            MsgBox.Error(result,\"NADCON\")\n            
+return nil\n         end\n         plist.Add(result)\n      end\n      slist.Add(plist)\n   end\n   OutShape = PolyLine.Make(slist)\nelseif (InShape.Is(MultiPoint)) then\n   plist = List.Make\n   for each p in InShape.AsList\n      result = av.Run(\"aa.ProjectFeatureNADCON.Transf\",{p,grd_tab,parm_list,to83})\n      if (result.Is(String)) then\n         MsgBox.Error(result,\"NADCON\")\n         return nil\n      end\n      plist.Add(result)\n   end\n   OutShape = MultiPoint.Make(plist)\nend\nreturn OutShape"
+)
+
+(Script.167
+	Name:	"aa.RouteTools.AddExistingEventTable"
+	SourceCode:	"patterns = {\"*.dbf\"}\nlabels = {\"dBASE (*.dbf)\"}\nfiles = FileDialog.ReturnFiles(patterns, labels, \"Add Event Table\", 0)\nf = files.get(0) 'for each f in files\n  v = VTab.Make(f, FALSE, FALSE)\n  if (v.HasError) then\n    if (v.HasLockError) then\n      MsgBox.Error(\"Unable to acquire Read Lock for file \" + f.GetBaseName, \"\")\n    else\n      MsgBox.Error(\"The file '\" + f.GetBaseName + \"' is not valid.\", \"\")\n    end\n    t = nil\n  else\n    gui = av.GetProject.GetSelectedGUI\n    if (gui.GetType <> \"Table\") then\n     
+ GUIName = \"Table\"\n    else\n      GUIName = gui.GetName\n    end     \n    t = Table.MakeWithGUI(v, GUIName)\n    t.SetName(v.GetName)\n    t.GetWin.Open\n  end\n'_RouteTable = t\n\nreturn(t)"
+)
+
+(Script.168
+	Name:	"aa.RouteTools.AllLineThemeUpdate"
+	SourceCode:	"theView = av.GetActiveDoc\nactive = theView.GetActiveThemes\n\nSELF.SetEnabled(FALSE)\nif (active.Count = 0) then\n  SELF.SetEnabled(FALSE)\n  return nil\nend\nactive = active.Get(0)\n\nif ((active.GetSrcName.GetSubName= \"arc\") or (active.GetSrcName.GetSubName= \"arcm\")) then\n  SELF.SetEnabled(true)\nelse\n  SELF.SetEnabled(false)\nend  \n\n"
+)
+
+(Script.169
+	Name:	"aa.RouteTools.Initialize"
+	SourceCode:	"_UserID = NIL 'av.run(\"aa.RouteTools.UserID\",Nil)\n_RouteTable = nil\n_NewTable = false\n"
+)
+
+(Script.170
+	Name:	"aa.RouteTools.Batch"
+	SourceCode:	"'RouteToolsBatch\ntheView = av.GetActiveDoc\nfor each t in Av.GetActiveDoc.GetActiveThemes\n  theTheme = t\nend\ntheName = theTheme.GetSrcName\ntheNetTheme = Av.GetActiveDoc.FindTheme(theName.AsString)\nif (theNetTheme = Nil) then\n  msgbox.Error(\"There is no associated ARC coverage for this route coverage\",\n    \"RouteTools\") exit \nend\n'Recolor existing Graphics\ntheGList = theView.GetGraphics\nif (theGList.Count > 0) then\n for each n in (theGList.Count - 1) .. 0  \n  theGList.Get(n).GetSymbol.SetColor(Color.GetBlue)\n
+ end\nend\n'Table stuff\ntheReturnList = av.Run(\"aa.RouteTools.Table\",\"\")\nif (theReturnList = Nil) then\n  exit\nend\ntheTable = theReturnList.Get(0)\ntheEvent = theReturnList.Get(1)\ntheComment = theReturnList.Get(2)\n'**********\ntheFTab = theTheme.GetFTab\ntheField = theFTab.FindField(\"Shape\")\ntheLLIDFld = theFTab.FindField(\"LLID\")\nfor each r in theFTab.GetSelection\n  theRoute = theFTab.ReturnValue(theField, r)\n  theLLID = theFtab.ReturnValue(theLLIDFld, r)\n  theCurRoute = r\n  theZeroPoint = theRoute.Along(0)\n  the
+EndPoint = theRoute.Along(100)\n  \n  theFromLen = theRoute.GetMAtPosition(theRoute.PointPosition(theZeroPoint)).get(0)\n  thetoLen = theRoute.GetMAtPosition(theRoute.PointPosition(theEndPoint)).get(0)\n\n  thelength = 0  \n  \n 'Draw Points\n  for each pt in {theZeroPoint, theEndPoint}\n    gp = GraphicShape.Make(pt)\n    theSym = gp.GetSymbol\n    theSym.SetSize(6)\n    theSym.SetColor(Color.GetRed)\n    theView.GetGraphics.UnselectAll\n    gp.SetSelected(TRUE)\n    theView.GetGraphics.Add(gp)\n    gp.UnSelect\n  end\n\n  '
+Table stuff\n  theRoute = r\n\n  'First Get coordinate information\n  FromPt = theZeroPoint\n  ToPt = theEndPoint\n  theFromX = FromPt.GetX\n  theFromY = FromPt.GetY\n  theToX = ToPt.GetX\n  theToY = ToPt.GetY\n\n  thesource = \"1\" 'Heads-up digitized in ArcView\n  theRouteSource = thename.asstring\n  addfldlist = nil\n  addvallist = nil\n  'av.Run(\"aa.RouteTools.Populate\", {theTheme,theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,thefromx,thefromy,thetox,thetoy,thesource,theRouteSource,addfldlist,addvallist})\n  a
+v.Run(\"aa.RouteTools.Populate\", {theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,addfldlist,addvallist})\nend\ntheView.Invalidate"
+)
+
+(Script.171
+	Name:	"aa.RouteTools.CheckUser"
+	SourceCode:	"'aa.RouteTools.CheckUser\nif (_UserID = nil) then\n  av.run(\"aa.RouteTools.UserID\",Nil)\nend\n"
+)
+
+(Script.172
+	Name:	"aa.RouteTools.DownstreamTool"
+	SourceCode:	"'av.run(\"aa.RouteTools.CheckUser\",Nil)\ntheView = av.GetActiveDoc\nfor each t in Av.GetActiveDoc.GetActiveThemes\n  theTheme = t\nend\ntheName = theTheme.GetSrcName\ntheNetTheme = Av.GetActiveDoc.FindTheme(theName.AsString)\nif (theNetTheme = Nil) then\n  msgbox.Error(\"There is no associated ARC coverage for this route coverage\",\n  \"RouteTools\") exit \nend\n'Gets user point and selects route.\n'Checks that only one route is selected.\nthePoint = theView.GetDisplay.ReturnUserPoint\nif (thePoint.IsNull.Not) then \n  if (th
+eTheme.CanSelect) then\n    theTheme.SelectByPoint(thePoint, #VTAB_SELTYPE_NEW)\n    if (theTheme.GetFTab.GetSelection.Count > 1) then\n      msgbox.Error(\"You must select only ONE stream. Exiting.\",\"RouteTools\")\n      exit\n    elseif (theTheme.GetFTab.GetSelection.Count = 0) then\n      msgbox.Error(\"No streams selected. Exiting.\",\"RouteTools\")\n      exit\n    end\n  end\nend\ntheView.GetDisplay.Flush\n'Finds location of user point and zero point\n'as percentage of route length\ntheField = theTheme.GetFTab.FindField(
+\"Shape\")\ntheLLIDFld = theTheme.GetFTab.FindField(\"LLID\")\nfor each r in theTheme.GetFTab.GetSelection\n  thePolyLine = theTheme.GetFTab.ReturnValue(theField,r)\n  theRoute = r\n  theLLID = theTheme.getFtab.ReturnValue(theLLIDFld, r)\nend\ntheZeroPoint = thePolyLine.Along(0)\ntheToPoint = thePolyLine.Along(thePolyLine.PointPosition(thePoint))\ntheFromLen = thePolyline.GetMAtPosition(thePolyLine.PointPosition(theZeroPoint)).get(0)\nthetoLen = thePolyline.GetMAtPosition(thePolyLine.PointPosition(thePoint)).get(0)\n\n\n\n't
+heTol = 0.1\n'theFromList = theTheme.GetFTab.ReturnLocation (thezeroPoint, theTol)\n\n\n'Recolor existing Graphics\ntheGList = theView.GetGraphics\nif (theGList.Count > 0) then\n for each n in (theGList.Count - 1) .. 0  \n  theGList.Get(n).GetSymbol.SetColor(Color.GetBlue)\n end\nend\n'Draw Points\nfor each pt in {theZeroPoint, theToPoint}\n  gp = GraphicShape.Make(pt)\n  theSym = gp.GetSymbol\n  theSym.SetSize(6)\n  theSym.SetColor(Color.GetRed)\n  theView.GetGraphics.UnselectAll\n  gp.SetSelected(TRUE)\n  theView.GetGraphic
+s.Add(gp)\n  gp.UnSelect\nend\ntheView.GetDisplay.Flush\n\nthelength = 0 \n\n'Table stuff\n\n'First Get coordinate information\nFromPt = theZeroPoint\nToPt = thePoint\ntheFromX = FromPt.GetX\ntheFromY = FromPt.GetY\ntheToX = toPt.GetX\ntheToY = toPt.GetY\n\nthesource = \"1\" 'Heads-up digitized in ArcView\ntheRouteSource = thename.asstring\n\ntheReturnList = av.Run(\"aa.RouteTools.Table\",\"\")\nif (theReturnList = Nil) then\n  theGList = theView.GetGraphics\n  for each n in 0 .. 1\n    theGList.Remove(theGlist.Count - 1)\n  end\n  theVie
+w.Invalidate\n  exit\nend\ntheTable = theReturnList.Get(0)\ntheEvent = theReturnList.Get(1)\ntheComment = theReturnList.Get(2)\naddfldlist = nil\naddvallist = nil\n'av.Run(\"aa.RouteTools.Populate\", {theTheme,theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,thefromx,thefromy,thetox,thetoy,thesource,theRouteSource,addfldlist,addvallist})\nav.Run(\"aa.RouteTools.Populate\", {theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,addfldlist,addvallist})\n\n\ntheview.getwin.open\nreturn (nil)"
+)
+
+(Script.173
+	Name:	"aa.RouteTools.EventsExportToXY"
+	SourceCode:	"'aa.RouteTools.EventsExportToXY\ntheView = av.Getactivedoc\nthetheme = theview.getactivethemes.get(0)\ntheftab = thetheme.getftab\nFLLIDfld = theFtab.FindField(\"LLID\")\n\n'thevtab = _RouteTable.getvtab\nthevtab = thetheme.getftab\n\nthefilename = FileDialog.Put( \"Outputxy.dbf\".asfilename, \"*.dbf\", \"Output File\")\ntheoutvtab = theVTab.Export ( thefilename, dBASE, False)\n\n'FromX = Field.Make(\"FromX\",#Field_Decimal,11,7)\n'FromY = Field.Make(\"FromY\",#Field_Decimal,11,7)\n'ToX = Field.Make(\"ToX\",#Field_Decimal,11,7)\n'ToY =
+ Field.Make(\"ToY\",#Field_Decimal,11,7)\n\n'theoutvtab.seteditable(true)\n'theoutVTab.AddFields({FromX,FromY,ToX,ToY})\n'theoutvtab.seteditable(false)\n\ntheLLidFld = theoutvtab.findfield(\"LLID\")\ntheFFld = theoutvtab.findfield(\"BegFt\")\ntheTFld = theoutvtab.findfield(\"EndFt\")\nthefxfld = theoutvtab.findfield(\"FromX\")\nthefyfld = theoutvtab.findfield(\"FromY\")\nthetxfld = theoutvtab.findfield(\"ToX\")\nthetyfld = theoutvtab.findfield(\"ToY\")\ntheoutvtab.seteditable(true)\n\nif (thefxfld = nil) then\n  FromX = Field.Make(\"FromX\"
+,#Field_Decimal,11,7)\n  theoutVTab.AddFields({FromX})\n  thefxfld = theoutvtab.findfield(\"FromX\")\nend\nif (thefyfld = nil) then\n  FromY = Field.Make(\"FromY\",#Field_Decimal,11,7)\n  theoutVTab.AddFields({FromY})\n  thefyfld = theoutvtab.findfield(\"FromY\")\nend\nif (thetxfld = nil) then\n  ToX = Field.Make(\"ToX\",#Field_Decimal,11,7)\n  theoutVTab.AddFields({ToX})\n  thetxfld = theoutvtab.findfield(\"ToX\")\nend\nif (thetxfld = nil) then\n  ToY = Field.Make(\"ToY\",#Field_Decimal,11,7)\n  theoutVTab.AddFields({ToY})\n  thetyfld
+ = theoutvtab.findfield(\"ToY\")\nend\n  \n\n\n\nfor each r in theoutvtab\n  theLLID = theoutvtab.returnvalue(thellidfld,r)\n  thefmeas = theoutvtab.returnvalue(theFfld,r)\n  thetmeas = theoutvtab.returnvalue(thetfld,r)\n  for each f in theftab\n    fllid = theftab.returnvalue(fLLIDfld,f)\n\n    if (fllid = thellid) then\n\n      thelist = theFTab.ReturnRouteMeasure (f, thefmeas)\n      thept = thelist.get(0)\n\n      'thept = av.Run(\"aa.ProjectFeature\", {thept,\"AlbtoLL\"})\n      thex = thept.getx\n      they = thept.gety\n      
+theoutvTab.SetValue (thefxfld, r, thex)\n      theoutvTab.SetValue (thefyfld, r, they)\n      \n      thelist = theFTab.ReturnRouteMeasure (f, thetmeas)\n      \n      if (thelist.count = 0) then\n        thelist = theftab.returnroutemeasure(f, thetmeas-0.5)\n      end\n      \n      'msgbox.info(thelist.count.asstring,\"\")\n      thept = thelist.get(0)\n      'thept = av.Run(\"aa.ProjectFeature\", {thept,\"AlbtoLL\"})\n      thex = thept.getx\n      they = thept.gety\n      theoutvTab.SetValue (thetxfld, r, thex)\n      theou
+tvTab.SetValue (thetyfld, r, they)      \n    end\n  end\nend\n\n\ntheoutvtab.seteditable(false)\n\ntheTable = Table.Make(theoutvtab)\ntheTable.SetName(theoutVTab.GetName)\ntheTable.GetWin.Open\n"
+)
+
+(Script.174
+	Name:	"aa.RouteTools.EventsImportFromXY"
+	SourceCode:	"theView = av.GetActiveDoc\nfor each t in Av.GetActiveDoc.GetActiveThemes\n  theTheme = t\nend\n'Check to make sure associated arc theme is in theView\ntheName = theTheme.GetSrcName\ntheFtab = thetheme.getftab\ntheNetTheme = Av.GetActiveDoc.FindTheme(theName.AsString)\nif (theNetTheme = Nil) then\n  msgbox.Error(\"There is no associated ARC coverage for this route coverage\",\n  \"RouteTools\") exit \nend\ntheTableList = List.Make\nfor each d in av.GetProject.GetDocs\n  if (d.Is(Table)) then\n      theTableList.Add(d)\n  end\nen
+d\ntheTableList.Add(\"Add an existing Event Table to project\")\ntheTable = nil\nfldlist=nil\n  \n'*********************************************************\n'Get the table from which you want to pull the trend points\ntheTable = MsgBox.ChoiceAsString(theTableList, \n  \"Choose your input table\",\"Input Table\")  \nif (theTable = Nil) then\n  return(nil)\nend\nif (thetable = \"Add an existing Event Table to project\") then  'Add Existing Table\n  theTable = av.Run( \"Project.AddTable\", NIL )\n  if (theTable = Nil) then exit end\n
+end\nif (theTable.Is(Table)) then\n  theVTab = theTable.GetVTab\n  fxfield = thevtab.findfield(\"FromX\")\n  fyfield = thevtab.findfield(\"FromY\")\n  txfield = thevtab.findfield(\"ToX\")\n  tyfield = thevtab.findfield(\"ToY\")\n  idField = thevtab.findfield(\"EventID\")\nelse\n  msgbox.error(\"Invalid Input table\",\"Stopping\")\n  return nil\nend\nfxfield = nil\n'check to see if the table is already formatted to work, if not then ask user for which fields to use\nif ((fxfield = nil) or (fyfield = nil) or (txfield = nil) or (tyfield 
+= nil) or (idField = nil)) then\n   'get fields\n   fldlist = thevtab.getfields.deepclone\n   idField = MsgBox.ChoiceAsString(fldList, \"Choose your Event ID Field\",\"Choose Fields\")  \n   if (idField = Nil) then\n     return(nil)\n   end\n   fldlist.removeobj(idField)\n   fxField = MsgBox.ChoiceAsString(fldList, \"Choose your FromX Field\",\"Choose Fields\")  \n   if (fxField = Nil) then\n     return(nil)\n   end\n   fldlist.removeobj(fxField)\n   fyField = MsgBox.ChoiceAsString(fldList, \"Choose your FromY Field\",\"Choose Fie
+lds\")  \n   if (fyField = Nil) then\n     return(nil)\n   end\n   fldlist.removeobj(fyField)\n   txField = MsgBox.ChoiceAsString(fldList, \"Choose your ToX Field.  Cancel if you are converting a point event.\",\"Choose Fields\")  \n   fldlist.removeobj(txField)\n   tyField = MsgBox.ChoiceAsString(fldList, \"Choose your ToY Field.  Cancel if you are converting a point event.\",\"Choose Fields\")  \n   fldlist.removeobj(tyField)\nend\n'get list of fields\nthefields = thevtab.getfields.deepclone\n'********************************
+*************************\n'now create a new table to populate\n  chk = False\n  theTable = av.Run(\"aa.RouteTools.TableMake\",\"\")\n  if (theTable <> NIL) then\n      chk = True\n   end\n   'Table confirmed\n  if (chk.not) then 'something is wrong\n   msgbox.error(\"Invalid Output table\",\"Stopping\")\n   return nil\n  end \n  \n  \n'add additional fields if there are any\naddfldlist = {}\nfor each f in thefields\n  thefname = f.getname\n  if (theTable.getVTab.FindField(thefname) = Nil) then\n     addfldlist.add(f)\n  end\nend\nif (a
+ddfldlist.count > 0) then\n  theTable.getvtab.seteditable(true)\n  theTable.getvtab.addfields(addfldlist)\n  theTable.getvtab.seteditable(false)\nend\n'Set theTable as the global Route Table\n_routetable = thetable\ntheOutputTable = theTable\ntheOutputFieldList = {\"EventID\"} ' only need to specify the EventID field to populate \n'*********************************************************\n'Get the Tolerance\nsnaptol = msgbox.input(\"Snap Tolerance (Meters)\",\"Please Enter the Snap Tolerance in units of Meters\",\"25\")\nsnap
+tol = snaptol.asnumber\n'snaptol = snaptol/3.28083\ntheView.SetUnits(#UNITS_LINEAR_METERS)\ntheView.GetDisplay.SetDistanceUnits(#UNITS_LINEAR_FEET)\nMsgBox.Info(\"Map Units set to meters and Distance Units set to feet\",\"Route Tools\")\ntheview.invalidate\nProblemTheme = nil\n\n\nav.ShowStopButton\n\nFor each r in thevtab\n  domore = av.SetStatus((r/(thevtab.getnumrecords - 1)) * 100)\n  if (not doMore) then\n    break\n  end\n  myvtab = thevtab\n  FromX = theVTab.ReturnValue (fxfield, r)\n  FromY = theVTab.ReturnValue (fyfield
+, r)\n  if (txfield <> nil) then\n    ToX = theVTab.ReturnValue (txfield, r)\n  else\n    ToX = \"\"\n  end\n  if (tyfield <> nil) then\n    ToY = theVTab.ReturnValue (tyfield, r)\n  else \n    ToY = \"\"\n  end\n  If (((ToX = 0) and (ToY = 0)) or ((ToX.isNull) and (ToY.isNull))) then\n    feattype = \"point\"\n  else\n    feattype = \"line\"\n  end\n  theEvent = theVtab.ReturnValue(idfield,r)\n  theEvent = theevent.asstring\n  \n  theComment = \"\"\n  addvallist = {}\n    if (addfldlist.count > 0) then\n      for each f in addfldlist\n   
+     thefname = f.getname\n        theval = thevtab.returnvalue(thevtab.findfield(thefname),r)\n        addvallist.add(theval)\n      end\n    end\n  \n  'set up the attributes to send to the event table\n  theSource = \"2\"\n  theRouteSource = thename.asstring\n  thetable = theoutputtable\n  theuserfrompoint = point.make (fromx,fromy)\n  if ((ToX.isNull.not) and (ToY.isNull.not)) then\n  'if (feattype = \"line\") then\n    theusertopoint = point.make (ToX,ToY)\n  end\n  theflist = {}\n  thetlist = {}\n  thefdownlist = {}\n  the
+tdownlist = {}\n  thefshplist = {}\n  thetshplist = {}\n  \n  thefilist = {}\n  thetilist = {}\n  theftab.SelectByPoint(theuserFromPoint, snaptol, #VTAB_SELTYPE_New)\n  for each f in theftab.getselection\n    thef = theftab.returnvalue(theftab.findfield(\"llid\"),f)\n    theflist.add(thef)\n    thefilist.add(f)\n    thefdown = theftab.returnvalue(theftab.findfield(\"Down_LLID\"),f)\n    thefdownlist.add(thefdown)\n    thefshp = theftab.returnvalue(theftab.findfield(\"Shape\"),f)\n    thefshplist.add(thefshp)\n  end\n  if (featty
+pe = \"line\") then\n    theftab.SelectbyPoint(theuserToPoint, snaptol, #VTAB_SELTYPE_New)\n    for each t in theftab.getselection\n      thet = theftab.returnvalue(theftab.findfield(\"llid\"),t)\n      thetlist.add(thet)\n      thetilist.add(t)\n      thetdown = theftab.returnvalue(theftab.findfield(\"Down_LLID\"),t)\n      thetdownlist.add(thetdown)\n      thetshp = theftab.returnvalue(theftab.findfield(\"Shape\"),t)\n      thetshplist.add(thetshp)\n    end\n  end\n  FLLID =nil\n  TLLID = nil\n  theFshp = nil\n  theTshp = nil\n 
+ thetao = nil\n  findex = nil\n  tindex = nil\n  problem = true\n  \n  \n  'check to see if it is a point\n  if (feattype = \"point\") then\n    thedist = 99999\n    for each f in theflist\n      thefshptmp = thefshplist.get(theflist.findbyvalue(f))\n      d = thefshptmp.distance(theuserfrompoint)\n      if (d < thedist) then\n        thefshp = thefshptmp\n        thedist = d\n        FLLID = f\n        thetao = \"Point\"\n        problem = false\n      end\n    end\n  else 'check non-point configuration\n    'check to see if they 
+are on the same stream\n    for each f in theflist\n      for each t in thetlist\n        if (f = t) then\n          FLLID = f\n          TLLID = t\n          thefshp = thefshplist.get(theflist.findbyvalue(f))\n          thetshp = thetshplist.get(thetlist.findbyvalue(t))\n          findex = thefilist.get(theflist.findbyvalue(f))\n          tindex = thetilist.get(thetlist.findbyvalue(t))\n          thetao = \"Match\"\n          problem = false\n          continue\n        end\n      end\n      if (thetao = \"Match\") then\n    
+    continue\n      end\n    end\n    'check to see if \"End\" is upstream from \"Beg\" on a different stream\n    if (thetao = nil) then\n      for each f in theflist\n        for each t in thetdownlist\n          if (f = t) then\n            FLLID = f\n            TLLID = thetlist.get(thetdownlist.findbyvalue(t))\n            thefshp = thefshplist.get(theflist.findbyvalue(f))\n            thetshp = thetshplist.get(thetdownlist.findbyvalue(t))\n            findex = thefilist.get(theflist.findbyvalue(f))\n            tindex
+ = thetilist.get(thetdownlist.findbyvalue(t))\n            thetao = \"Upstream\"\n            problem = false\n            continue\n          end\n        end\n        if (thetao = \"Upstream\") then\n          continue\n        end\n      end\n    end\n    'check to see if \"Beg\" is upstream from \"End\" on a different stream\n    if (thetao = nil) then\n      for each f in thefdownlist\n        for each t in thetlist\n          if (f = t) then\n            FLLID = theflist.get(thefdownlist.findbyvalue(f))\n            TLLID = t
+\n            thefshp = thefshplist.get(thefdownlist.findbyvalue(f))\n            thetshp = thetshplist.get(thetlist.findbyvalue(t))\n            findex = thefilist.get(thefdownlist.findbyvalue(f))\n            tindex = thetilist.get(thetlist.findbyvalue(t))\n            thetao = \"Downstream\"\n            problem = false\n            continue\n          end\n        end\n        if (thetao = \"Downstream\") then\n          continue\n        end\n      end\n    end\n  end\n'  msgbox.info(thetao.asstring,\"\")\n  \n  if (problem) 
+then\n    if (problemTheme = nil) then \n      theview.getwin.activate\n      problemtheme = av.run(\"aa.RouteTools.ProblemThemeCreate\",NIL)\n      outshpfld = Problemtheme.getftab.findfield(\"Shape\")\n      outxfld = Problemtheme.getftab.findfield(\"X\")\n      outyfld = Problemtheme.getftab.findfield(\"Y\")\n      outidfld = Problemtheme.getftab.findfield(\"EventID\")\n      outdirfld = Problemtheme.getftab.findfield(\"Dir\")\n    end  \n    'add the from point to outtheme\n    Problemtheme.getftab.SetEditable(True)\n    there
+c = ProblemTheme.getftab.addrecord\n    'add the \"Beg\" or \"point\" problem event\n    Problemtheme.getftab.SetValue (outshpfld, therec, theuserfrompoint)\n    Problemtheme.getftab.SetValue (outxfld, therec, fromx)\n    Problemtheme.getftab.SetValue (outyfld, therec, fromy)\n    Problemtheme.getftab.SetValue (outidfld, therec, theevent)\n    if ((tox.isnull) and (toy.isnull)) then 'event is a point\n      Problemtheme.getftab.SetValue (outdirfld, therec, \"Point\")\n    else\n      Problemtheme.getftab.SetValue (outdirf
+ld, therec, \"From\")\n      'add the \"to\" point to thetheme\n      therec = Problemtheme.getftab.addrecord\n      Problemtheme.getftab.SetValue (outshpfld, therec, theusertopoint)\n      Problemtheme.getftab.SetValue (outxfld, therec, tox)\n      Problemtheme.getftab.SetValue (outyfld, therec, toy)\n      Problemtheme.getftab.SetValue (outidfld, therec, theevent)\n      Problemtheme.getftab.SetValue (outdirfld, therec, \"To\")\n      Problemtheme.getftab.SetEditable(FALSE)  \n    end\n else  \n    if (thetao = \"Point\") t
+hen\n      thepolyline = thefshp\n      thefromlen = thepolyline.getmatposition(thepolyline.pointposition(theuserFromPoint)).get(0)\n      thetolen = nil\n      theroute = findex\n      thefromx = fromx\n      thefromy = fromy\n      thetox = nil\n      thetoy = nil\n      thellid = fllid\n      'av.Run(\"aa.RouteTools.Populate\", {theTheme,thellid,theTable,theFromLen,TheToLen,TheEvent,theComment,thefromx,thefromy,thetox,thetoy,thesource,theRouteSource,addfldlist,addvallist})\n      av.Run(\"aa.RouteTools.Populate\", {the
+LLID,theTable,theFromLen,TheToLen,theEvent,theComment,addfldlist,addvallist})\n  \n    end\n    if (thetao = \"Match\") then\n      thepolyline = thefshp\n      thefromlen = thepolyline.getmatposition(thepolyline.pointposition(theuserFromPoint)).get(0)\n      'msgbox.info(thefromlen.asstring,\"\")\n      thetolen = thepolyline.getmatposition(thepolyline.pointposition(theuserToPoint)).get(0)\n      if(theFromLen > theToLen) then\n        thePassVariable = theFromLen\n        theFromLen = theToLen\n        theToLen = thePas
+sVariable\n      end\n      theroute = findex\n      thefromx = fromx\n      thefromy = fromy\n      thetox = tox\n      thetoy = toy\n      thellid = fllid\n      'av.Run(\"aa.RouteTools.Populate\", {theTheme,thellid,theTable,theFromLen,TheToLen,TheEvent,theComment,thefromx,thefromy,thetox,thetoy,thesource,theRouteSource,addfldlist,addvallist})\n      av.Run(\"aa.RouteTools.Populate\", {theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,addfldlist,addvallist})\n    end\n    if (thetao = \"Downstream\") then\n      the
+polyline = thefshp\n      thetolen = thepolyline.getmatposition(thepolyline.pointposition(theuserFromPoint)).get(0)\n      thefromlen = 0\n      thezeropt = thepolyline.aslist.get(0).get(0)\n      theroute = findex\n      FromPt = thezeropt\n      theFromX = FromPt.GetX\n      theFromY = FromPt.GetY\n      theToX = FromX\n      theToY = FromY\n      thellid = fllid\n      'av.Run(\"aa.RouteTools.Populate\", {theTheme,thellid,theTable,theFromLen,TheToLen,TheEvent,theComment,thefromx,thefromy,thetox,thetoy,thesource,theRo
+uteSource,addfldlist,addvallist})\n      av.Run(\"aa.RouteTools.Populate\", {theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,addfldlist,addvallist})\n      'now get downstream portion\n      thepolyline = thetshp\n      theToPoint = thePolyLine.Along(thePolyLine.PointPosition(thezeropt))\n      thetolen = thepolyline.getmatposition(thepolyline.pointposition(theToPoint)).get(0)\n      thefromlen = thepolyline.getmatposition(thepolyline.pointposition(theuserToPoint)).get(0)\n      theroute = tindex\n      ToPt
+ = thezeropt\n      theFromX = ToX\n      theFromY = ToY\n      theToX = Topt.getX\n      theToY = ToPt.GetY\n      thellid = tllid\n      'av.Run(\"aa.RouteTools.Populate\", {theTheme,thellid,theTable,theFromLen,TheToLen,TheEvent,theComment,thefromx,thefromy,thetox,thetoy,thesource,theRouteSource,addfldlist,addvallist})\n      av.Run(\"aa.RouteTools.Populate\", {theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,addfldlist,addvallist})\n    end\n    \n    if (thetao = \"Upstream\") then\n      'first do the upstream 
+portion\n      thepolyline = thetshp\n      thetolen = thepolyline.getmatposition(thepolyline.pointposition(theuserToPoint)).get(0)\n      thefromlen = 0\n      thezeropt = thepolyline.aslist.get(0).get(0)\n      theroute = tindex\n      FromPt = thezeropt\n      theFromX = FromPt.GetX\n      theFromY = FromPt.GetY\n      theToX = ToX\n      theToY = ToY\n      thellid = tllid\n      'av.Run(\"aa.RouteTools.Populate\", {theTheme,thellid,theTable,theFromLen,TheToLen,TheEvent,theComment,thefromx,thefromy,thetox,thetoy,thes
+ource,theRouteSource,addfldlist,addvallist})\n      av.Run(\"aa.RouteTools.Populate\", {theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,addfldlist,addvallist})\n      'now get downstream portion\n      thepolyline = thefshp\n      theToPoint = thePolyLine.Along(thePolyLine.PointPosition(thezeropt))\n      thetolen = thepolyline.getmatposition(thepolyline.pointposition(theToPoint)).get(0)\n      thefromlen = thepolyline.getmatposition(thepolyline.pointposition(theuserFromPoint)).get(0)\n      theroute = find
+ex\n      ToPt = thetoPoint\n      theFromX = FromX\n      theFromY = FromY\n      theToX = ToPt.GetX\n      theToY = ToPt.GetY\n      thellid = fllid\n      'av.Run(\"aa.RouteTools.Populate\", {theTheme,thellid,theTable,theFromLen,TheToLen,TheEvent,theComment,thefromx,thefromy,thetox,thetoy,thesource,theRouteSource,addfldlist,addvallist})\n      av.Run(\"aa.RouteTools.Populate\", {theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,addfldlist,addvallist})\n    end\n  end \nend\n'See if user wants to show routed event
+s\ntheans = msgbox.Yesno(\"Do you want to display the Routed Events that you created?\",\"Display Events\",False)\nif (theans) then\n  theview.getwin.activate\n  av.run(\"aa.RouteTools.ShowEvents\", NIL)\nend"
+)
+
+(Script.175
+	Name:	"aa.RouteTools.EventsUpdate"
+	SourceCode:	"theView = av.GetActiveDoc\nactive = theView.GetActiveThemes\n\nSELF.SetEnabled(FALSE)\nif (active.Count = 0) then\n  SELF.SetEnabled(FALSE)\n  return nil\nend\nactive = active.Get(0)\n\nif (active.GetSrcName.GetSubName= \"arcM\") then\n  SELF.SetEnabled(true)\nelse\n  SELF.SetEnabled(false)\nend  \n\n\nif ((_routetable = nil) or (av.finddoc(_RouteTable.getname) = nil)) then\n  Self.SetEnabled(FALSE)\nend\n"
+)
+
+(Script.176
+	Name:	"aa.RouteTools.LineThemeUpdate"
+	SourceCode:	"theView = av.GetActiveDoc\nactive = theView.GetActiveThemes\n\nSELF.SetEnabled(FALSE)\nif (active.Count = 0) then\n  SELF.SetEnabled(FALSE)\n  return nil\nend\nactive = active.Get(0)\n\nif (active.GetSrcName.GetSubName= \"arc\") then\n  SELF.SetEnabled(true)\nelse\n  SELF.SetEnabled(false)\nend  \n\n"
+)
+
+(Script.177
+	Name:	"aa.RouteTools.LocateHydroDocActivate"
+	SourceCode:	"'Dim control when active doc is not view or layout\n'the self object is the dialog\ntheDoc = self.GetActiveDoc\nenabled = theDoc.Is(View)\nself.GetControlPanel.SetEnabled(enabled)"
+)
+
+(Script.178
+	Name:	"aa.RouteTools.LocateHydroLocate"
+	SourceCode:	"'aa.locate\ntheDialog = av.Finddialog(\"dlgselectHydro\")\nthedialog.open\ntheSearchBox = thedialog.FindByName(\"Searchtxt\")\nthefeat =  thesearchBox.gettext   \nthefeat = thefeat.trim\nif ((thefeat = \" \") or (thefeat = nil) or (thefeat = \"\")) then \n  aListBox = thedialog.FindByName(\"ListBox1\")\n  alistBox.empty\n  exit \nend"
+)
+
+(Script.179
+	Name:	"aa.RouteTools.LocateHydroSearchClick"
+	SourceCode:	"'aa.locate\ntheview = av.getactivedoc\ntheTheme = theView.GetActiveThemes.Get(0)\nthefTab = theTheme.GetFTab\n  \nnamefld = thefTab.FindField( \"Name\" )\nLLIDfld = thefTab.FindField( \"LLID\" )\nDownNamefld = thefTab.FindField( \"Down_Name\" )\nDownLLIDfld = thefTab.FindField( \"Down_LLID\" )\ntheDialog = av.Finddialog(\"dlgselecthydro\")\ntheSearchBox = thedialog.FindByName(\"Searchtxt\")\nDownNamechk = thedialog.findbyname(\"chkDownName\")\nDownLLIDchk = thedialog.findbyname(\"chkDownLLID\")\nthefeat =  thesearchBox.gettext   \nthefe
+at = thefeat.trim\nif ((thefeat = \" \") or (thefeat = nil) or (thefeat = \"\")) then \n  aListBox = thedialog.FindByName(\"ListBox1\")\n  alistBox.empty\n  exit \nend\nthefTab.GetSelection.clearall\nthebitmap = theftab.getselection\n' build a query string\ntheQuery = \"[Name].contains(\" + thefeat.Quote + \")\"\ntheQuery = theQuery + \" or [LLID].contains(\" + thefeat.Quote + \")\"\nif (DownNamechk.isselected) then\n  theQuery = theQuery + \" or [Down_Name].contains(\" + thefeat.Quote + \")\"\nend\nif (DownLLIDchk.isselected) then\n  theQ
+uery = theQuery + \" or [Down_LLID].contains(\" + thefeat.Quote + \")\"\nend\n  \n' query and apply selection\nthefTab.Query(theQuery, theBitmap, #VTAB_SELTYPE_NEW)\nthefTab.UpdateSelection\nthecount = theftab.getselection.count\nif (thecount = 0) then\n  msgbox.info(\"The feature '\" + thefeat + \"' was not found.\", \"Not Found\")\n  aListBox = thedialog.FindByName(\"ListBox1\")\n  alistBox.empty\n  exit\nelse\n  'theDialog = av.Finddialog(\"dlgselecthydro\")\n  aListBox = thedialog.FindByName(\"ListBox1\")\n  myFields = {Namefld,LLIDf
+ld,DownNamefld,DownLLIDfld}\n  aListBox.DefineFromvTab(thefTab, myFields, true)\n  aListBox.FitColumns (0..8, false)\n  \nend"
+)
+
+(Script.180
+	Name:	"aa.RouteTools.LocateHydroUnload"
+	SourceCode:	"theDialog = av.Finddialog(\"dlgselecthydro\")\nthedialog.close\n'Dialog.DetachFromExtension(self)"
+)
+
+(Script.181
+	Name:	"aa.RouteTools.LocateHydroUserSelect"
+	SourceCode:	"theDialog = av.Finddialog(\"dlgselecthydro\")\n  aListBox = thedialog.FindByName(\"ListBox1\")\nif (alistbox.hasselection.not) then exit end\n'Get the Coordinates\ntheLLID = alistbox.getselection.get(1)\ntheview = av.getactivedoc\ntheTheme = theView.GetActiveThemes.Get(0)\nthefTab = theTheme.GetFTab\nthefTab.GetSelection.clearall\nthebitmap = theftab.getselection\n' build a query string\ntheQuery = \"([LLID] = \" + theLLID.quote + \")\"\n' query and apply selection\nthefTab.Query(theQuery, theBitmap, #VTAB_SELTYPE_NEW)\nthefTab.
+UpdateSelection\nav.run(\"view.zoomtoselected\",\"\")"
+)
+
+(Script.182
+	Name:	"aa.RouteTools.MeasureTool"
+	SourceCode:	"'Pulled from eventmap.apr at Sun Feb 18 09:04:33 2001 \n\n'Pulled from RouteTools.avx at Sat Feb 03 06:53:33 2001 \ntheView = av.GetActiveDoc\nfor each t in Av.GetActiveDoc.GetActiveThemes\n  theTheme = t\nend\ntheName = theTheme.GetSrcName\ntheNetTheme = Av.GetActiveDoc.FindTheme(theName.AsString)\nif (theNetTheme = Nil) then\n  msgbox.Error(\"There is no associated ARC coverage for this route coverage\",\n      \"RouteTools\") exit \nend\n'Gets user point and selects route.\n'Checks that only one route is selected.\nthePoin
+t = theView.GetDisplay.ReturnUserPoint\nif (thePoint.IsNull.Not) then \n  if (theTheme.CanSelect) then\n    theTheme.SelectByPoint(thePoint, #VTAB_SELTYPE_NEW)\n    if (theTheme.GetFTab.GetSelection.Count > 1) then\n      'msgbox.Error(\"You must select only ONE stream. Exiting.\",\"RouteTools\")\n      av.showmsg(\"More than one stream selected\")\n      exit\n    elseif (theTheme.GetFTab.GetSelection.Count = 0) then\n      'msgbox.Error(\"No streams selected. Exiting.\",\"RouteTools\")\n      av.showmsg(\"No streams at this l
+ocation\")\n      exit\n    end\n  end\nend\n'************************\n'The guy at the Con said something about view refreshes and I can't remember what!!!!\ntheView.GetDisplay.Flush\n'************************\n'Finds location of user point and zero point\n'as percentage of route length\ntheField = theTheme.GetFTab.FindField(\"Shape\")\nthellidfld = thetheme.getftab.findfield(\"LLID\")\nfor each r in theTheme.GetFTab.GetSelection\n  thePolyLine = theTheme.GetFTab.ReturnValue(theField,r)\n  theLLID = theTheme.GetFTab.ReturnVal
+ue(thellidfld,r)\nend\ntheZeroPoint = thePolyLine.Along(0)\ntheToPoint = thePolyLine.Along(thePolyLine.PointPosition(thePoint))\ntheTol = 0.1\nthePointList = theTheme.GetFTab.ReturnLocation (thetoPoint, theTol)\nthePointLen = thePointlist.Get(0+1)\n\nthelen = thePointLen \ntheMiles = thelen / 5280\nav.ShowMsg(thelen.Round.AsString++\"feet,\"++ theMiles.SetFormatPrecision(2).AsString++\"mile(s)\" + \"          LLID = \" + thellid )"
+)
+
+(Script.183
+	Name:	"aa.RouteTools.PointTool"
+	SourceCode:	"'eric haney\n'march 21, 1998\n'this is the main script that identifies an point event\ntheView = av.GetActiveDoc\nfor each t in Av.GetActiveDoc.GetActiveThemes\n  theTheme = t\nend\ntheName = theTheme.GetSrcName\ntheNetTheme = Av.GetActiveDoc.FindTheme(theName.AsString)\nif (theNetTheme = Nil) then\n  msgbox.Error(\"There is no associated ARC coverage for this route coverage\",\n  \"RouteTools\") exit \nend\n'Gets user point and selects route.\n'Checks that only one route is selected.\nthePoint = theView.GetDisplay.ReturnUser
+Point\nif (thePoint.IsNull.Not) then \n  if (theTheme.CanSelect) then\n    theTheme.SelectByPoint(thePoint, #VTAB_SELTYPE_NEW)\n    if (theTheme.GetFTab.GetSelection.Count > 1) then\n      msgbox.Error(\"You must select only ONE stream. Exiting.\",\"RouteTools\")\n      exit\n    elseif (theTheme.GetFTab.GetSelection.Count = 0) then\n      msgbox.Error(\"No streams selected. Exiting.\",\"RouteTools\")\n      exit\n    end\n  end\nend\ntheView.GetDisplay.Flush\n'Finds location of end point and zero point\n'as percentage of route l
+ength\ntheField = theTheme.GetFTab.FindField(\"Shape\")\ntheLLIDFld = theTheme.GetFTab.FindField(\"LLID\")\nfor each r in theTheme.GetFTab.GetSelection\n  thePolyLine = theTheme.GetFTab.ReturnValue(theField,r)\n  theRoute = r\n  theLLID = theTheme.getFtab.ReturnValue(theLLIDFld, r)\nend\nthePointPoint = thePolyLine.Along(thePolyLine.PointPosition(thePoint))\ntheFromLen = thePolyline.GetMAtPosition(thePolyLine.PointPosition(thePointPoint)).get(0)\n\ntheToLen = nil\n'Recolor existing Graphics\ntheGList = theView.GetGraphics\ni
+f (theGList.Count > 0) then\n for each n in (theGList.Count - 1) .. 0  \n  theGList.Get(n).GetSymbol.SetColor(Color.GetBlue)\n  'theGList.Remove(n)\n end\nend\n'Draw Points\nfor each pt in {thePointPoint}\n  gp = GraphicShape.Make(pt)\n  theSym = gp.GetSymbol\n  theSym.SetSize(6)\n  theSym.SetColor(Color.GetRed)\n  theView.GetGraphics.UnselectAll\n  gp.SetSelected(TRUE)\n  theView.GetGraphics.Add(gp)\n  gp.UnSelect\nend\ntheView.GetDisplay.Flush\n  \n'Table stuff\n\n'First Get coordinate information\nFromPt = thePoint\ntheFromX =
+ FromPt.GetX\ntheFromY = FromPt.GetY\ntheToX = nil\ntheToY = nil\n\nthesource = \"1\" 'Heads-up digitized in ArcView\ntheRouteSource = thename.asstring\n\ntheReturnList = av.Run(\"aa.RouteTools.Table\",\"\")\nif (theReturnList = Nil) then\n  theGList = theView.GetGraphics\n  for each n in 0 .. 1\n    theGList.Remove(theGlist.Count - 1)\n  end\n  theView.Invalidate\n  exit\nend\ntheTable = theReturnList.Get(0)\ntheEvent = theReturnList.Get(1)\ntheComment = theReturnList.Get(2)\naddfldlist = nil\naddvallist = nil\n'av.Run(\"aa.RouteTools
+.Populate\", {theTheme,theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,thefromx,thefromy,thetox,thetoy,thesource,theRouteSource,addfldlist,addvallist})\nav.Run(\"aa.RouteTools.Populate\", {theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,addfldlist,addvallist})\ntheview.getwin.open\nreturn (nil)"
+)
+
+(Script.184
+	Name:	"aa.RouteTools.PolyTool"
+	SourceCode:	"'PolyTool\n'av.run(\"aa.RouteTools.CheckUser\",Nil)\ntheView = av.GetActiveDoc\nfor each t in Av.GetActiveDoc.GetActiveThemes\n  theTheme = t\nend\ntheName = theTheme.GetSrcName\ntheNetTheme = Av.GetActiveDoc.FindTheme(theName.AsString)\nif (theNetTheme = Nil) then\n  msgbox.Error(\"There is no associated ARC coverage for this route coverage\",\n    \"RouteTools\") exit \nend\n'Get User Polygon\nthePoly = theView.ReturnUserPolygon\nif (thePoly.IsNull.Not) then\n  if (theTheme.CanSelect) then \n    theTheme.SelectByPolygon(thePol
+y, #VTAB_SELTYPE_NEW)\n  end\nend \ntheView.GetDisplay.Flush\nav.Run(\"aa.RouteTools.Batch\",\"\")\ntheview.getwin.open\nreturn(nil)"
+)
+
+(Script.185
+	Name:	"aa.RouteTools.Populate"
+	SourceCode:	"'RouteTools.Populate\n'USE THE FOLLOWING COMMAND TO CALL THIS FUNCTION\n'av.Run(\"aa.RouteTools.Populate\", {theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,addfldlist,addvallist})\n\ntheLLID = Self.Get(0)\ntheTable = Self.Get(1)\ntheFLength = Self.Get(2)\ntheTLength = Self.Get(3)\ntheEvent = Self.Get(4)\ntheComment = Self.Get(5)\ntheaddfldlist = Self.Get(6)\ntheaddvallist = Self.get(7)\n\n'*********************************\ntheVTab = theTable.GetVTab\ntheVTab.SetEditable(true)\nr = theVTab.AddRecord\n'**************
+*******************\ntheVTab.SetValue(theVTab.FindField(\"llid\"),r,thellid)\ntheVTab.SetValue(theVTab.FindField(\"EventID\"),r,theevent)\ntheVTab.SetValue(theVTab.FindField(\"Comments\"),r,thecomment)\ntheVTab.SetValue(theVTab.FindField(\"BegFt\"),r,theFLength)\ntheVTab.SetValue(theVTab.FindField(\"EndFt\"),r,theTLength)\n\nif(theaddfldlist <> nil) then\n  if (theaddfldlist.count > 0) then\n   theTable.getvtab.seteditable(true)\n      theindex = 0\n      for each f in theaddfldlist\n        thefname = f.getname\n        theval =
+ theaddvallist.get(theindex)\n        theVTAB.setvalue(theVtab.findfield(thefname),r,theval)\n        theindex = theindex+1\n      end\n    thetable.getvtab.seteditable(false)\n  end\nend  \n\n\n\ntheVTab.SetEditable(false)\ntheVTab.Refresh\nreturn(nil)"
+)
+
+(Script.186
+	Name:	"aa.RouteTools.ProblemThemeCreate"
+	SourceCode:	"'If a theme in the view is being edited, Stop Editing it before creating new theme\ntheView = av.GetActiveDoc\neditThm = theView.GetEditableTheme\nif (editThm <> nil) then\n  doSave = MsgBox.YesNoCancel(\"Save edits to \"+editThm.GetName+\"?\",\"Stop Editing\",true)\n  if (doSave = nil) then\n    return nil\n  end\n  if (editThm.StopEditing(doSave).Not) then\n      MsgBox.Info(\"Unable to Save Edits to \"\n                   + editThm.GetName +\n                  \", please use the Save Edits As option\", \"\")\n      return nil\n 
+ else\n      theView.SetEditableTheme(NIL)\n  end\nend  \n\nclass = Point\n\ndef = av.GetProject.MakeFileName(\"theme\", \"shp\")\n\ndef = FileDialog.Put(def, \"*.shp\", \"New theme to identify problem points.\")\n\nif (def <> nil) then\n  tbl = FTab.MakeNew(def, class)\n  if (tbl.HasError) then\n     if (tbl.HasLockError) then\n        MsgBox.Error(\"Unable to acquire Write Lock for file \" + def.GetBaseName, \"\")\n     else\n        MsgBox.Error(\"Unable to create \" + def.GetBaseName, \"\")\n     end\n     return nil\n  end\n  \n  'clone th
+e fields from thevtab\n  outxfld = Field.Make(\"X\", #FIELD_DECIMAL, 11, 7)\n  outyfld = Field.Make(\"Y\", #FIELD_DECIMAL, 11, 7)\n  outidfld = Field.Make(\"EventID\", #FIELD_CHAR, 30, 0)\n  outdirfld = Field.Make(\"Dir\", #FIELD_Char, 5, 0)\n\n  tbl.AddFields({outxfld,outyfld,outidfld,outdirfld})\n  tbl.SetEditable(False)\n  outTheme = FTheme.Make(tbl)\n\n  theView.AddTheme(outTheme)\n  outTheme.SetName (\"PROBLEMS\")\n  outTheme.SetVisible(TRUE)\n  av.GetProject.SetModified(true)\nend\n\nIf (outtheme = nil) then\n msgbox.error(\"Err
+or Creating Problem Shapefile\",\"Stopping\")\n exit\nend\nreturn (outtheme)\n\n"
+)
+
+(Script.187
+	Name:	"aa.RouteTools.RemoveAllGraphics"
+	SourceCode:	"'aa.RouteTools.RemoveAllGraphics\nav.run(\"Graphic.Selectall\",\"\")\nav.run(\"view.deletegraphics\",\"\")"
+)
+
+(Script.188
+	Name:	"aa.RouteTools.RemoveAllGraphicsUpdate"
+	SourceCode:	"theGraphicList = av.GetActiveDoc.GetGraphics\nif(thegraphiclist.count = 0) then\n  SELF.SetEnabled(False)\nelse\n  SELF.SetEnabled(True)\nend\n\n"
+)
+
+(Script.189
+	Name:	"aa.RouteTools.RoutedThemeUpdate"
+	SourceCode:	"theView = av.GetActiveDoc\nactive = theView.GetActiveThemes\n\nSELF.SetEnabled(FALSE)\nif (active.Count = 0) then\n  SELF.SetEnabled(FALSE)\n  return nil\nend\nactive = active.Get(0)\n\nif (active.GetSrcName.GetSubName= \"arcM\") then\n  SELF.SetEnabled(true)\nelse\n  SELF.SetEnabled(false)\nend  \n\n"
+)
+
+(Script.190
+	Name:	"aa.RouteTools.SegmentTool"
+	SourceCode:	"'LTool\n'av.run(\"aa.RouteTools.CheckUser\",Nil)\ntheView = av.GetActiveDoc\nfor each t in Av.GetActiveDoc.GetActiveThemes\n  theTheme = t\nend\n'Check to make sure associated arc theme is in theView\ntheName = theTheme.GetSrcName\ntheNetTheme = Av.GetActiveDoc.FindTheme(theName.AsString)\nif (theNetTheme = Nil) then\n  msgbox.Error(\"There is no associated ARC coverage for this route coverage\",\n  \"RouteTools\") exit \nend\n\n'Get user points and selects route from points\n'checks to see that both user points are on the \n'sa
+me route.  DOESN'T WORK ALL THAT WELL.\ntheLine = theView.GetDisplay.ReturnUserPolyLine\ntheUserFromPoint = theLine.AsLine.ReturnStart\ntheUserToPoint = theLine.AsLine.ReturnEnd\nif (theUserToPoint.IsNull.Not) then \n  if (theTheme.CanSelect) then\n    theTheme.SelectByPoint(theUserFromPoint, #VTAB_SELTYPE_NEW)\n    if (theTheme.GetFTab.GetSelection.Count >= 1) then\n      flist = {}\n      for each f in thetheme.getftab.getselection\n        flist.add(f.asstring)\n      end\n    end\n    theTheme.SelectByPoint(theUserT
+oPoint, #VTAB_SELTYPE_NEW)\n    thetheme.getftab.updateselection\n    tlist = {}\n    if (theTheme.GetFTab.GetSelection.Count >= 1) then\n      for each t in thetheme.getftab.getselection\n        'msgbox.info(t.asstring,\"\")\n        tlist.add(t.asstring)\n        'continue\n      end\n    end\n  end\nend\n\nif ((flist.count = 0) or (tlist.count = 0))then\n  msgbox.Error(\"No streams selected. Exiting.\",\"RouteTools\")\n  exit\nend\n\n\ntheroute = nil\nfor each f in flist\n  for each t in tlist\n    if (f = t) then\n      f = f.asnu
+mber\n      thepolyline = thetheme.getftab.returnvalue(thetheme.getftab.findfield(\"shape\"), f)\n      theroute = f\n       break\n      break\n    end\n  end\nend\n\nif (theroute = nil) then\n  msgbox.Error(\"The points that you have chosen span more than one route.  Please try again.\",\"RouteTools\")\n  exit\nend  \n\n'Get the LLID\ntheLLIDFld = theTheme.GetFTab.FindField(\"llid\")\nthellid = theTheme.GetFTab.ReturnValue(theLLIDFld,theRoute)\n\n\ntheView.GetDisplay.Flush\ntheZeroPoint = thePolyline.Along(0)\ntheFromPoint = thePolyL
+ine.Along(thePolyLine.PointPosition(theUserFromPoint))\ntheToPoint = thePolyLine.Along(thePolyLine.PointPosition(theUserToPoint))\n\ntheFromLen = thePolyline.GetMAtPosition(thePolyLine.PointPosition(theFromPoint)).get(0)\nthetoLen = thePolyline.GetMAtPosition(thePolyLine.PointPosition(theToPoint)).get(0)\n\n\n\n'theTol = 0.1\n'theFromList = theTheme.GetFTab.ReturnLocation (theFromPoint, theTol)\n'  thelist = theFromlist\n'  for each m in 0..(theList.Count - 1) by 2\n'    theselroute = thelist.Get(m)\n'    if (theselrout
+e = theroute) then\n'      theFromLen = thelist.Get(m+1)\n'    end\n'  end\n''theFromLen = theFromlist.Get(0+1)\n'theToList = theTheme.GetFTab.ReturnLocation (theToPoint, theTol)\n'  thelist = theTolist\n'  for each m in 0..(theList.Count - 1) by 2\n'    theselroute = thelist.Get(m)\n'    if (theselroute = theroute) then\n'      theToLen = thelist.Get(m+1)\n'    end\n'  end\n'theToLen = theTolist.Get(0+1)\n'Clear existing Graphics\ntheGList = theView.GetGraphics\nif (theGList.Count > 0) then\n  for each n in (theGList.Count
+ - 1) .. 0\n    theGList.Get(n).GetSymbol.SetColor(Color.GetBlue)\n    'theGList.Remove(n)\n  end\nend\n'Draw Points\nfor each pt in {theFromPoint, theToPoint}\n  gp = GraphicShape.Make(pt)\n  theSym = gp.GetSymbol\n  theSym.SetSize(6)\n  theSym.SetColor(Color.GetRed)\n  theView.GetGraphics.UnselectAll\n  gp.SetSelected(TRUE)\n  theView.GetGraphics.Add(gp)\n  gp.UnSelect\nend\ntheView.GetDisplay.Flush\nif(theFromLen > theToLen) then\n  thePassVariable = theFromLen\n  theFromLen = theToLen\n  theToLen = thePassVariable\nend\n  \n'
+Table stuff\n\n'First Get coordinate information\nFromPt = theUserFromPoint\nToPt = theUserToPoint\n'FromPT = av.Run(\"aa.ProjectFeature\", {frompt,\"AlbtoLL\"})\n'ToPT = av.Run(\"aa.ProjectFeature\", {topt,\"AlbtoLL\"})\ntheFromX = FromPt.GetX\ntheFromY = FromPt.GetY\ntheToX = ToPt.GetX\ntheToY = ToPt.GetY\n\nthesource = \"1\" 'Heads-up digitized in ArcView\ntheRouteSource = thename.asstring\n\ntheReturnList = av.Run(\"aa.RouteTools.Table\",\"\")\nif (theReturnList = Nil) then\n  theGList = theView.GetGraphics\n  for each n in 0 .. 1\n   
+ theGList.Remove(theGlist.Count - 1)\n  end\n  theView.Invalidate\n  exit\nend\ntheTable = theReturnList.Get(0)\ntheEvent = theReturnList.Get(1)\ntheComment = theReturnList.Get(2)\naddfldlist = nil\naddvallist = nil\n'av.Run(\"aa.RouteTools.Populate\", {theTheme,theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,thefromx,thefromy,thetox,thetoy,thesource,theRouteSource,addfldlist,addvallist})\nav.Run(\"aa.RouteTools.Populate\", {theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,addfldlist,addvallist})\ntheview.
+getwin.open\nreturn (nil)"
+)
+
+(Script.191
+	Name:	"aa.RouteTools.ShowEvents"
+	SourceCode:	"theView = av.Getactivedoc\n\n'Get the Route Theme\ntheTheme = theView.getactivethemes.get(0)\n\ntheRouteFtab = theTheme.GetFTab\ntheRouteFtabLLID = theRouteFtab.FindField(\"LLID\")\n\ntheEventVtab = av.GetProject.FindDoc(_RouteTable.getname).GetVTab\ntheEventVtabLLID = theeventvtab.FindField(\"LLID\")\ntheEventVtabFrom = theeventvtab.FindField(\"BegFt\")\ntheEventVtabTo = theeventvtab.FindField(\"EndFt\")\n\n\npointevents = false\nlineevents = false\nfor each r in theeventvtab\n  thefrom = theeventvtab.returnvalue(theeventvtabfrom,
+r)\n  theto = theeventvtab.returnvalue(theeventvtabto,r)\n  if(theto.isnull) then\n    pointevents = true\n  else\n    lineevents = true\n  end\nend\n\nif (lineevents) then\n  aDynName = DynName.Make( theRouteFtab, theRouteFtabLLID )\n  aDynName.SetLineEvent( theeventvtab, theEventVtabLLID, theEventVtabFrom, theEventVtabTo )\n\n  thelTheme = Theme.Make( aDynName )\n\n  thelTheme.SetName(\"Line Events for \" + _routetable.getname)\n  thelTheme.SetVisible(True)\n\n  theView.AddTheme( thelTheme )\n  theltheme.GetFTab.SetDefinition
+( \"( [BegFt] <> [EndFt] )\" )\nend\n\nif (pointevents) then \n  theEventVtabLLID = theeventvtab.FindField(\"LLID\")\n  theEventVtabFrom = theeventvtab.FindField(\"BegFt\")\n  aDynName = DynName.Make( theRouteFtab, theRouteFtabLLID )\n  aDynName.SetPointEvent( theeventvtab, theEventVtabLLID, theEventVtabFrom )\n\n  thepTheme = Theme.Make( aDynName )\n\n  thepTheme.SetName(\"Point Events for \" + _routetable.getname)\n  thepTheme.SetVisible(True)\n\n  theView.AddTheme( thepTheme )\n  theptheme.GetFTab.SetDefinition( \"( [EndFt].isn
+ull )\" )\nend\n  \ntheview.invalidate\n"
+)
+
+(Script.192
+	Name:	"aa.RouteTools.ShowLineDirection"
+	SourceCode:	"'Pulled from edittools30.apr at Sun Feb 18 07:09:45 2001 \n\n'  ShowDirection.ave\n'\n'  Loads an avl which shows the direction of a polyline or polylinem\n'\n'  Compiled by:  Clint Kellar, CDFG R1 Cantara Office\n'  Date of last update: 12/1/98\n'\n'  ************************************************\ntheView = av.getactivedoc\nif (theView.Is(View).Not) then\n  MsgBox.Error(\"Please select a view first.\",\"Error\")\n  return nil end\ntheTheme = theview.getactivethemes.get(0)\ntheleg = theTheme.getlegend\n'now change the symbo
+l to a blue line with a blue arrow\ntheLegend = theTheme.GetLegend\nsymbList = theLegend.GetSymbols\n TheArrow = VectorPenArrow.Make\n TheArrow.SetColor( color.GetBlue )\n TheArrow.SetSize( 0.5 )\n TheArrow.SetInterval( 50 )\n TheLine = BasicPen.Make\n TheLine.SetWidth( 1 )\n TheLine.SetColor( Color.GetBlue )\n ' Make the composite pen symbol\n sl = SymbolList.FromList( {TheLine, TheArrow} )\nidx = 0\nfor each s in symbList\n  newsymbol = Compositepen.make(sl)\n  symbList.Set(idx, newSymbol)\n  idx = idx + 1\nend\ntheTheme.I
+nvalidateLegend\ntheTheme.Invalidate(true) \n'theLName = \"$AVEXT\\et_dir.avl\"\n'theleg.load(theLName.asfilename,#LEGEND_LOADTYPE_ALL)\n \n'theTheme.setlegend(theleg)\n'theTheme.UpdateLegend"
+)
+
+(Script.193
+	Name:	"aa.RouteTools.Table"
+	SourceCode:	"'RouteToolsTable\ntheview = av.getactivedoc\n\n'theTableList = List.Make\nthetablelist = av.Run(\"aa.RouteTools.TableListEventTables\", NIL)\n'theTableList.Add(\"Add an existing Event Table to project\")\ntheTableList.Add(\"Create a New Table\")\ntheBool = true\nwhile (theBool)\n  if ((_RouteTable = nil) or (av.finddoc(_RouteTable.getname) = nil)) then\n    theTable = MsgBox.ChoiceAsString(theTableList, \"Choose a the Event Table you want to populate\",\"RouteTools\")  \n    if (theTable = Nil) then\n      'Msgbox cancelled\n    
+  return(nil)\n    end\n  else\n    thetable = _RouteTable\n  end 'if\n  \n  'create or add a table depending on choice\n  if (thetable = \"Create a New Table\") then  'Creates New Table\n    theTable = av.Run(\"aa.RouteTools.TableMake\",\"\")\n  elseif (thetable = \"Add an existing Event Table to project\") then  'Add Existing Table\n    theTable = av.Run( \"aa.RouteTools.AddExistingEventTable\", NIL )\n  end\n\n\n  'Now check chosen table for appropriate fields and make sure that it is not nil\n   chk = True 'assume that table is
+ ok\n   if (thetable = nil) then\n     chk = false\n   elseif (theTable.is(Table)) then\n     theVTab = theTable.GetVTab\n     theFList = {\"llid\",\"BegFt\",\"EndFt\",\"EventID\",\"Comments\"}\n     for each f in theFList\n       if (theVTab.FindField(f) = Nil) then\n         chk = False\n       end\n     end\n   end  \n\n \n  'Table confirmed\n  if (chk) then\n      thetable.getwin.open\n      _RouteTable = theTable\n      theBool = false\n  else\n    msgbox.error(\"This is not a valid Event Table.  Please reselect.\",\"Invalid Table\")\n 
+ end \nend\n'Gets lists of auxillary data fields and field types\ntheVTab = theTable.GetVTab\ntheFieldList = theVTab.GetFields\ntheInputList = List.Make\ntheTypeList = List.Make\ntheDefaultList = List.Make\n\ntheinputlist = {\"EventID\",\"Comments\"}\ntheDefaultList = {\"\",\" \"}\n\n\nif(_newtable) then\n  _newtable = false\nelse\n  theAttList = MsgBox.MultiInput(\"Enter attribute data:\",\"RouteTools\",theInputList,theDefaultList)\n  if (theAttList.IsEmpty) then\n    return(nil)\n  end\n    \n  theEvent = theAttList.get(0).trim\n  theComm
+ent = theAttList.get(1).trim\n  return({theTable,theEvent,theComment})\nend\n\ntheview.getwin.open"
+)
+
+(Script.194
+	Name:	"aa.RouteTools.Table.SetNew"
+	SourceCode:	"_RouteTable = nil\n_NewTable = True\nav.run(\"aa.RouteTools.Table\",\"\")\n"
+)
+
+(Script.195
+	Name:	"aa.RouteTools.TableAppendEventTablesUpdate"
+	SourceCode:	"Self.SetEnabled(FALSE)\n\nlstTables = av.Run(\"aa.RouteTools.TableListEventTables\", NIL)\n\nif (lstTables.Count > 1) then\n  Self.SetEnabled(TRUE)\nend"
+)
+
+(Script.196
+	Name:	"aa.RouteTools.TableListEventTables"
+	SourceCode:	"'************************************************************************\n'To use this script, insert the following\n'   thetablelist = av.Run(\"aa.RouteTools.TableListEventTables\", NIL)\n'************************************************************************\n\n\ntheTableList = List.Make\nfor each d in av.GetProject.GetDocs\n  if (d.Is(Table)) then\n    fieldlist = {\"EventID\",\"LLID\",\"BegFt\",\"EndFt\",\"Comments\"}\n    IsET = True\n    for each f in fieldlist\n      if (d.getvtab.findfield(f) = nil) then\n        isET = 
+False\n        continue\n      end\n    end\n    'iset = true\n    if (isET) then\n      thetablelist.add(d)\n    end\n  end\nend\nReturn (thetablelist)"
+)
+
+(Script.197
+	Name:	"aa.RouteTools.TableMake"
+	SourceCode:	"'RouteToolsTableMake\n'Creates linear event table with user selected datafields\ntheFile = FileDialog.Put(av.GetProject.MakeFileName(\"Table\",\"dbf\"), \"*.dbf\", \"New Table\")           \nif (theFile = NIL) then\n  return(nil)\nend\nv = VTab.MakeNew(theFile,dBASE)\nif (v.HasError) then\n  if (v.HasLockError) then\n    MsgBox.Error(\"Unable to acquire Write Lock for file \" + theFile.GetBaseName, \"RouteTools\")\n  else\n    MsgBox.Error(\"Unable to create\" + theFile.GetBaseName, \"RouteTools\")\n  end\n  return(nil)\nend        \nthe
+Table = Table.Make(v)\ntheTable.SetName(theTable.GetVTab.GetName)\ntheTable.GetWin.Open\ntheTable.GetVTab.SetEditable(True)\n'*********************************\nField1 = Field.Make(\"Eventid\",#Field_Char,30,0)\n'Field2 = Field.Make(\"FromX\",#Field_Decimal,13,8)\n'Field3 = Field.Make(\"FromY\",#Field_Decimal,13,8)\n'Field4 = Field.Make(\"ToX\",#Field_Decimal,13,8)\n'Field5 = Field.Make(\"ToY\",#Field_Decimal,13,8)\n'Field6 = Field.Make(\"RouteSrc\",#Field_Char,30,0)\nField7 = Field.Make(\"llid\",#Field_Char,20,0)\nField8 = Field.Ma
+ke(\"BegFt\",#Field_Long,10,0)\nField9 = Field.Make(\"EndFt\",#Field_Long,10,0)\n'Field10 = Field.Make(\"SrcCode\",#Field_Char,2,0)\n'Field11 = Field.Make(\"User_id\",#Field_Char,30,0)\n'Field12 = Field.Make(\"Date\",#Field_Date,30,0)\nField13 = Field.Make(\"Comments\",#Field_Char,255,0)\n\n\n'theTable.GetVTab.AddFields({Field1,Field2,Field3,Field4,Field5,Field6,Field7,Field8,Field9,Field10,Field11,Field12,Field13})\ntheTable.GetVTab.AddFields({Field1,Field7,Field8,Field9,Field13})\n\ntheTable.GetVTab.SetEditable(False)\n_RouteTab
+le = thetable\nreturn(theTable)\n"
+)
+
+(Script.198
+	Name:	"aa.RouteTools.ToolClick"
+	SourceCode:	"'RouteToolsToolClick\n'This script makes sure that the active theme is a route theme and that its\ntheView = av.GetActiveDoc\nfor each t in Av.GetActiveDoc.GetActiveThemes\n  theTheme = t\nend\ntheName = theTheme.GetSrcName\ntheNetTheme = Av.GetActiveDoc.FindTheme(theName.AsString)\nif (theNetTheme = Nil) then\n  msgbox.Error(\"This tool requires an active ROUTE theme (ShapefileM) in the View.\",\"RouteTools\")\n  exit \nend\n\n'av.run(\"aa.RouteTools.CheckUser\",Nil)"
+)
+
+(Script.199
+	Name:	"aa.RouteTools.ToolUpdate"
+	SourceCode:	"theView = av.GetActiveDoc\nactive = theView.GetActiveThemes\n\nSELF.SetEnabled(FALSE)\nif (active.Count = 0) then\n  SELF.SetEnabled(FALSE)\n  return nil\nend\nactive = active.Get(0)\n\nif (active.GetSrcName.GetSubName= \"arcM\") then\n  SELF.SetEnabled(true)\nelse\n  SELF.SetEnabled(false)\nend  \n\n"
+)
+
+(Script.200
+	Name:	"aa.RouteTools.TraceDown"
+	SourceCode:	"'Trace Down\ntheView = av.GetActiveDoc\nfor each t in Av.GetActiveDoc.GetActiveThemes\n  theTheme = t\nend\n\ntheftab = thetheme.getftab\n\n'Gets user point and selects route.\n'Checks that only one route is selected.\nthePoint = theView.GetDisplay.ReturnUserPoint\nif (thePoint.IsNull.Not) then \n  if (theTheme.CanSelect) then\n    theTheme.SelectByPoint(thePoint, #VTAB_SELTYPE_NEW)\n    if (theftab.GetSelection.Count > 1) then\n      msgbox.Error(\"You must select only ONE stream. Exiting.\",\"RouteTools\")\n      av.showmsg(
+\"More than one stream selected\")\n      exit\n    elseif (theftab.GetSelection.Count = 0) then\n      'msgbox.Error(\"No streams selected. Exiting.\",\"RouteTools\")\n      av.showmsg(\"No streams at this location\")\n      exit\n    end\n  end\nend\n'************************\n'The guy at the Con said something about view refreshes and I can't remember what!!!!\ntheView.GetDisplay.Flush\n'************************\nllidlist = list.make\nmeaslist = list.make\ndownlist = list.make\n\nshpFld = theftab.FindField(\"Shape\")\nthedllidfld =
+ theftab.findfield(\"Down_LLID\")\nthellidfld = theftab.findfield(\"LLID\")\nthedmeasfld = theftab.findfield(\"Down_meas\")\n\nfor each r in theftab.GetSelection\n  thePolyLine = theftab.ReturnValue(shpFld,r)\n  thedLLID = theftab.ReturnValue(thedllidfld,r)\n  thedmeas = theftab.returnvalue(thedmeasfld,r)\n  theLLID = theftab.ReturnValue(thellidfld,r)\nend\n\ntheToPoint = thePolyLine.Along(thePolyLine.PointPosition(thePoint))\ntheTol = 0.1\nthePointList = theftab.ReturnLocation (thetoPoint, theTol)\ntheLen = thePointlist.Get(0
++1)\n\nllidlist.add(theLLID)\nmeaslist.add(thelen)\nif (thedllid <> \"\") then\n  downlist.add(thedllid)\nend\n\nmasterbm = theftab.getselection.clone\ntheBitmap = thefTab.GetSelection\n\nwhile (downlist.count > 0)\n   id = downlist.get(0)\n   theQuery = \"([llid] = \" + id.Quote + \")\"\n   thefTab.Query(theQuery, theBitmap, #VTAB_SELTYPE_NEW)\n   theftab.updateselection\n   for each x in theftab.getselection\n      dllid = theftab.returnvalue(thedllidfld,x)\n      downlist.add(dllid)\n      llid = theftab.returnvalue(thellidfld,x
+)\n      llidlist.add(llid)\n      measlist.add(thedmeas)\n      thedmeas = theftab.returnvalue(thedmeasfld,x)\n      masterbm.or(thebitmap)\n   end\n   downlist.remove(0)\nend\n     \ntheftab.setselection(masterbm)\ntheftab.updateselection\n\ntheans = msgbox.yesno(\"Do you want to add these routes to an Event Table?\", \"Save Routes?\", TRUE)\n\nif (theans) then\n  theReturnList = av.Run(\"aa.RouteTools.Table\",\"\")\n  theTable = theReturnList.Get(0)\n  theEvent = theReturnList.Get(1)\n  theComment = theReturnList.Get(2)\n  addfldl
+ist = \"\"\n  addvallist = \"\"\n\n  for each x in 0..(llidlist.count - 1)\n    thellid = llidlist.get(x)\n    thetoLen = measlist.get(x) \n    thefromlen = 0   \n    'av.Run(\"aa.RouteTools.Populate\", {theTheme,theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"})\n    av.Run(\"aa.RouteTools.Populate\", {theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,addfldlist,addvallist})\n  end\nend\n\n\n"
+)
+
+(Script.201
+	Name:	"aa.RouteTools.TraceUp"
+	SourceCode:	"'Trace up \ntheView = av.GetActiveDoc\nfor each t in Av.GetActiveDoc.GetActiveThemes\n  theTheme = t\nend\n\ntheftab = thetheme.getftab\n\nthePoint = theView.GetDisplay.ReturnUserPoint\nif (thePoint.IsNull.Not) then \n  if (theTheme.CanSelect) then\n    theTheme.SelectByPoint(thePoint, #VTAB_SELTYPE_NEW)\n    if (theFtab.GetSelection.Count > 1) then\n      'msgbox.Error(\"You must select only ONE stream. Exiting.\",\"RouteTools\")\n      av.showmsg(\"More than one stream selected\")\n      exit\n    elseif (theFtab.GetSelection.
+Count = 0) then\n      'msgbox.Error(\"No streams selected. Exiting.\",\"RouteTools\")\n      av.showmsg(\"No streams at this location\")\n      exit\n    end\n  end\nend\n'************************\n'The guy at the Con said something about view refreshes and I can't remember what!!!!\ntheView.GetDisplay.Flush\n'************************\nllidlist = list.make\ndownlist = list.make\nuplist = list.make\n\n\ntheField = theFtab.FindField(\"Shape\")\nthellidfld = theFtab.findfield(\"LLID\")\ntheupfld = theFtab.findfield(\"Length_ft\")\nfor each
+ r in theFtab.GetSelection\n  thePolyLine = theFtab.ReturnValue(theField,r)\n  theLLID = theFtab.ReturnValue(thellidfld,r)\n  maxlen = theFtab.ReturnValue(theupfld,r)\nend\n\ntheToPoint = thePolyLine.Along(thePolyLine.PointPosition(thePoint))\ntheTol = 0.1\nthePointList = theFtab.ReturnLocation (thetoPoint, theTol)\nthelen = thePointlist.Get(0+1)\n\nllidlist.add(theLLID)\ndownlist.add(thelen)\nuplist.add(maxlen)\n\nmasterbm = theftab.getselection.clone\ntheBitmap = thefTab.GetSelection\n\ntheQuery = \"([Down_llid] = \" + thell
+id.Quote + \") and ([Down_meas] >= \" + thelen.asstring + \")\"\nthefTab.Query(theQuery, theBitmap, #VTAB_SELTYPE_NEW)\nthefTab.UpdateSelection\n\ntheList = list.make\nav.ShowStopButton\nfor each x in theftab.getselection\n  llid = theftab.returnvalue(thellidfld,x)\n  newmax = theftab.returnvalue(theupfld,x)\n  llidlist.add(LLID)\n  downlist.add(\"0\")\n  uplist.add(newmax)\n  thelist.add(llid)\nend\n\nmasterbm.xor(thebitmap)\n\nav.ShowStopButton\nwhile (thelist.count > 0)\n   av.ShowMsg (\"Tracing Streams...\")\n   doMore = av.setwor
+kingstatus\n   if (not doMore) then\n     return nil\n   end\n   id = thelist.get(0)\n   theQuery = \"([Down_llid] = \" + id.Quote + \")\"\n   av.SetShowStatus(FALSE)\n   thefTab.Query(theQuery, theBitmap, #VTAB_SELTYPE_NEW)\n   theftab.updateselection\n   av.SetShowStatus(True)\n   for each x in theftab.getselection\n      newllid = theftab.returnvalue(thellidfld,x)\n      newmax = theftab.returnvalue(theupfld,x)\n      llidlist.add(newLLID)\n      downlist.add(\"0\")\n      uplist.add(newmax)\n      thelist.add(newllid)\n      
+masterbm.or(thebitmap)\n   end\n   thelist.remove(0)\nend\n\ntheftab.setselection(masterbm)\ntheftab.updateselection\n\ntheans = msgbox.yesno(\"Do you want to add these routes to an Event Table?\", \"Save Routes?\", TRUE)\n\nif (theans) then\n  theReturnList = av.Run(\"aa.RouteTools.Table\",\"\")\n  theTable = theReturnList.Get(0)\n  theEvent = theReturnList.Get(1)\n  theComment = theReturnList.Get(2)\n  \n  addfldlist = \"\"\n  addvallist = \"\"\n\n  for each x in 0..(llidlist.count - 1)\n    thellid = llidlist.get(x)\n    thetoLen = upli
+st.get(x) \n    thefromlen = downlist.get(x)   \n    'av.Run(\"aa.RouteTools.Populate\", {theTheme,theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"})\n    av.Run(\"aa.RouteTools.Populate\", {theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,addfldlist,addvallist})\n  end\nend\n\n\n"
+)
+
+(Script.202
+	Name:	"aa.RouteTools.UpstreamTool"
+	SourceCode:	"'av.run(\"aa.RouteTools.CheckUser\",Nil)\ntheView = av.GetActiveDoc\nfor each t in Av.GetActiveDoc.GetActiveThemes\n  theTheme = t\nend\ntheName = theTheme.GetSrcName\ntheNetTheme = Av.GetActiveDoc.FindTheme(theName.AsString)\nif (theNetTheme = Nil) then\n  msgbox.Error(\"There is no associated ARC coverage for this route coverage\",\n  \"RouteTools\") exit \nend\n'Gets user point and selects route.\n'Checks that only one route is selected.\nthePoint = theView.GetDisplay.ReturnUserPoint\nif (thePoint.IsNull.Not) then \n  if (th
+eTheme.CanSelect) then\n    theTheme.SelectByPoint(thePoint, #VTAB_SELTYPE_NEW)\n    if (theTheme.GetFTab.GetSelection.Count > 1) then\n      msgbox.Error(\"You must select only ONE stream. Exiting.\",\"RouteTools\")\n      exit\n    elseif (theTheme.GetFTab.GetSelection.Count = 0) then\n      msgbox.Error(\"No streams selected. Exiting.\",\"RouteTools\")\n      exit\n    end\n  end\nend\ntheView.GetDisplay.Flush\n'Finds location of end point and zero point\n'as percentage of route length\ntheField = theTheme.GetFTab.FindField(\"
+Shape\")\ntheLLIDFld = theTheme.GetFTab.FindField(\"LLID\")\nfor each r in theTheme.GetFTab.GetSelection\n  thePolyLine = theTheme.GetFTab.ReturnValue(theField,r)\n  theRoute = r\n  theLLID = theTheme.getFtab.ReturnValue(theLLIDFld, r)\nend\ntheZeroPoint = thePolyLine.Along(0)\ntheFromPoint = thePolyLine.Along(thePolyLine.PointPosition(thePoint))\ntheEndPoint = thePolyLine.Along(100)\n\ntheFromLen = thePolyline.GetMAtPosition(thePolyLine.PointPosition(theFromPoint)).get(0)\nthetoLen = thePolyline.GetMAtPosition(thePolyLin
+e.PointPosition(theEndPoint)).get(0)\n\n\n\n\n'theTol = 0.1\n'theFromList = theTheme.GetFTab.ReturnLocation (theFromPoint, theTol)\n'  thelist = theFromlist\n'  for each m in 0..(theList.Count - 1) by 2\n'    theselroute = thelist.Get(m)\n'    if (theselroute = theroute) then\n'      theFromLen = thelist.Get(m+1)\n'    end\n'  end\n''theFromLen = theFromlist.Get(0+1)\n'theToList = theTheme.GetFTab.ReturnLocation (theEndPoint, theTol)\n'  thelist = theTolist\n'  for each m in 0..(theList.Count - 1) by 2\n'    theselroute = th
+elist.Get(m)\n'    if (theselroute = theroute) then\n'      theToLen = thelist.Get(m+1)\n'    end\n'  end\n'theToLen = theTolist.Get(0+1)\n'Recolor existing Graphics\ntheGList = theView.GetGraphics\nif (theGList.Count > 0) then\n for each n in (theGList.Count - 1) .. 0  \n  theGList.Get(n).GetSymbol.SetColor(Color.GetBlue)\n  'theGList.Remove(n)\n end\nend\n'Draw Points\nfor each pt in {theFromPoint, theEndPoint}\n  gp = GraphicShape.Make(pt)\n  theSym = gp.GetSymbol\n  theSym.SetSize(6)\n  theSym.SetColor(Color.GetRed)\n  the
+View.GetGraphics.UnselectAll\n  gp.SetSelected(TRUE)\n  theView.GetGraphics.Add(gp)\n  gp.UnSelect\nend\ntheView.GetDisplay.Flush\n  \n'Table stuff\n\n'First Get coordinate information\nFromPt = thePoint\nToPt = theEndPoint\n'FromPT = av.Run(\"aa.ProjectFeature\", {frompt,\"AlbtoLL\"})\n'ToPT = av.Run(\"aa.ProjectFeature\", {topt,\"AlbtoLL\"})\ntheFromX = FromPt.GetX\ntheFromY = FromPt.GetY\ntheToX = ToPt.GetX\ntheToY = ToPt.GetY\n\nthesource = \"1\" 'Heads-up digitized in ArcView\ntheRouteSource = thename.asstring\n\ntheReturnList = av.R
+un(\"aa.RouteTools.Table\",\"\")\nif (theReturnList = Nil) then\n  theGList = theView.GetGraphics\n  for each n in 0 .. 1\n    theGList.Remove(theGlist.Count - 1)\n  end\n  theView.Invalidate\n  exit\nend\ntheTable = theReturnList.Get(0)\ntheEvent = theReturnList.Get(1)\ntheComment = theReturnList.Get(2)\naddfldlist = nil\naddvallist = nil\n'av.Run(\"aa.RouteTools.Populate\", {theTheme,theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,thefromx,thefromy,thetox,thetoy,thesource,theRouteSource,addfldlist,addvallist})\nav.Ru
+n(\"aa.RouteTools.Populate\", {theLLID,theTable,theFromLen,TheToLen,theEvent,theComment,addfldlist,addvallist})\ntheview.getwin.open\nreturn (nil)"
+)
+
+(Script.203
+	Name:	"aa.RouteTools.UserID"
+	SourceCode:	"'aa.RouteTools.UserID\n_userid = msgbox.input(\"Please enter your User ID.\",\"User ID\", \"\")\n"
+)
+
+(Script.204
+	Name:	"aa.RouteTools.WholeTool"
+	SourceCode:	"'WholeTool\n'Populates event table with entire measure of selected route\n'modified from MeR.PTool by M.Byrne\n'av.run(\"aa.RouteTools.CheckUser\",Nil)\ntheView = av.GetActiveDoc\nfor each t in Av.GetActiveDoc.GetActiveThemes\n  theTheme = t\nend\ntheName = theTheme.GetSrcName\ntheNetTheme = Av.GetActiveDoc.FindTheme(theName.AsString)\nif (theNetTheme = Nil) then\n  msgbox.Error(\"There is no associated ARC coverage for this route coverage\",\n  \"EventLine\") exit\nend\n'Gets user point and selects route.\n'Checks that only on
+e route is selected.\nthePoint = theView.GetDisplay.ReturnUserPoint\nif (thePoint.IsNull.Not) then \n  if (theTheme.CanSelect) then\n    theTheme.SelectByPoint(thePoint, #VTAB_SELTYPE_NEW)\n    if (theTheme.GetFTab.GetSelection.Count > 1) then\n      msgbox.Error(\"You must select only ONE stream. Exiting.\",\"RouteTools\")\n      exit\n    elseif (theTheme.GetFTab.GetSelection.Count = 0) then\n      msgbox.Error(\"No streams selected. Exiting.\",\"EventLine\")\n      exit\n    end\n  end\nend\n'************************\n'The guy
+ at the Con said something about view refreshes and I can't remember what!!!!\ntheView.GetDisplay.Flush\n'************************\nav.Run(\"aa.RouteTools.Batch\",\"\")\ntheview.getwin.open\nreturn (nil)"
+)
+
+(Script.205
+	Name:	"aa.RouteTools.TableAppendEventTables"
+	SourceCode:	"' Name:          aa.Table.AppendTables\nstrTitle = \"Append Tables\"\n\n\n' Find all Event tables in the project.\nlstTables = av.Run(\"aa.RouteTools.TableListEventTables\", NIL)\n\nif (lstTables.Count < 2) then\n  MsgBox.Error(\"Must have at least two event tables to append.\", strTitle)\n  exit\nend\n\nlstTablesToAppend = {}\n'Select Master table\ntheMaster = msgbox.list(lstTables, \"Choose the master event table. (The table to which the others will be appended)\", strTitle)\nif (themaster = nil) then exit end\ntheTable = theMas
+ter\nlstTables.removeobj(themaster)\nlstTablesToAppend.add(themaster)\n\n' Allow the user to choose table to append.\nlstNew = MsgBox.MultiList (lstTables, \"Choose table(s) to append to the master event table.\", strTitle)\nif (lstNew = NIL) then \n  exit\nelse\n  lstTablesToAppend.Merge(lstNew)\nend\n\n\nif ((lstTablesToAppend = Nil) or (lstTablesToAppend.Count < 2)) then\n  MsgBox.Error(\"Not enough tables to merge.\", strTitle)\n  exit\nend\n\n'Check for duplicate Eventids\n\nMIdList = {}\nFor each r in themaster.getvtab\n  thei
+d = themaster.getvtab.returnvalue(themaster.getvtab.findfield(\"EventID\"),r)\n  MIdList.add(theID)\nend\n\ndup = false\nfor each t in lstnew\n  for each r in t.getvtab\n    theid = t.getvtab.returnvalue(t.getvtab.findfield(\"EventID\"),r)\n    for each m in Midlist\n      if (m = theid) then\n        dup = true\n        break\n        break\n        break\n      end\n    end\n  end\nend\n\nif (dup) then\n  myans = MsgBox.YesNo (\"There are duplicate Eventid's in the master and one of the append tables.  Do you want to continue?\", 
+\"Warning!\", FALSE)\n  if (Myans = FALSE) then exit end\nend\n \n\n\n\n\nlstStrFields = List.Make\n'\n' Dictionary entries are {field, table, error status}.\n' Keys are the field aliases.\n'\nFField = 0\nFTable = 1\nFStatus = 2\n\ndctFields = Dictionary.Make(lstTablesToAppend.Count * 10) ' Rough guess\nstrErrs = \"\" ' Accumulate all errors for display afterwards\nfor each t in lstTablesToAppend\n  for each f in t.GetVTab.GetFields\n    if (f.IsVisible.Not) then continue end\n    if (f.IsTypeShape) then continue end\n    \n    s = f.
+GetAlias\n    objG = dctFields.Get(s)\n    if (objG = NIL) then\n      dctFields.Add(s, {f.Clone,t,NIL})\n      lstStrFields.Add(s)\n    else\n      '\n      ' Compare field types.\n      '\n      g = objG.Get(FField)\n      isMatch = false\n      \n      if (f.IsTypeNumber and g.IsTypeNumber) then\n        p = f.GetPrecision max g.GetPrecision\n        w = ((f.GetWidth - f.GetPrecision) max (g.GetWidth - g.GetPrecision) + p) min 254\n        if ((g.GetPrecision < p) or (g.GetWidth < w)) then\n          if ((f.GetPrecision
+ < p) or (f.GetWidth < w)) then\n            f = Field.Make(s, g.GetType, w, p)\n          else\n            f = f.Clone\n          end\n          dctFields.Set(s, {f, t, NIL})\n        end\n        \n      elseif (f.IsTypeString and g.IsTypeString) then\n        if (f.GetWidth > g.GetWidth) then\n          dctFields.Set(s, {f.Clone, t, NIL})\n        end\n        \n      elseif (f.IsTypeShape and g.IsTypeShape) then\n      \n      elseif (f.GetType = g.GetType) then\n      \n      else\n        objG.Set(FStatus, true)\n     
+   strErrs = strErrs + NL +\n                  t.GetName + \"[\" + s + \"] is \" + f.GetType.AsString + \"; \" +\n                  objG.Get(1).GetName + \"[\" + s + \"] is \" + g.GetType.AsString\n      end\n    end \n  end ' for each field f\nend ' for each table t\n\nif (strErrs <> \"\") then\n  strErrs = \"Field mis-matches found: continue processing?\" + strErrs\n  if (MsgBox.LongYesNo(strErrs, strTitle, false).Not) then\n    exit\n  end\nend\n'.............................................................................'\n'\n' Fin
+d all fields whose status is good (NIL).\n'\nlstFields = {}\nfor each s in lstStrFields\n  objS = dctFields.Get(s)\n  if (objS.Get(FStatus) = NIL) then\n    lstFields.Add(objS.Get(FField))\n  end\nend\n\n'.............................................................................'\n'\n' Remove fields from list that are already in master\n'\nlstFieldsToAppend = {}\nmasterfields = themaster.getvtab.getfields\nfor each f in lstfields\n  for each mf in Masterfields\n    if (f = mf) then\n      lstfieldstoappend.add(f)\n    end\n 
+ end\nend\n    \n\n'.............................................................................'\n'\n' Start Editing Master\n' add fields that we've gathered from the input tables.\n'\nvtbMerge = themaster.getvtab\nvtbMerge.seteditable(TRUE)\nif (lstFields.Count > 0) then\n  vtbMerge.AddFields( lstFieldstoAppend )\nend\n'.............................................................................'\n'\n' Include one more field to track the source of each record.\n'\naddtablefield = true\nfor each f in vtbmerge.getfields\n  i
+f (f.getalias = \"Table\") then\n    addtablefield = false\n  end\nend\nfldFile = Field.Make(\"Table\", #FIELD_CHAR, 24, 0)\nif (addtablefield) then\n  fldFile = Field.Make(\"Table\", #FIELD_CHAR, 24, 0)\n  vtbMerge.AddFields({fldFile})\nelse\n  fldFile = vtbmerge.findfield(\"Table\")\nend\n\n'theTable = Table.Make(vtbMerge)\n'theTable.SetName(FNOut.AsString)\n'.............................................................................'\n'\n' Populate the new VTab from the VTabs of the input tables.\n'\n'First remove themaster fro
+m the list\nlstTablestoAppend.removeobj(themaster)\n\n\ncanIterate = true ' Manages a user break from the inner loop\nfor each t in lstTablesToAppend\n  if (canIterate.Not) then break end\n  \n  av.SetStatus(0)\n  av.ShowMsg( \"Appending\"++t.GetName )\n  strName = t.GetName\n  vtbIn  = t.GetVTab\n\n    theRecordsToMerge = vtbIn\n    numRecs = vtbIn.GetNumRecords\n  lstFldPairs = {}\n  for each f in vtbMerge.GetFields\n    g = vtbIn.FindField(f.GetAlias)\n    if (g <> NIL) then\n      lstFldPairs.Add({f,g})\n    end\n  end\n  '\n  
+' Append the records.\n  '\n  for each rec in theRecordsToMerge \n    if(av.SetStatus( (rec / numRecs) * 100 ).not) then \n      canIterate = false\n      break\n    end\n    \n    newRec = vtbMerge.AddRecord  ' Appends a new blank record\n    for each fg in lstFldPairs   ' Copies field values from the input record\n      objValue = vtbIn.ReturnValue( fg.Get(1), rec )\n      vtbMerge.SetValue( fg.Get(0), newRec, objValue )\n    end \n    \n    ' Identify the source table for this record:      \n    vtbMerge.SetValue(fldFi
+le, newRec, strName)   \n  end   ' for each rec\nend   ' for each t\n'.............................................................................'\n'\n' Clean up.\n'\nvtbMerge.SetEditable(false)\nav.ClearMsg\nav.ClearStatus\ntheTable.GetWin.Activate\n' end of script"
+)
+
+(Script.206
+	Name:	"aa.RouteTools.AddXYCoordinates"
+	SourceCode:	"theView = av.GetActiveDoc\nthetheme = theview.getactivethemes.get(0)\n'theTheme = theView.FindTheme (theTheme)\ntheFTab = theTheme.GetFTab\ntheclass = theftab.getshapeclass.getclassname\nif ((theclass = \"Polyline\") or (theclass = \"PolylineM\")) then\n  thetype = \"line\"\nelseif ((theclass = \"Point\") or (theclass = \"MultiPoint\") or (theclass = \"MultiPointM\")) then\n  thetype = \"point\"\nelse\n  msgbox.Error(\"This script only works for the following shapefile classes: Polyline, PolylineM, Point, MultiPoint, MultiPointM\",\"
+Error\")\n  exit\nend\n  \nshpFld = theFTab.FindField (\"Shape\")\ntotrec = theFTab.GetNumRecords\ncoorPr = theView.GetCoordinatePrecision\n' --- ADD COORDINATE FIELDS IF NEEDED---\nthefxfld = theFtab.findfield(\"FromX\")\nthefyfld = theFtab.findfield(\"FromY\")\nthetxfld = theFtab.findfield(\"ToX\")\nthetyfld = theFtab.findfield(\"ToY\")\nif ((thefxfld <> nil) or (thefyfld<>nil) or (thetxfld<>nil) or (thetyfld<>nil)) then\n  theans = msgbox.yesno(\"This script will update the following fields: FromX, FromY, ToX, and ToY.  Are you 
+sure that you want to do this?\",\"Update Fields\", True)\n  if (theans.not) then\n    return nil\n  end\nend\ntheFtab.seteditable(true)\nif (thefxfld = nil) then\n  FromX = Field.Make(\"FromX\",#Field_Decimal,11,3)\n  theFtab.AddFields({FromX})\n  thefxfld = theFtab.findfield(\"FromX\")\nend\nif (thefyfld = nil) then\n  FromY = Field.Make(\"FromY\",#Field_Decimal,11,3)\n  theFtab.AddFields({FromY})\n  thefyfld = theFtab.findfield(\"FromY\")\nend\nif ((thetxfld = nil) and (thetype = \"line\")) then\n  ToX = Field.Make(\"ToX\",#Field_Decim
+al,11,3)\n  theFtab.AddFields({ToX})\n  thetxfld = theFtab.findfield(\"ToX\")\nend\nif ((thetyfld = nil) and (thetype = \"line\")) then\n  ToY = Field.Make(\"ToY\",#Field_Decimal,11,3)\n  theFtab.AddFields({ToY})\n  thetyfld = theFtab.findfield(\"ToY\")\nend\n' --- APPLY COORDINATES ---\nidx = 0\nfor each i in theFTab\n  if (thetype = \"line\") then\n    thePolyline = (theFTab.ReturnValue (shpFld, idx)).AsMultiPoint.AsList\n    theFTab.SetValue (thefxfld, idx, (thePolyline.Get (0)).GetX)\n    theFTab.SetValue (thefyfld, idx, (thePo
+lyline.Get (0)).GetY)\n    theFTab.SetValue (thetxfld, idx, (thePolyline.Get ((thePolyline.Count) - 1).GetX))\n    theFTab.SetValue (thetyfld, idx, (thePolyline.Get ((thePolyline.Count) - 1).GetY))\n  else\n    thepoint = (theftab.returnvalue(shpFld, idx))\n      if (theclass = \"point\") then\n        theFtab.SetValue (thefxfld, idx, (thePoint.getX))\n        theFtab.SetValue (thefyfld, idx, (thePoint.getY))\n      else\n        thelist = thepoint.aslist\n        theFTab.SetValue (thefxfld, idx, (thelist.Get (0)).GetX
+)\n        theFTab.SetValue (thefyfld, idx, (thelist.Get (0)).GetY)\n      end\n  end\n  idx = idx + 1\n  av.SetStatus ((idx/totrec) * 100)\n  av.ShowMsg (\"Writing coordinates...\")\nend\nav.ClearMsg\nav.ClearStatus\ntheFTab.SetEditable (FALSE)\n'refresh tables because event tables appear hosed after you update an event theme \nfor each d in av.GetProject.GetDocs\n  if (d.Is(Table)) then\n    d.getvtab.refresh\n  end\nend"
+)
+
+(Script.207
+	Name:	"aa.RouteTools.PointsImportFromXY"
+	SourceCode:	"theView = av.GetActiveDoc\ntheTableList = List.Make\n\nfor each d in av.GetProject.GetDocs\n  if (d.Is(Table)) then\n    if ((d.getvtab.findfield(\"EventId\") <> nil)\n      and (d.getvtab.findfield(\"FromX\") <> nil)\n      and (d.getvtab.findfield(\"FromY\") <> nil)\n      and (d.getvtab.findfield(\"ToX\") <> nil)\n      and (d.getvtab.findfield(\"ToY\") <> nil)) then\n      theTableList.Add(d)\n    end\n  end\nend\ntheTableList.Add(\"Add an existing Event Table to project\")\n  \n'***************************************************
+******\n'Get the table from which you want to pull the trend points\ntheTable = MsgBox.ChoiceAsString(theTableList, \n  \"Choose your input table\",\"Input Table\")  \nif (theTable = Nil) then\n  return(nil)\nend\n\nif (thetable = \"Add an existing Event Table to project\") then  'Add Existing Table\n  theTable = av.Run( \"Project.AddTable\", NIL )\n  if (theTable = Nil) then exit end\nend\n\n\nif (theTable.Is(Table)) then\n  theVTab = theTable.GetVTab\n  fxfield = thevtab.findfield(\"FromX\")\n  fyfield = thevtab.findfield(\"FromY\")\n
+  txfield = thevtab.findfield(\"ToX\")\n  tyfield = thevtab.findfield(\"ToY\")\n  idField = thevtab.findfield(\"EventID\")\nend\n\nif((theTable.is(table).not) or (fxfield = nil) or (fyfield = nil) or (txfield = nil) or (tyfield = nil) or (idField = nil)) then\n  msgbox.error(\"Invalid Input table\",\"Stopping\")\n  return nil\nend\n\n\n'get list of fields\nthefields = thevtab.getfields.deepclone\n\n'*********************************************************\n'If a theme in the view is being edited, Stop Editing it before creating ne
+w theme\neditThm = theView.GetEditableTheme\nif (editThm <> nil) then\n  doSave = MsgBox.YesNoCancel(\"Save edits to \"+editThm.GetName+\"?\",\"Stop Editing\",true)\n  if (doSave = nil) then\n    return nil\n  end\n  if (editThm.StopEditing(doSave).Not) then\n      MsgBox.Info(\"Unable to Save Edits to \"\n                   + editThm.GetName +\n                  \", please use the Save Edits As option\", \"\")\n      return nil\n  else\n      theView.SetEditableTheme(NIL)\n  end\nend  \n\n'Get the projection of the input data\ntheproj 
+= MsgBox.Choiceasstring ({\"Geographic(NAD27)\",\"Albers\"}, \"What projection is your coordinate data in?\", \"RouteTools\")\nif (theproj = nil) then \n  return nil\n  exit\nelseif (theproj = \"Geographic(NAD27)\") then\n  theproj = \"LL\"\nelse\n  theproj = \"ALB\"\nend\n\n\nclass = Point\n\ndef = av.GetProject.MakeFileName(\"theme\", \"shp\")\n\ndef = FileDialog.Put(def, \"*.shp\", \"New theme\")\n\nif(def = nil) then exit end\n\nif (def <> nil) then\n  tbl = FTab.MakeNew(def, class)\n  if (tbl.HasError) then\n     if (tbl.HasLockError) then\n     
+   MsgBox.Error(\"Unable to acquire Write Lock for file \" + def.GetBaseName, \"\")\n     else\n        MsgBox.Error(\"Unable to create \" + def.GetBaseName, \"\")\n     end\n     return nil\n  end\n\n  dirfld = Field.Make(\"Dir\", #FIELD_Char, 6, 0)\n  \n  thefields.add(dirfld)\n  \n  tbl.AddFields(thefields)\n  tbl.SetEditable(False)\n  outTheme = FTheme.Make(tbl)\n\n  theView.AddTheme(outTheme)\n  outTheme.SetVisible(TRUE)\n  av.GetProject.SetModified(true)\nend\ntheftab = outtheme.getftab\n \n'****************************************
+*****************\n\nshpfld = theftab.findfield(\"Shape\")\ndirfld = theftab.findfield(\"Dir\")\n\n\ntheftab.seteditable(TRUE)\nFor each r in thevtab\n  av.SetStatus((r/(thevtab.getnumrecords - 1)) * 100)\n  'first create and project the from and to points\n  FX = theVTab.ReturnValue (fxfield, r)\n  FY = theVTab.ReturnValue (fyfield, r)\n  TX = theVTab.ReturnValue (txfield, r)\n  TY = theVTab.ReturnValue (tyfield, r)\n  If (((TX = 0) and (TY = 0)) or ((TX.isNull) and (TY.isNull))) then\n    feattype = \"point\"\n  else\n    featt
+ype = \"line\"\n  end\n\n  frompoint = point.make (FX,FY)\n  'Project the data if necessary\n  If (theProj = \"LL\") then\n    theuserfrompoint = av.Run(\"aa.ProjectFeature\", {frompoint,\"LLtoAlb\"})\n  else\n    theuserfrompoint = frompoint\n  end \n\n  if (feattype = \"line\") then\n    topoint = point.make (TX,TY)\n    If (theProj = \"LL\") then\n      theusertopoint = av.Run(\"aa.ProjectFeature\", {topoint,\"LLtoAlb\"})\n    else\n      theusertopoint = topoint\n    end \n  end\n\n  'add a point feature\n  if (feattype = \"point\") then\n   
+ therec = theftab.addrecord\n    theftab.setvalue(shpfld,therec,theuserfrompoint)\n    theftab.setvalue(dirfld,therec,\"Point\")  \n    'add the attributes\n    for each f in thevtab.getfields\n      thename = f.getname\n      theval = thevtab.returnvalue(thevtab.findfield(thename),r)\n      theftab.setvalue(theftab.findfield(thename),therec,theval)\n    end\n  else \n\n    'add a \"from\" record to the ftab\n    therec = theftab.addrecord\n    theftab.setvalue(shpfld,therec,theuserfrompoint)\n    theftab.setvalue(dirfld,the
+rec,\"From\")  \n    'add the attributes\n    for each f in thevtab.getfields\n      thename = f.getname\n      theval = thevtab.returnvalue(thevtab.findfield(thename),r)\n      theftab.setvalue(theftab.findfield(thename),therec,theval)\n    end\n\n    'now add a \"To\" record to the ftab\n    therec = theftab.addrecord\n    theftab.setvalue(shpfld,therec,theusertopoint)\n    theftab.setvalue(dirfld,therec,\"To\")  \n    'add the attributes\n    for each f in thevtab.getfields\n      thename = f.getname\n      theval = thevtab.
+returnvalue(thevtab.findfield(thename),r)\n      theftab.setvalue(theftab.findfield(thename),therec,theval)\n    end\n  end\nend\ntheftab.seteditable(FALSE)\n  \n"
+)
+
+(AVDLog.208
+	Name:	"DLGSelectHydro"
+	X:	190
+	Y:	219
+	W:	577
+	H:	300
+	ConstrainedControlNames:	209
+	Constraints:	210
+	Server:	211
+	ControlPanel:	212
+	Title:	"Locate Hydrographic Feature"
+	EscapeEnabled:	1
+	Resizable:	1
+	AlwaysOnTop:	1
+	HasTitleBar:	1
+	Closeable:	1
+	Activate:	"aa.routetools.locatehydrolocate"
+	DefaultButton:	229
+)
+
+(AVStr.209
+	S:	"Searchbtn"
+)
+
+(Numb.210
+	N:	85.00000000000000
+)
+
+(Nil.211
+)
+
+(CPanel.212
+	Child:	213
+	Child:	215
+	Child:	216
+	Child:	218
+	Child:	219
+	Child:	220
+	Child:	221
+	ResBox:	222
+	ResBox:	223
+	ResBox:	224
+	ResBox:	225
+	ResBox:	226
+	ResBox:	227
+	ResBox:	228
+	Listening:	1
+)
+
+(TextLine.213
+	InternalName:	"SearchTxt"
+	Label:	"Search For:"
+	Constraints:	0x55
+	Listening:	1
+	TextType:	214
+	Apply:	"aa.routetools.locatehydroSearchClick"
+	NextControl:	211
+)
+
+(AVEnum.214
+	Name:	"TEXTLINE_TYPE_ALL"
+)
+
+(LButn.215
+	InternalName:	"Searchbtn"
+	Label:	"Search"
+	Click:	"aa.routetools.locatehydroSearchClick"
+)
+
+(AVLBox.216
+	InternalName:	"Listbox1"
+	NextControl:	211
+	ContentKind:	4
+	Constraints:	0x55
+	FieldNamesVisible:	1
+	HorizontalScroll:	1
+	Listening:	1
+	VerticalScroll:	1
+	SelectionStyle:	217
+	Apply:	"aa.routetools.locatehydroUserSelect"
+)
+
+(AVEnum.217
+	Name:	"LISTBOX_SELECTION_SINGLEROW"
+)
+
+(TextLabel.218
+	InternalName:	"aTextLabel4"
+	Constraints:	0x55
+	Label:	"Double-click on the feature to zoom"
+	Listening:	1
+)
+
+(TextLabel.219
+	InternalName:	"aTextLabel5"
+	Constraints:	0x55
+	Label:	"Include the following fields in the search:"
+	Listening:	1
+)
+
+(AVCBox.220
+	InternalName:	"chkDownName"
+	Listening:	1
+	Label:	"Down_Name"
+	Constraints:	0x55
+)
+
+(AVCBox.221
+	InternalName:	"chkDownLLID"
+	Listening:	1
+	Label:	"Down_LLID"
+	Constraints:	0x55
+)
+
+(RectD.222
+	Left:	12.00000000000000
+	Top:	31.00000000000000
+	Right:	480.00000000000000
+	Bottom:	11.00000000000000
+)
+
+(RectD.223
+	Left:	491.00000000000000
+	Top:	31.00000000000000
+	Right:	568.00000000000000
+	Bottom:	8.00000000000000
+)
+
+(RectD.224
+	Left:	12.00000000000000
+	Top:	253.00000000000000
+	Right:	567.00000000000000
+	Bottom:	55.00000000000000
+)
+
+(RectD.225
+	Left:	12.00000000000000
+	Top:	59.00000000000000
+	Right:	286.00000000000000
+	Bottom:	38.00000000000000
+)
+
+(RectD.226
+	Left:	26.00000000000000
+	Top:	289.00000000000000
+	Right:	231.00000000000000
+	Bottom:	269.00000000000000
+)
+
+(RectD.227
+	Left:	263.00000000000000
+	Top:	287.00000000000000
+	Right:	426.00000000000000
+	Bottom:	264.00000000000000
+)
+
+(RectD.228
+	Left:	404.00000000000000
+	Top:	289.00000000000000
+	Right:	567.00000000000000
+	Bottom:	266.00000000000000
+)
+
+(Nil.229
+)
+
+(Script.230
+	Name:	"aa.RouteTools.Unload"
+	SourceCode:	"'aa.RouteTools.Unload\nav.run(\"aa.RouteTools.LocateHydroUnload\",\"\")"
+)
+
+(Script.231
+	Name:	"Install"
+	SourceCode:	"'Pulled from extentionmaker.apr at Sat Mar 03 22:07:37 2001 \n\n' Name:  Install\n'\n' Author: Original Script ESRI Redlands\n'         Modified Harley Prowse,  Auckland UniServices - Geographic Technologies (harleyp@gtech.co.nz)\n'\n' Title: Extension Builder - Install\n'\n' Topics:  \n'\n' Description:  \n'\n' Requires:  \n'\n' Self:  \n'\n' Returns:\n'DO NOT EDIT!!!\nif (av.getproject=nil) then return(nil) end\n'msgbox.info (\"now installing the extension\",\"\")\ntheDocs = SELF.get(0)\ntheControlList = SELF.get(1)\ntheMenuList = 
+SELF.get(2)\nthePopupList= SELF.get(3)\ntheToolMenuList=SELF.Get(4)\ntheProject=Av.getproject\ntheOldCindex=0\nButtonStartIndex=23\nTootlStartIndex=14\nNumControlSpaces=0\nNumToolSpaces=0\n'Add the Docs\n'\nfor each adoc in theDocs\n theProject.addDoc(adoc)\nend\n'Add the Controls\n'\nfor each totalControl in theControlList\n   'The Control list\n   acontrol=totalControl.get(0)\n   aspacer=totalControl.get(2)\n   \n   if (aspacer=\"Space\") then\n     if (NumControlSpaces=0) then\n       theCindex=ButtonStartIndex\n       theOldCind
+ex=theCindex\n       NumControlSpaces=NumControlSpaces+1\n     else\n       theCindex=theOldCindex+1\n     end\n     \n    thecommand=\"av.getproject.findGUI(\"\"\"+totalControl.get(0)+\"\"\").Get\"+totalcontrol.get(1)\n    thescript1=Script.Make(thecommand)\n    thecontrolset=thescript1.doit(\"\") \n    theControl=space.make\n    theControl.setName(\"Spacer\")\n     \n   else\n     'The physical control\n     theControl = totalControl.get(1)\n     \n     'The control Index\n     theCindex=totalControl.get(2)\n  \n     'Find the DocGUI\n 
+    theControlDoc=av.getproject.findGUI(aControl.get(0))\n       if (theControlDoc=NIL) then   \n         MsgBox.Warning(\"The GUI \"+aControl.get(0)+\" cannot be found in the current project.\",\"Script Eror\")\n         return(nil)\n       end\n     \n     'This finds the control set  \n    thecommand=\"av.getproject.findGUI(\"\"\"+aControl.get(0)+\"\"\").Get\"+acontrol.get(1)\n    thescript1=Script.Make(thecommand)\n    thecontrolset=thescript1.doit(\"\")\n    theOldCindex=theCindex\n  end\n  \n  'Add the control to the control set\n
+  theControlSet.Add(theControl,theCindex)\nend\n'Add the menus\nfor each totalcontrol in theMenuList\n  \n   'The Control list\n   acontrol=totalControl.get(0)\n   \n   if (totalControl.get(2)=\"Space\") then\n     theCindex=theOldCindex+1\n     theControl=space.make\n     theControl.SetName(\"Spacer\")\n   else\n        mDoc=acontrol.get(0)\n        mMenu=acontrol.get(1)\n        mMenuItem=acontrol.get(2)\n  \n     'The physical control\n     theControl = totalControl.get(1)\n     \n     'The control Index\n     theCindex=totalCon
+trol.get(2)\n     theOldCindex=theCindex\n  \n     'Find the DocGUI\n     theControlDoc=av.getproject.findGUI(aControl.get(0))\n       if (theControlDoc=NIL) then   \n         MsgBox.Warning(\"The GUI \"+aControl.get(0)+\" cannot be found in the current project.\",\"Script Eror\")\n         return(nil)\n       end\n     \n    theMbar=av.getproject.findGUI(mDoc).GetMenuBar\n    themenu=theMbar.findbylabel(mMenu)\n    if (themenu=NiL) then\n        themenu=menu.make\n        themenu.setlabel(mMenu)\n        theMbar.add(themenu,99
+9)\n    end\n  end\n  themenu.add(thecontrol, theCindex)\nend\n'________________________________________________________________\n'Custom code for adding popups\n'________________________________________________________________\n'Add the popups\nfor each totalcontrol in thePopupList\n  \n   'The Control list\n   acontrol=totalControl.get(0)\n   \n   if (totalControl.get(2)=\"Space\") then\n     theCindex=theOldCindex+1\n     theControl=space.make\n     theControl.SetName(\"Spacer\")\n   else\n        pDoc=acontrol.get(0)\n        
+popMenu=acontrol.get(1)\n        pMenuItem=acontrol.get(2)\n  \n     'The physical control\n     theControl = totalControl.get(1)\n     \n     'The control Index\n     theCindex=totalControl.get(2)\n     theOldCindex=theCindex\n  \n     'Find the DocGUI\n     theControlDoc=av.getproject.findGUI(aControl.get(0))\n       if (theControlDoc=NIL) then   \n         MsgBox.Warning(\"The GUI \"+aControl.get(0)+\" cannot be found in the current project.\",\"Script Eror\")\n         return(nil)\n       end\n     \n    thepopups=av.getproje
+ct.findGUI(pDoc).Getpopups\n    thepopup=thepopups.findbylabel(popMenu)\n    if (thepopup=NiL) then\n        thepopup=popup.make\n        thepopup.setlabel(popMenu)\n        thepopups.add(thepopup,999)\n    end\n  end\n  thepopup.add(thecontrol, theCindex)\nend\n'______________________________________________________________________\n   \n'Add the Tool Menus\nfor each totalControl in theToolMenuList\n   'The Control list\n   acontrol=totalControl.get(0)\n   \n   if (aControl=\"Space\") then\n     theCindex=theOldCindex+1\n     
+theControl=space.make\n   else\n     'The physical control\n     theControl = totalControl.get(1)\n     \n     'The control Index\n     theCindex=totalControl.get(2)\n  \n     'Find the DocGUI\n     theControlDoc=av.getproject.findGUI(aControl.get(0))\n       if (theControlDoc=NIL) then   \n         MsgBox.Warning(\"The GUI \"+aControl.get(0)+\" cannot be found in the current project.\",\"Script Eror\")\n         return(nil)\n       end\n     \n     'This finds the control set  \n    thecommand=\"av.getproject.findGUI(\"\"\"+aContro
+l.get(0)+\"\"\").Get\"+acontrol.get(1)\n    thescript1=Script.Make(thecommand)\n    thecontrolset=av.getproject.findGUI(aControl.get(0)).GetToolBar\n    theOldCindex=theCindex\n   end\n  \n  'Add the control to the control set\n  theControlSet.Add(theControl,theCindex)\nend\n\nav.run(\"aa.RouteTools.Initialize\",\"\")\n\nav.getproject.setmodified(true)"
+)
+
+(Script.232
+	Name:	"Uninstall"
+	SourceCode:	"'Pulled from extentionmaker.apr at Sat Mar 03 22:07:37 2001 \n\n' Name:  Uninstall\n'\n' Author: Original Script ESRI Redlands\n'         Modified Harley Prowse,  Auckland UniServices - Geographic Technologies (harleyp@gtech.co.nz)\n'\n' Title: Extension Builder - Uninstall\n'\n' Topics:  \n'\n' Description:  \n'\n' Requires:  \n'\n' Self:  \n'\n' Returns:\n'DO NOT EDIT!!!\n'The SELF is the Extension\ntheDocs = SELF.get(0)\ntheControlList = SELF.get(1)\ntheMenuList = SELF.get(2)\nthePopupList = SELF.get(3)\ntheToolMenuList=SELF.ge
+t(4)\ntheProject=Av.getproject\n'remove the Docs\n'\nfor each adoc in theDocs\n If (theProject.finddoc(adoc.getname)<>NIL) then \n  'theAnswer=msgbox.yesno(\"Remove the Document \"+adoc.getname+\"?\",\"Remove Document?\",TRUE)\n  'if (theAnswer=TRUE) then theProject.RemoveDoc(adoc) end\n  theProject.RemoveDoc(adoc)\n end\nend\n'Removethe Controls\n'\nfor each totalControl in theControlList\n   \n   if (totalcontrol.get(2) <> \"Space\") then\n   \n     'Get the control list from the Ext\n     acontrol=totalControl.get(0)\n     \n     '
+Get the physical Control\n     theControl = totalControl.get(1)\n     \n     'Get the Controls Index\n     theCindex=totalControl.get(2)\n  \n     'Find the DocGUI for the Control\n     theControlDoc=av.getproject.findGUI(aControl.get(0))\n       if (theControlDoc=NIL) then   \n         MsgBox.Warning(\"The GUI \"+aControl.get(0)+\" cannot be found in the current project.\",\"Script Eror\")\n         return(nil)\n       end\n     \n     'This sequence finds the appropiate control set\n     thecommand=\"av.getproject.findGUI(\"\"\"
++aControl.get(0)+\"\"\").Get\"+acontrol.get(1)\n     thescript1=Script.Make(thecommand)\n     thecontrolset=thescript1.doit(\"\")\n  \n     'See if the control is in the set , if so remove it\n      if (theControlSet.GetControls.find(theControl)<>NIL) then\n        theControlSet.remove(theControl)\n        if (thecontrol = \"ToolBar\") then\n          theControlSet.selectdefault\n        end\n      end\n   else\n     thecommand=\"av.getproject.findGUI(\"\"\"+totalControl.get(0)+\"\"\").Get\"+totalcontrol.get(1)\n     thescript1=Script.
+Make(thecommand)\n     thecontrolset=thescript1.doit(\"\")\n     \n     spacerControl=theControlSet.FindByName(\"Spacer\")\n     \n     if (spacerControl <> nil) then\n       theControlSet.remove(spacerControl)\n     end\n  end\nend\n'msgbox.info(\"Controls Removed OK\",\"\")\n'Remove the Menus\n'\nfor each totalcontrol in theMenuList\n  \n   'The Control list\n    acontrol=totalControl.get(0)\n    if (totalControl.get(2) <> \"Space\") then\n      \n          mDoc=acontrol.get(0)\n          mMenu=acontrol.get(1)\n          mMenuItem=acon
+trol.get(2)\n    \n       'The physical control\n       theControl = totalControl.get(1)\n       \n       'The control Index\n       theCindex=totalControl.get(2)\n    \n       'Find the DocGUI\n       theControlDoc=av.getproject.findGUI(aControl.get(0))\n         if (theControlDoc=NIL) then   \n           MsgBox.Warning(\"The GUI \"+aControl.get(0)+\" cannot be found in the current project.\",\"Script Eror\")\n           return(nil)\n         end\n       \n      theMbar=av.getproject.findGUI(mDoc).GetMenuBar\n      themenu=theM
+bar.findbylabel(mMenu)\n      if (themenu=NiL) then\n           MsgBox.Warning(\"The menu named \"+mMenu+\" is not here.\",\"Script Eror\")\n          'return(nil)\n      else\n      \n        thething=themenu.getcontrols.find(thecontrol)\n        if (thething<>NIL) then \n          themenu.remove(thecontrol) \n        end\n        'msgbox.info(themenu.GetControls.count.asstring,\"\")\n        if (themenu.GetControls.count<1) then\n          theMbar.remove(themenu)\n        end\n      end\n  else\n     'Find the DocGUI\n       theC
+ontrolDoc=av.getproject.findGUI(totalControl.get(0))\n         if (theControlDoc=NIL) then   \n           MsgBox.Warning(\"The GUI \"+totalControl.get(0)+\" cannot be found in the current project.\",\"Script Eror\")\n           return(nil)\n         end\n     theMbar=av.getproject.findGUI(mDoc).GetMenuBar\n     themenu=theMbar.findbylabel(mMenu)\n      if (themenu=NiL) then\n           MsgBox.Warning(\"The menu named \"+mMenu+\" is not here.\",\"Script Eror\")\n          'return(nil)\n      else\n        theSpacer=themenu.findbyn
+ame(\"Spacer\")\n        if (thespacer <> nil) then\n          themenu.remove(theSpacer)\n        end\n      end\n  end\nend\n'msgbox.info(\"Menus Removed OK\",\"\")\n'__________________________________________________________________________\n'Remove the Popups\n'__________________________________________________________________________\nfor each totalcontrol in thePopupList\n  \n   'The Control list\n    acontrol=totalControl.get(0)\n    if (totalControl.get(2) <> \"Space\") then\n      \n          pDoc=acontrol.get(0)\n          
+popMenu=acontrol.get(1)\n          pMenuItem=acontrol.get(2)\n    \n       'The physical control\n       theControl = totalControl.get(1)\n       \n       'The control Index\n       theCindex=totalControl.get(2)\n    \n       'Find the DocGUI\n       theControlDoc=av.getproject.findGUI(aControl.get(0))\n         if (theControlDoc=NIL) then   \n           MsgBox.Warning(\"The GUI \"+aControl.get(0)+\" cannot be found in the current project.\",\"Script Eror\")\n           return(nil)\n         end\n       \n      thepopups=av.getp
+roject.findGUI(pDoc).Getpopups\n      thepopup=thepopups.findbylabel(popMenu)\n      if (thepopup=NiL) then\n           MsgBox.Warning(\"The popup named \"+popMenu+\" is not here.\",\"Script Eror\")\n          'return(nil)\n      else  \n        thething=thepopup.getcontrols.find(thecontrol)\n        if (thething<>NIL) then \n          thepopup.remove(thecontrol) \n        end\n        'msgbox.info(themenu.GetControls.count.asstring,\"\")\n        if (thepopup.GetControls.count<1) then\n          thepopups.remove(thepopup)\n   
+     end\n      end\n  else\n     'Find the DocGUI\n       theControlDoc=av.getproject.findGUI(totalControl.get(0))\n         if (theControlDoc=NIL) then   \n           MsgBox.Warning(\"The GUI \"+totalControl.get(0)+\" cannot be found in the current project.\",\"Script Eror\")\n           return(nil)\n         end\n     thepopups=av.getproject.findGUI(mDoc).Getpopups\n     thepopup=thepopups.findbylabel(popMenu)\n      if (thepopup=NiL) then\n           MsgBox.Warning(\"The popup named \"+thepopup+\" is not here.\",\"Script Eror
+\")\n          'return(nil)\n      else\n        theSpacer=thepopup.findbyname(\"Spacer\")\n        if (thespacer <> nil) then\n          thepopup.remove(theSpacer)\n        end\n      end\n  end\nend\nfor each totalControl in theToolMenuList\n   'Get the control list from the Ext\n   acontrol=totalControl.get(0)\n   \n   'Get the physical Control\n   theControl = totalControl.get(1)\n   \n   'Get the Controls Index\n   theCindex=totalControl.get(2)\n   'Find the DocGUI for the Control\n   theControlDoc=av.getproject.findGUI(aCon
+trol.get(0))\n     if (theControlDoc=NIL) then   \n       MsgBox.Warning(\"The GUI \"+aControl.get(0)+\" cannot be found in the current project.\",\"Script Eror\")\n       return(nil)\n     end\n   \n   'This sequence finds the appropiate control set\n   thecontrolset=av.getproject.findGUI(aControl.get(0)).GetToolBar\n \n    'See if the control is in the set , if so remove it\n    if (theControlSet.GetControls.find(theControl)<>NIL) then\n \n      theControlSet.remove(theControl)\n      theControlSet.selectdefault\n    end\nend
+\n   \n'msgbox.info(\"ToolMenus Removed OK\",\"\")\n'And the scripts delete themselves\n'**** Uncomment this line if your extension contains dialogs *****\n'Dialog.DetachFromExtension(self)\nav.purgeObjects\nav.getproject.setmodified(true)"
+)
+
