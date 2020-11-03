@@ -16,7 +16,7 @@ output_root <- file.path(root,"output")
 End_year=2020
 
 #Code from Sam Bashevkin's Delta Smelt Conditions Report
-smelt_edsm <- read_csv(file.path(data_root, "EDSM", "edsm_abund_estimates_2020-09-16.csv"))%>%
+smelt_edsm <- read_csv(file.path(data_root, "EDSM", "edsm_abund_estimates_2020-11-03.csv"))%>%
   mutate(Stratum=recode(Stratum, "Cache Slough LI"="Cache Slough/Liberty Island", "Sac DW Ship Channel"="Sac Deep Water Shipping Channel",
                         "Lower Sacramento"="Lower Sacramento River", "Lower San Joaquin"="Lower San Joaquin River"),
          Date=WeekStartDate+ceiling((WeekEndDate-WeekStartDate)/2))%>%
@@ -24,7 +24,6 @@ smelt_edsm <- read_csv(file.path(data_root, "EDSM", "edsm_abund_estimates_2020-0
   mutate(MonthYear=floor_date(Date, unit = "month"))
 
 EDSM_regions=c("Suisun Bay", "Suisun Marsh", "Lower Sacramento River", "Sac Deep Water Shipping Channel", "Cache Slough/Liberty Island", "Lower San Joaquin River")
-
 
 EDSM<-smelt_edsm%>%
   dplyr::filter(!is.na(.data$Abundance))%>%
