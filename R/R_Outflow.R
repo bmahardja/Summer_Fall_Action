@@ -97,8 +97,8 @@ data_dayflow_summerfall_5yrs$Year<-as.factor(data_dayflow_summerfall_5yrs$Year)
 plot_outflow_5yrs <- ggplot2::ggplot()+
   ggplot2::theme_bw()+
   ggplot2::geom_line(data=data_dayflow_summerfall_5yrs, ggplot2::aes(x=as.Date(paste(2020,strftime(Date,format="%m-%d"),sep="-")), y=OUT, color=Year, linetype=Year),size=1)+
-  ggplot2::scale_linetype_manual(values = c("solid","solid","solid","solid","solid","dotdash"),guide=FALSE) +
-  ggplot2::scale_colour_manual(values = c("#000000","#000075","#4363d8","#469990","#9A6324","#e6194B"),name="",labels=c(2015:2020)) +
+  ggplot2::scale_linetype_manual(values = c("dotdash","dotdash","dotdash","dotdash","dotdash","solid"),guide=FALSE) +
+  ggplot2::scale_colour_manual(values = c("#000000","#800000","#f032e6","#4363d8","#42d4f4","#e6194B"),name="",labels=c(2015:2020)) +
   ggplot2::theme(plot.title=element_text(size=9), 
                  axis.text.x=element_text(size=9, color="black"), 
                  axis.text.y = element_text(size=8, color="black"), 
@@ -116,8 +116,8 @@ plot_outflow_5yrs
 plot_X2_5yrs <- ggplot2::ggplot()+
   ggplot2::theme_bw()+
   ggplot2::geom_line(data=data_dayflow_summerfall_5yrs, ggplot2::aes(x=as.Date(paste(2020,strftime(Date,format="%m-%d"),sep="-")), y=X2, color=Year, linetype=Year),size=1)+
-  ggplot2::scale_linetype_manual(values = c("solid","solid","solid","solid","solid","dotdash"),name="",labels=c(2015:2020)) +
-  ggplot2::scale_colour_manual(values = c("#000000","#000075","#4363d8","#469990","#9A6324","#e6194B"),name="",labels=c(2015:2020))+
+  ggplot2::scale_linetype_manual(values = c("dotdash","dotdash","dotdash","dotdash","dotdash","solid"),name="",labels=c(2015:2020)) +
+  ggplot2::scale_colour_manual(values = c("#000000","#800000","#f032e6","#4363d8","#42d4f4","#e6194B"),name="",labels=c(2015:2020))+
   #ggplot2::scale_linetype(guide = FALSE)+
   ggplot2::theme(plot.title=element_text(size=9), 
           axis.text.x=element_text(size=9, color="black"), 
@@ -175,8 +175,8 @@ plot_outflow_dry <- ggplot2::ggplot()+
   ggplot2::theme_bw()+
   ggplot2::geom_line(data=data_dayflow_summerfall_dry, ggplot2::aes(x=as.Date(paste(2020,strftime(Date,format="%m-%d"),sep="-")), y=OUT, color=Year, linetype=Year),size=1)+
   #Need to change below when 2020 data is in
-  ggplot2::scale_linetype_manual(values = c("solid","solid","solid","solid","solid","dotdash"),guide=FALSE) +
-  ggplot2::scale_colour_manual(values = c("#000000","#000075","#4363d8","#469990","#9A6324","#e6194B"),guide=FALSE) +
+  ggplot2::scale_linetype_manual(values = c("dotdash","dotdash","dotdash","dotdash","dotdash","solid"),guide=FALSE) +
+  ggplot2::scale_colour_manual(values = c("#000000","#800000","#f032e6","#4363d8","#42d4f4","#e6194B"),guide=FALSE) +
   ggplot2::theme(plot.title=element_text(size=9), 
                  axis.text.x=element_text(size=9, color="black"), 
                  axis.text.y = element_text(size=8, color="black"), 
@@ -195,8 +195,8 @@ plot_X2_dry <- ggplot2::ggplot()+
   ggplot2::theme_bw()+
   ggplot2::geom_line(data=data_dayflow_summerfall_dry, ggplot2::aes(x=as.Date(paste(2020,strftime(Date,format="%m-%d"),sep="-")), y=X2, color=Year, linetype=Year),size=1)+
   #Need to change below when 2020 data is in
-  ggplot2::scale_linetype_manual(values = c("solid","solid","solid","solid","solid","dotdash"),name="",labels=dry_years) +
-  ggplot2::scale_colour_manual(values = c("#000000","#000075","#4363d8","#469990","#9A6324","#e6194B"),name="",labels=dry_years) +
+  ggplot2::scale_linetype_manual(values = c("dotdash","dotdash","dotdash","dotdash","dotdash","solid"),name="",labels=dry_years) +
+  ggplot2::scale_colour_manual(values = c("#000000","#800000","#f032e6","#4363d8","#42d4f4","#e6194B"),name="",labels=dry_years) +
   ggplot2::theme(plot.title=element_text(size=9), 
                  axis.text.x=element_text(size=9, color="black"), 
                  axis.text.y = element_text(size=8, color="black"), 

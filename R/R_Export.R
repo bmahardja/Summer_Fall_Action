@@ -15,6 +15,8 @@ data_export <- read_csv(file.path(data_root, "USBR", "June_Oct_Exports.csv"))
 data_export_edit<-data_export %>% mutate (Federal = Tracy, State = CCF) %>% select("Date","State","Federal") %>%
   tidyr::gather("Facility","Export",2:3)
 
+data_export_edit$Facility<-ordered(data_export_edit$Facility, levels = c("State", "Federal"))
+
 export_plot<-ggplot(data_export_edit, aes(fill=Facility, y=Export, x=Date)) + 
   geom_bar(position="stack", stat="identity") +
   scale_fill_viridis(discrete = T) +
@@ -39,8 +41,8 @@ export_plot<-ggplot(data_export_edit, aes(fill=Facility, y=Export, x=Date)) +
 tiff(filename=file.path(output_root,"Figure_Export.png"), 
      type="cairo",
      units="in", 
-     width=12, #10*1, 
-     height=8, #22*1, 
+     width=9, #10*1, 
+     height=5, #22*1, 
      pointsize=5, #12, 
      res=500,
      compression="lzw")
