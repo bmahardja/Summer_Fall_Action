@@ -28,7 +28,7 @@ data_dayflow$WY<-as.numeric(ifelse(month(data_dayflow$Date)>9,data_dayflow$Year+
 #According to Rosemary Hartman (DWR), Dayflow data can't be made available until 2021
 #She said to use the following instead:
 
-#I think Net Delta Outflow is CDEC station code “DTO”
+#I think Net Delta Outflow is CDEC station code DTO
 #https://cdec.water.ca.gov/dynamicapp/staMeta?station_id=DTO
 
 #and X2 is CX2
@@ -61,7 +61,7 @@ which(data_dayflow_added$Date=="2019-10-01")
 #2 parts per thousand at 1 meter off the bottom (Jassby et. al. 1995).
 #In Dayflow, X2 is estimated using the Autoregressive Lag Model:
 
-#X2(t) = 10.16 + 0.945*X2(t-1) – 1.487log(QOUT(t)) #(17)<-Not sure what this is, but it doesn't seem to be relevant based on Anke's notes
+#X2(t) = 10.16 + 0.945*X2(t-1) - 1.487log(QOUT(t)) 
 #NOTE: It seems like the log in the DAYFLOW notation is referring to Log10 (i.e., not ln)
 
 #Fill in X2 data for most recent WY data

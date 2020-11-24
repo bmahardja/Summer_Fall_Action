@@ -271,10 +271,20 @@ dev.off()
 ######################### Solo Belden's Landing salinity figure per Armin Halston's request
 SalinityData
 
-plot_BDL <- ggplot2::ggplot(data= (SalinityData %>% filter(station_id == "BDL")), ggplot2::aes(x=datetime, y=ppt))+
+## Get the start and end points for highlighted regions
+mindates<-c("2020-09-08 01:00:00", "2020-10-01 01:00:00")
+maxdates<-c("2020-09-24 01:00:00", "2020-10-31 01:00:00")
+
+SMSG_highlight<-data.frame(MinDate=mindates,MaxDate=maxdates,mindata=c(0,0),maxdata=c(11,11))
+SMSG_highlight$MaxDate<-as.POSIXct(SMSG_highlight$MaxDate)
+SMSG_highlight$MinDate<-as.POSIXct(SMSG_highlight$MinDate)
+
+
+plot_BDL <- ggplot2::ggplot()+
   ggplot2::theme_bw()+
-  ggplot2::geom_point(alpha=0.2)+
-  ggplot2::geom_smooth(method = 'loess',se=FALSE,span = 0.3)+
+  ggplot2::geom_point(data= (SalinityData %>% filter(station_id == "BDL")), ggplot2::aes(x=datetime, y=ppt),alpha=0.2)+
+  ggplot2::geom_smooth(data= (SalinityData %>% filter(station_id == "BDL")), ggplot2::aes(x=datetime, y=ppt),method = 'loess',se=FALSE,span = 0.3)+
+  ggplot2::geom_rect(data=SMSG_highlight, ggplot2::aes(xmin=MinDate, xmax=MaxDate, ymin=mindata, ymax=maxdata), alpha=0.3, fill="darkorange1")+
   ggplot2::theme(plot.title=element_text(size=9), 
                  axis.text.x=element_text(size=9, color="black"), 
                  axis.text.y = element_text(size=8, color="black"), 
@@ -283,7 +293,8 @@ plot_BDL <- ggplot2::ggplot(data= (SalinityData %>% filter(station_id == "BDL"))
                  strip.text = element_text(size = 7),
                  strip.background = element_rect(size=0.3))+
   ggplot2::geom_hline(yintercept=6, linetype="dashed", color = "red")+
-  ggplot2::ylab("Salinity (ppt)")
+  ggplot2::ylab("Salinity (ppt)")+ ylim(0,11)
+  
 plot_BDL
 
 #Print figure
