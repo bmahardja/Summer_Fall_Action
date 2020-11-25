@@ -238,7 +238,7 @@ remove(Salinity_habitat_data,Temperature_habitat_data,Turbidity_habitat_data)
 
 Suitable_habitat$station_id<-as.factor(Suitable_habitat$station_id)
 #Order the factor
-Suitable_habitat$station_id <- ordered(Suitable_habitat$station_id, levels = c("HUN", "BDL", "NSL","MAL","SDI","RIV"))
+Suitable_habitat$station_id <- ordered(Suitable_habitat$station_id, levels = c("HUN", "BDL", "NSL","MAL","SDI","RVB"))
 
 
 #Create figure
