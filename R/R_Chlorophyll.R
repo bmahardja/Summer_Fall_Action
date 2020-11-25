@@ -30,10 +30,17 @@ output_root <- file.path(root,"output")
 #Sensor 62 = PH (PH)
 #Sensor 100 = Conductivity (us/cm)
 
-#Get Lisbon data
+#Get data from DWR (QA/QCed) instead of CDEC
 
-LIS_chloro <- CDECquery(id='LIS', sensor=28, interval='E', start='2020-06-01', end='2020-10-31')
-RVB_chloro <- CDECquery(id='RVB', sensor=28, interval='E', start='2020-06-01', end='2020-10-31')
+#LIS_chloro <- CDECquery(id='LIS', sensor=28, interval='E', start='2020-06-01', end='2020-10-31')
+LIS_data<-read.csv(file.path(data_root, "NDFA", "LIS_NCRO.csv"))
+
+LIS_chloro<-read.csv(file.path(data_root, "NDFA", "LIS_NCRO.csv"),skip=2)
+LIS_chloro<- LIS_chloro %>% dplyr::select(Date,Point.5,Qual.5) %>% rename(value=Point.5, flag=Qual.5,datetime=Date) %>% mutate(station_id="LIS")
+LIS_chloro$flag<-as.character(LIS_chloro$flag)
+LIS_chloro$datetime<-strptime(LIS_chloro$datetime, "%m/%d/%Y %H:%M",tz=Sys.timezone())
+remove(LIS_data)
+
 STTD_data<-read.csv(file.path(data_root, "NDFA", "STTD_NCRO.csv"))
 
 STTD_chloro<-read.csv(file.path(data_root, "NDFA", "STTD_NCRO.csv"),skip=2)
@@ -44,7 +51,9 @@ str(STTD_chloro)
 
 remove(STTD_data)
 
-str(LIS_chloro)
+#No QA/QCed data from RVB
+RVB_chloro <- CDECquery(id='RVB', sensor=28, interval='E', start='2020-06-01', end='2020-10-31')
+
 #Combine Data
 Chlorophyll_Data<-dplyr::bind_rows(LIS_chloro,RVB_chloro,STTD_chloro)
 remove(LIS_chloro,RVB_chloro,STTD_chloro)
