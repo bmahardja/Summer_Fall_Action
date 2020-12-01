@@ -129,3 +129,15 @@ pushViewport(viewport(layout = grid.layout(2, 1)))
 print(EDSM_map, vp = viewport(layout.pos.row = 1, layout.pos.col = 1))
 print(EDSM_plot, vp = viewport(layout.pos.row = 2, layout.pos.col = 1))
 dev.off()
+
+############Summarize Delta Smelt numbers from CDFW surveys
+
+
+tns <- read.csv(file.path(data_root,"TNS", "STN_CatchPerTow_20201130.csv"))
+tns_smelt<- tns %>% filter(Year==2020)
+sum(tns_smelt$Delta.Smelt)
+
+fmwt_2020 <- read_excel(file.path(data_root,"FMWT", "FMWT_SeptOct2020.xlsx"),sheet="Query1")
+unique(fmwt_2020$CommonName)
+fmwt_2020_smelt<- fmwt_2020 %>% filter(CommonName=="Delta Smelt")
+
