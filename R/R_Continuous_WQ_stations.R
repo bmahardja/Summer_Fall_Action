@@ -71,6 +71,7 @@ remove(plot_LIS_flow,LIS_flow)
 
 ###########
 #Salinity
+GZL_cond <- CDECquery(id='GZL', sensor=100, interval='E', start='2020-06-01', end='2020-10-31')
 MAL_cond <- CDECquery(id='MAL', sensor=100, interval='E', start='2020-06-01', end='2020-10-31')
 SDI_cond <- CDECquery(id='SDI', sensor=100, interval='E', start='2020-06-01', end='2020-10-31')
 RVB_cond <- CDECquery(id='RVB', sensor=100, interval='E', start='2020-06-01', end='2020-10-31')
@@ -80,15 +81,15 @@ BDL_cond <- CDECquery(id='BDL', sensor=100, interval='E', start='2020-06-01', en
 HUN_cond <- CDECquery(id='HUN', sensor=100, interval='E', start='2020-06-01', end='2020-10-31')
 
 #Combine Data
-SalinityData<-rbind(MAL_cond,SDI_cond,RVB_cond,NSL_cond,BDL_cond,HUN_cond)
-remove(MAL_cond,SDI_cond,RVB_cond,NSL_cond,BDL_cond,HUN_cond)
+SalinityData<-rbind(GZL_cond,MAL_cond,SDI_cond,RVB_cond,NSL_cond,BDL_cond,HUN_cond)
+remove(GZL_cond,MAL_cond,SDI_cond,RVB_cond,NSL_cond,BDL_cond,HUN_cond)
 
 #Convert conductivity to ppt (assuming conductivity adjusted to temp of 25 C)
 SalinityData$ppt<-ec2pss(SalinityData$value/1000, t=25)
 str(SalinityData)
 SalinityData$station_id<-as.factor(SalinityData$station_id)
 #Order the factor
-SalinityData$station_id <- ordered(SalinityData$station_id, levels = c("HUN", "BDL", "NSL","MAL","SDI","RVB"))
+SalinityData$station_id <- ordered(SalinityData$station_id, levels = c("HUN", "BDL", "NSL","GZL","MAL","SDI","RVB"))
 
 #Create figure
 plot_salinity <- ggplot2::ggplot(data=SalinityData, ggplot2::aes(x=datetime, y=ppt))+ facet_wrap(~ station_id)+
@@ -121,6 +122,7 @@ dev.off()
 
 ###########
 #Temperature
+GZL_temp <- CDECquery(id='GZL', sensor=25, interval='E', start='2020-06-01', end='2020-10-31')
 MAL_temp <- CDECquery(id='MAL', sensor=25, interval='E', start='2020-06-01', end='2020-10-31')
 SDI_temp <- CDECquery(id='SDI', sensor=25, interval='E', start='2020-06-01', end='2020-10-31')
 RVB_temp <- CDECquery(id='RVB', sensor=25, interval='H', start='2020-06-01', end='2020-10-31')
@@ -130,15 +132,15 @@ BDL_temp <- CDECquery(id='BDL', sensor=25, interval='E', start='2020-06-01', end
 HUN_temp <- CDECquery(id='HUN', sensor=25, interval='E', start='2020-06-01', end='2020-10-31')
 
 #Combine Data
-TemperatureData<-rbind(MAL_temp,SDI_temp,RVB_temp,NSL_temp,BDL_temp,HUN_temp)
-remove(MAL_temp,SDI_temp,RVB_temp,NSL_temp,BDL_temp,HUN_temp)
+TemperatureData<-rbind(GZL_temp,MAL_temp,SDI_temp,RVB_temp,NSL_temp,BDL_temp,HUN_temp)
+remove(GZL_temp,MAL_temp,SDI_temp,RVB_temp,NSL_temp,BDL_temp,HUN_temp)
 
 #Convert Fanrenheit to Celsius
 TemperatureData$temperature<-(TemperatureData$value-32)*(5/9)
 
 TemperatureData$station_id<-as.factor(TemperatureData$station_id)
 #Order the factor
-TemperatureData$station_id <- ordered(TemperatureData$station_id, levels = c("HUN", "BDL", "NSL","MAL","SDI","RVB"))
+TemperatureData$station_id <- ordered(TemperatureData$station_id, levels = c("HUN", "BDL", "NSL","GZL","MAL","SDI","RVB"))
 
 #Temperature limit in BiOp is 75 F
 (75-32)*(5/9)
@@ -175,6 +177,7 @@ dev.off()
 #Turbidity
 
 #SDI is a USGS station, so labeled as FNU
+GZL_turb <- CDECquery(id='GZL', sensor=27, interval='E', start='2020-06-01', end='2020-10-31')
 MAL_turb <- CDECquery(id='MAL', sensor=27, interval='E', start='2020-06-01', end='2020-10-31')
 SDI_turb <- CDECquery(id='SDI', sensor=221, interval='E', start='2020-06-01', end='2020-10-31')
 RVB_turb <- CDECquery(id='RVB', sensor=27, interval='E', start='2020-06-01', end='2020-10-31')
@@ -184,13 +187,16 @@ BDL_turb <- CDECquery(id='BDL', sensor=27, interval='E', start='2020-06-01', end
 HUN_turb <- CDECquery(id='HUN', sensor=27, interval='E', start='2020-06-01', end='2020-10-31')
 
 #Combine Data
-TurbidityData<-rbind(MAL_turb,SDI_turb,NSL_turb,BDL_turb,HUN_turb,RVB_turb)
-remove(MAL_turb,SDI_turb,NSL_turb,BDL_turb,HUN_turb,RVB_turb)
+TurbidityData<-rbind(GZL_turb,MAL_turb,SDI_turb,NSL_turb,BDL_turb,HUN_turb,RVB_turb)
+remove(GZL_turb,MAL_turb,SDI_turb,NSL_turb,BDL_turb,HUN_turb,RVB_turb)
 
 TurbidityData$station_id<-as.factor(TurbidityData$station_id)
 #Order the factor
-TurbidityData$station_id <- ordered(TurbidityData$station_id, levels = c("HUN", "BDL", "NSL","MAL","SDI","RVB"))
+TurbidityData$station_id <- ordered(TurbidityData$station_id, levels = c("HUN", "BDL", "NSL","GZL","MAL","SDI","RVB"))
 
+#Calculate number of observations of NTU >100
+NTUover100<- TurbidityData %>% filter(value>100)
+nrow(NTUover100)/nrow(TurbidityData)*100
 
 #Create figure
 plot_turbidity <- ggplot2::ggplot(data=TurbidityData, ggplot2::aes(x=datetime, y=value))+ facet_wrap(~ station_id)+
@@ -238,7 +244,7 @@ remove(Salinity_habitat_data,Temperature_habitat_data,Turbidity_habitat_data)
 
 Suitable_habitat$station_id<-as.factor(Suitable_habitat$station_id)
 #Order the factor
-Suitable_habitat$station_id <- ordered(Suitable_habitat$station_id, levels = c("HUN", "BDL", "NSL","MAL","SDI","RVB"))
+Suitable_habitat$station_id <- ordered(Suitable_habitat$station_id, levels = c("HUN", "BDL", "NSL","GZL","MAL","SDI","RVB"))
 
 
 #Create figure
@@ -349,6 +355,9 @@ BDL_station<-data.frame(station_id="BDL",
 NSL_station<-data.frame(station_id="NSL",
                         Latitude=paste(CDEC_StationInfo('NSL') %>% extract2(1) %>% select(Latitude)),
                         Longitude=paste(CDEC_StationInfo('NSL') %>% extract2(1) %>% select(Longitude)))
+GZL_station<-data.frame(station_id="GZL",
+                        Latitude=paste(CDEC_StationInfo('GZL') %>% extract2(1) %>% select(Latitude)),
+                        Longitude=paste(CDEC_StationInfo('GZL') %>% extract2(1) %>% select(Longitude)))
 MAL_station<-data.frame(station_id="MAL",
                         Latitude=paste(CDEC_StationInfo('MAL') %>% extract2(1) %>% select(Latitude)),
                         Longitude=paste(CDEC_StationInfo('MAL') %>% extract2(1) %>% select(Longitude)))
@@ -359,7 +368,7 @@ RVB_station<-data.frame(station_id="RVB",
                         Latitude=paste(CDEC_StationInfo('RVB') %>% extract2(1) %>% select(Latitude)),
                         Longitude=paste(CDEC_StationInfo('RVB') %>% extract2(1) %>% select(Longitude)))
 
-CDEC_stations<-bind_rows(HUN_station,BDL_station,NSL_station,MAL_station,SDI_station,RVB_station)
+CDEC_stations<-bind_rows(HUN_station,BDL_station,NSL_station,GZL_station,MAL_station,SDI_station,RVB_station)
 #Fix the longitude information
 CDEC_stations$Longitude<-as.numeric(CDEC_stations$Longitude)
 CDEC_stations$Latitude<-as.numeric(CDEC_stations$Latitude)

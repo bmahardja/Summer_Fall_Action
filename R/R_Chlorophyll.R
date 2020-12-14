@@ -11,6 +11,8 @@ library(sf)
 library(ggspatial)
 library(plotrix)
 library(ggrepel)
+library(readxl)
+
 
 #Path to local drive
 root <- "~/GitHub/Summer_Fall_Action"
@@ -41,6 +43,7 @@ LIS_chloro$flag<-as.character(LIS_chloro$flag)
 LIS_chloro$datetime<-strptime(LIS_chloro$datetime, "%m/%d/%Y %H:%M",tz=Sys.timezone())
 remove(LIS_data)
 
+
 STTD_data<-read.csv(file.path(data_root, "NDFA", "STTD_NCRO.csv"))
 
 STTD_chloro<-read.csv(file.path(data_root, "NDFA", "STTD_NCRO.csv"),skip=2)
@@ -51,17 +54,23 @@ str(STTD_chloro)
 
 remove(STTD_data)
 
+#Grab downloaded NWIS data from Liberty Island station we will label as "LIB"
+LIB_chloro<-read_excel(file.path(data_root,"NDFA", "USGS BCG stations - NDFA 2020.xlsx"),sheet="Sheet1")
+LIB_chloro <- as.data.frame(LIB_chloro[,c(2:6)]) 
+LIB_chloro <-LIB_chloro %>% rename(value='248739_32316',flag='248739_32316_cd') %>% select(datetime,value,flag)
+LIB_chloro$station_id<-"LIB"
+str(LIB_chloro)
+
 #No QA/QCed data from RVB
 RVB_chloro <- CDECquery(id='RVB', sensor=28, interval='E', start='2020-06-01', end='2020-10-31')
 
 #Combine Data
-Chlorophyll_Data<-dplyr::bind_rows(LIS_chloro,RVB_chloro,STTD_chloro)
-remove(LIS_chloro,RVB_chloro,STTD_chloro)
+Chlorophyll_Data<-dplyr::bind_rows(LIS_chloro,LIB_chloro,RVB_chloro,STTD_chloro)
+remove(LIS_chloro,LIB_chloro,RVB_chloro,STTD_chloro)
 
 Chlorophyll_Data$station_id<-as.factor(Chlorophyll_Data$station_id)
 #Order the factor
-Chlorophyll_Data$station_id <- ordered(Chlorophyll_Data$station_id, levels = c("LIS","STTD","RVB"))
-
+Chlorophyll_Data$station_id <- ordered(Chlorophyll_Data$station_id, levels = c("LIS","STTD","LIB","RVB"))
 
 #Create figure
 plot_chloro <- ggplot2::ggplot(data=Chlorophyll_Data, ggplot2::aes(x=datetime, y=value))+ facet_wrap(~ station_id)+
@@ -143,6 +152,9 @@ str(CDEC_stations)
 
 #Add STTD data since it's not available on CDEC
 CDEC_stations[nrow(CDEC_stations) + 1,] = c("STTD",38.353461,-121.642975)
+
+#Add LIB data since it's also not available on CDEC
+CDEC_stations[nrow(CDEC_stations) + 1,] = c("LIB",38.243011,-121.684286)
 
 # make the coordinate cols spatial (X/Easting/lon, Y/Northing/lat)
 crsLONGLAT <- "+proj=longlat +datum=WGS84 +no_defs"
