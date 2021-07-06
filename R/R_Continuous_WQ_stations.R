@@ -404,7 +404,7 @@ cv_map
 
 
 # Print map
-tiff(filename=file.path(output_root,"Figure_Stations_Map.png"), 
+tiff(filename=file.path(output_root,"Figure_Stations_Map.tiff"), 
      type="cairo",
      units="in", 
      width=11*1, 
