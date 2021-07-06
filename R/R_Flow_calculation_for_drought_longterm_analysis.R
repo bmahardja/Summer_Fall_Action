@@ -99,27 +99,7 @@ data_dayflow <- data_dayflow %>% filter(Year_adjusted>=1970)
 #Summarize
 data_dayflow_sum <- data_dayflow %>% group_by(Year_adjusted, Season) %>% summarise(Outflow=mean(OUT),X2=mean(X2),Export=mean(EXPORT))
 
+#Write out csv
+write.csv(data_dayflow_sum,file.path(output_root,"Drought_MAST_Flow_Metrics.csv"))
 
 
-
-
-
-
-
-#Path to local drive
-root <- "~/GitHub/Summer_Fall_Action"
-setwd(root)
-
-data_root<-file.path(root,"data-raw")
-code_root <- file.path(root,"R")
-output_root <- file.path(root,"output")
-
-#################### Read dayflow data
-data_dayflow<-read.csv(file.path(data_root, "Dayflow", "dayflow-results-1997-2019.csv"))
-data_dayflow$Date <- as.Date(data_dayflow$Date,"%m/%d/%Y")
-
-#Add julian day
-data_dayflow$julianday<-yday(data_dayflow$Date)
-
-#Add water year to dayflow
-data_dayflow$WY<-as.numeric(ifelse(month(data_dayflow$Date)>9,data_dayflow$Year+1,data_dayflow$Year))
