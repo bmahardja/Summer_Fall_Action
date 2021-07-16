@@ -35,14 +35,19 @@ data_dayflow<-bind_rows(data_dayflow_1970_1983,data_dayflow_1984_1996,data_dayfl
 #convert date column to date
 data_dayflow$Date <- as.Date(data_dayflow$Date,"%m/%d/%Y")
 
-######################Add X2 for earlier years based on Anke's calculation in the excel sheet
-data_dayflow<- data_dayflow %>% left_join(readxl::read_xlsx(file.path(data_root, "Dayflow","FullDayflowAndX2WithNotes1930-2011_3-6-2012.xlsx"), sheet = "DAYFLOW1956-2011") %>% 
-            transmute(Date = as.Date(Date),
-                      X2Anke = `1955-2011 X2`),
-          by = "Date") 
+######################Add X2 for earlier years based on Hutton et al. paper
+
+data_dayflow<- data_dayflow %>% left_join(readxl::read_xlsx(file.path(data_root, "Dayflow","supplemental_data_wr.1943-5452.0000617_hutton3.xlsx"), sheet = "Daily") %>% 
+            transmute(Date = as.Date(Date),X2Hutton = `SacX2`),
+            by = "Date")
+
+#data_dayflow<- data_dayflow %>% left_join(readxl::read_xlsx(file.path(data_root, "Dayflow","FullDayflowAndX2WithNotes1930-2011_3-6-2012.xlsx"), sheet = "DAYFLOW1956-2011") %>% 
+#            transmute(Date = as.Date(Date),
+#                      X2Anke = `1955-2011 X2`),
+#          by = "Date") 
 
 
-data_dayflow$X2<-ifelse(is.na(data_dayflow$X2),data_dayflow$X2Anke,data_dayflow$X2)
+data_dayflow$X2<-ifelse(is.na(data_dayflow$X2),data_dayflow$X2Hutton,data_dayflow$X2)
 
 #Add future outflow and X2 until DAYFLOW is available
 #Seasons: Winter (Dec-FEb), Spring (Mar-May), Summer (Jun-Aug) or fall (Sep-Nov)
@@ -97,9 +102,9 @@ data_dayflow <- data_dayflow %>% mutate(Season= case_when(
 data_dayflow <- data_dayflow %>% filter(Year_adjusted>=1970)
 
 #Summarize
-data_dayflow_sum <- data_dayflow %>% group_by(Year_adjusted, Season) %>% summarise(Outflow=mean(OUT),X2=mean(X2),Export=mean(EXPORT))
+data_dayflow_sum <- data_dayflow %>% group_by(Year_adjusted, Season) %>% summarise(Outflow=mean(OUT),X2=mean(X2,na.rm=T),Export=mean(EXPORT))
 
 #Write out csv
 write.csv(data_dayflow_sum,file.path(output_root,"Drought_MAST_Flow_Metrics.csv"))
 
-
+##WARNING!: Hutton et al. had missing X2 data and summarized seasonal X2 may be skewed as a result.
